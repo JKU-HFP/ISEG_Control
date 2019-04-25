@@ -1,0 +1,74 @@
+13:20:02  File created 
+
+13:20:04  Connecting to OPC Server
+
+13:20:04  Connection to OPC Server established
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:04  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:05  CAN Connection interrupted
+
+13:20:14  Voltage Sweep started 
+
+13:20:14  Sweep Mode step  1/6
+

@@ -1,0 +1,130 @@
+19:18:21  File created 
+
+19:18:25  Connecting to OPC Server
+
+19:18:26  Connection to OPC Server established
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:26  CAN Connection interrupted
+
+19:18:27  CAN Connection interrupted
+
+19:18:27  CAN Connection interrupted
+
+19:18:27  CAN Connection interrupted
+
+19:18:27  CAN Connection interrupted
+
+19:20:00  Connecting to C843 IOs
+
+19:20:00  C834 Board 1 not found
+
+19:23:01  Voltage Sweep started 
+
+19:23:01  Sweep Mode step  1/3
+
+19:23:04  Sweep Mode step  2/3
+
+19:23:04  Sweep Mode step  3/3
+
+19:23:04  Voltage Sweep done
+
+19:23:19  Current over Voltage Diagramm3 saved to: C:\Users\Christian\Desktop\v.txt
+

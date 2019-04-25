@@ -1,0 +1,686 @@
+17:40:13  File created 
+
+17:40:18  Connecting to OPC Server
+
+17:40:18  Connection to OPC Server established
+
+17:40:18  CAN Connection interrupted
+
+17:40:18  CAN Connection interrupted
+
+17:40:18  CAN Connection interrupted
+
+17:40:18  CAN Connection interrupted
+
+17:40:18  CAN Connection interrupted
+
+17:40:18  CAN Connection interrupted
+
+17:40:18  CAN Connection interrupted
+
+17:40:18  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:19  CAN Connection interrupted
+
+17:40:23  Voltage Sweep started 
+
+17:40:23  Sweep Mode step  1/6
+
+17:40:27  Sweep Mode step  2/6
+
+17:40:28  Sweep Mode step  3/6
+
+17:40:28  Sweep Mode step  4/6
+
+17:40:29  Sweep Mode step  5/6
+
+17:40:29  Sweep Mode step  6/6
+
+17:40:30  Voltage Sweep done
+
+17:41:06  Voltage Sweep started 
+
+17:41:06  Sweep Mode step  1/715
+
+17:41:07  Sweep Mode step  2/715
+
+17:41:07  Sweep Mode step  3/715
+
+17:41:08  Sweep Mode step  4/715
+
+17:41:09  Sweep Mode step  5/715
+
+17:41:11  Sweep Mode step  6/715
+
+17:41:12  Sweep Mode step  7/715
+
+17:41:13  Sweep Mode step  8/715
+
+17:41:14  Sweep Mode step  9/715
+
+17:41:15  Sweep Mode step  10/715
+
+17:41:16  Sweep Mode step  11/715
+
+17:41:17  Sweep Mode step  12/715
+
+17:41:19  Sweep Mode step  13/715
+
+17:41:20  Sweep Mode step  14/715
+
+17:41:21  Sweep Mode step  15/715
+
+17:41:22  Sweep Mode step  16/715
+
+17:41:23  Sweep Mode step  17/715
+
+17:41:24  Sweep Mode step  18/715
+
+17:41:25  Sweep Mode step  19/715
+
+17:41:26  Sweep Mode step  20/715
+
+17:41:27  Sweep Mode step  21/715
+
+17:41:28  Sweep Mode step  22/715
+
+17:41:29  Sweep Mode step  23/715
+
+17:41:30  Sweep Mode step  24/715
+
+17:41:31  Sweep Mode step  25/715
+
+17:41:32  Sweep Mode step  26/715
+
+17:41:34  Sweep Mode step  27/715
+
+17:41:35  Sweep Mode step  28/715
+
+17:41:36  Sweep Mode step  29/715
+
+17:41:37  Sweep Mode step  30/715
+
+17:41:38  Sweep Mode step  31/715
+
+17:41:38  Sweep Mode step  32/715
+
+17:41:40  Sweep Mode step  33/715
+
+17:41:41  Sweep Mode step  34/715
+
+17:41:42  Sweep Mode step  35/715
+
+17:41:43  Sweep Mode step  36/715
+
+17:41:44  Sweep Mode step  37/715
+
+17:41:45  Sweep Mode step  38/715
+
+17:41:46  Sweep Mode step  39/715
+
+17:41:47  Sweep Mode step  40/715
+
+17:41:49  Sweep Mode step  41/715
+
+17:41:50  Sweep Mode step  42/715
+
+17:41:51  Sweep Mode step  43/715
+
+17:41:52  Sweep Mode step  44/715
+
+17:41:53  Sweep Mode step  45/715
+
+17:41:53  Sweep Mode step  46/715
+
+17:41:55  Sweep Mode step  47/715
+
+17:41:56  Sweep Mode step  48/715
+
+17:41:57  Sweep Mode step  49/715
+
+17:41:58  Sweep Mode step  50/715
+
+17:41:59  Sweep Mode step  51/715
+
+17:42:00  Sweep Mode step  52/715
+
+17:42:01  Sweep Mode step  53/715
+
+17:42:02  Sweep Mode step  54/715
+
+17:42:04  Sweep Mode step  55/715
+
+17:42:05  Sweep Mode step  56/715
+
+17:42:06  Sweep Mode step  57/715
+
+17:42:07  Sweep Mode step  58/715
+
+17:42:08  Sweep Mode step  59/715
+
+17:42:08  Sweep Mode step  60/715
+
+17:42:10  Sweep Mode step  61/715
+
+17:42:11  Sweep Mode step  62/715
+
+17:42:12  Sweep Mode step  63/715
+
+17:42:13  Sweep Mode step  64/715
+
+17:42:14  Sweep Mode step  65/715
+
+17:42:15  Sweep Mode step  66/715
+
+17:42:16  Sweep Mode step  67/715
+
+17:42:17  Sweep Mode step  68/715
+
+17:42:19  Sweep Mode step  69/715
+
+17:42:20  Sweep Mode step  70/715
+
+17:42:21  Sweep Mode step  71/715
+
+17:42:22  Sweep Mode step  72/715
+
+17:42:23  Sweep Mode step  73/715
+
+17:42:24  Sweep Mode step  74/715
+
+17:42:25  Sweep Mode step  75/715
+
+17:42:26  Sweep Mode step  76/715
+
+17:42:27  Sweep Mode step  77/715
+
+17:42:28  Sweep Mode step  78/715
+
+17:42:30  Sweep Mode step  79/715
+
+17:42:31  Sweep Mode step  80/715
+
+17:42:31  Sweep Mode step  81/715
+
+17:42:32  Sweep Mode step  82/715
+
+17:42:34  Sweep Mode step  83/715
+
+17:42:35  Sweep Mode step  84/715
+
+17:42:36  Sweep Mode step  85/715
+
+17:42:37  Sweep Mode step  86/715
+
+17:42:38  Sweep Mode step  87/715
+
+17:42:39  Sweep Mode step  88/715
+
+17:42:40  Sweep Mode step  89/715
+
+17:42:41  Sweep Mode step  90/715
+
+17:42:42  Sweep Mode step  91/715
+
+17:42:43  Sweep Mode step  92/715
+
+17:42:45  Sweep Mode step  93/715
+
+17:42:46  Sweep Mode step  94/715
+
+17:42:47  Sweep Mode step  95/715
+
+17:42:48  Sweep Mode step  96/715
+
+17:42:50  Sweep Mode step  97/715
+
+17:42:51  Sweep Mode step  98/715
+
+17:42:51  Sweep Mode step  99/715
+
+17:42:52  Sweep Mode step  100/715
+
+17:42:53  Sweep Mode step  101/715
+
+17:42:54  Sweep Mode step  102/715
+
+17:42:55  Sweep Mode step  103/715
+
+17:42:57  Sweep Mode step  104/715
+
+17:42:58  Sweep Mode step  105/715
+
+17:42:59  Sweep Mode step  106/715
+
+17:43:00  Sweep Mode step  107/715
+
+17:43:01  Sweep Mode step  108/715
+
+17:43:02  Sweep Mode step  109/715
+
+17:43:03  Sweep Mode step  110/715
+
+17:43:05  Sweep Mode step  111/715
+
+17:43:06  Sweep Mode step  112/715
+
+17:43:07  Sweep Mode step  113/715
+
+17:43:08  Sweep Mode step  114/715
+
+17:43:08  Sweep Mode step  115/715
+
+17:43:09  Sweep Mode step  116/715
+
+17:43:11  Sweep Mode step  117/715
+
+17:43:12  Sweep Mode step  118/715
+
+17:43:13  Sweep Mode step  119/715
+
+17:43:14  Sweep Mode step  120/715
+
+17:43:15  Sweep Mode step  121/715
+
+17:43:16  Sweep Mode step  122/715
+
+17:43:17  Sweep Mode step  123/715
+
+17:43:18  Sweep Mode step  124/715
+
+17:43:20  Sweep Mode step  125/715
+
+17:43:20  Sweep Mode step  126/715
+
+17:43:21  Sweep Mode step  127/715
+
+17:43:22  Sweep Mode step  128/715
+
+17:43:23  Sweep Mode step  129/715
+
+17:43:24  Sweep Mode step  130/715
+
+17:43:25  Sweep Mode step  131/715
+
+17:43:26  Sweep Mode step  132/715
+
+17:43:27  Sweep Mode step  133/715
+
+17:43:28  Sweep Mode step  134/715
+
+17:43:29  Sweep Mode step  135/715
+
+17:43:30  Sweep Mode step  136/715
+
+17:43:31  Sweep Mode step  137/715
+
+17:43:32  Sweep Mode step  138/715
+
+17:43:34  Sweep Mode step  139/715
+
+17:43:35  Sweep Mode step  140/715
+
+17:43:36  Sweep Mode step  141/715
+
+17:43:37  Sweep Mode step  142/715
+
+17:43:38  Sweep Mode step  143/715
+
+17:43:39  Sweep Mode step  144/715
+
+17:43:40  Sweep Mode step  145/715
+
+17:43:42  Sweep Mode step  146/715
+
+17:43:43  Sweep Mode step  147/715
+
+17:43:44  Sweep Mode step  148/715
+
+17:43:45  Sweep Mode step  149/715
+
+17:43:46  Sweep Mode step  150/715
+
+17:43:47  Sweep Mode step  151/715
+
+17:43:48  Sweep Mode step  152/715
+
+17:43:50  Sweep Mode step  153/715
+
+17:43:51  Sweep Mode step  154/715
+
+17:43:51  Sweep Mode step  155/715
+
+17:43:52  Sweep Mode step  156/715
+
+17:43:53  Sweep Mode step  157/715
+
+17:43:54  Sweep Mode step  158/715
+
+17:43:55  Sweep Mode step  159/715
+
+17:43:57  Sweep Mode step  160/715
+
+17:43:57  Sweep Mode step  161/715
+
+17:43:58  Sweep Mode step  162/715
+
+17:44:00  Sweep Mode step  163/715
+
+17:44:01  Sweep Mode step  164/715
+
+17:44:02  Sweep Mode step  165/715
+
+17:44:03  Sweep Mode step  166/715
+
+17:44:05  Sweep Mode step  167/715
+
+17:44:06  Sweep Mode step  168/715
+
+17:44:06  Sweep Mode step  169/715
+
+17:44:07  Sweep Mode step  170/715
+
+17:44:08  Sweep Mode step  171/715
+
+17:44:09  Sweep Mode step  172/715
+
+17:44:10  Sweep Mode step  173/715
+
+17:44:12  Sweep Mode step  174/715
+
+17:44:13  Sweep Mode step  175/715
+
+17:44:14  Sweep Mode step  176/715
+
+17:44:15  Sweep Mode step  177/715
+
+17:44:16  Sweep Mode step  178/715
+
+17:44:17  Sweep Mode step  179/715
+
+17:44:18  Sweep Mode step  180/715
+
+17:44:20  Sweep Mode step  181/715
+
+17:44:21  Sweep Mode step  182/715
+
+17:44:21  Sweep Mode step  183/715
+
+17:44:22  Sweep Mode step  184/715
+
+17:44:23  Sweep Mode step  185/715
+
+17:44:24  Sweep Mode step  186/715
+
+17:44:25  Sweep Mode step  187/715
+
+17:44:27  Sweep Mode step  188/715
+
+17:44:28  Sweep Mode step  189/715
+
+17:44:29  Sweep Mode step  190/715
+
+17:44:30  Sweep Mode step  191/715
+
+17:44:31  Sweep Mode step  192/715
+
+17:44:32  Sweep Mode step  193/715
+
+17:44:33  Sweep Mode step  194/715
+
+17:44:35  Sweep Mode step  195/715
+
+17:44:35  Sweep Mode step  196/715
+
+17:44:36  Sweep Mode step  197/715
+
+17:44:37  Sweep Mode step  198/715
+
+17:44:38  Sweep Mode step  199/715
+
+17:44:39  Sweep Mode step  200/715
+
+17:44:40  Sweep Mode step  201/715
+
+17:44:42  Sweep Mode step  202/715
+
+17:44:43  Sweep Mode step  203/715
+
+17:44:43  Sweep Mode step  204/715
+
+17:44:45  Sweep Mode step  205/715
+
+17:44:45  Sweep Mode step  206/715
+
+17:44:46  Sweep Mode step  207/715
+
+17:44:47  Sweep Mode step  208/715
+
+17:44:49  Sweep Mode step  209/715
+
+17:44:50  Sweep Mode step  210/715
+
+17:44:51  Sweep Mode step  211/715
+
+17:44:52  Sweep Mode step  212/715
+
+17:44:52  Sweep Mode step  213/715
+
+17:44:54  Sweep Mode step  214/715
+
+17:44:54  Sweep Mode step  215/715
+
+17:44:56  Sweep Mode step  216/715
+
+17:44:57  Sweep Mode step  217/715
+
+17:44:58  Sweep Mode step  218/715
+
+17:44:59  Sweep Mode step  219/715
+
+17:45:00  Sweep Mode step  220/715
+
+17:45:01  Sweep Mode step  221/715
+
+17:45:02  Sweep Mode step  222/715
+
+17:45:04  Sweep Mode step  223/715
+
+17:45:05  Sweep Mode step  224/715
+
+17:45:06  Sweep Mode step  225/715
+
+17:45:07  Sweep Mode step  226/715
+
+17:45:07  Sweep Mode step  227/715
+
+17:45:08  Sweep Mode step  228/715
+
+17:45:09  Sweep Mode step  229/715
+
+17:45:11  Sweep Mode step  230/715
+
+17:45:12  Sweep Mode step  231/715
+
+17:45:13  Sweep Mode step  232/715
+
+17:45:14  Sweep Mode step  233/715
+
+17:45:15  Sweep Mode step  234/715
+
+17:45:16  Sweep Mode step  235/715
+
+17:45:17  Sweep Mode step  236/715
+
+17:45:19  Sweep Mode step  237/715
+
+17:45:20  Sweep Mode step  238/715
+
+17:45:21  Sweep Mode step  239/715
+
+17:45:22  Sweep Mode step  240/715
+
+17:45:22  Sweep Mode step  241/715
+
+17:45:23  Sweep Mode step  242/715
+
+17:45:24  Sweep Mode step  243/715
+
+17:45:26  Sweep Mode step  244/715
+
+17:45:27  Sweep Mode step  245/715
+
+17:45:28  Sweep Mode step  246/715
+
+17:45:29  Sweep Mode step  247/715
+
+17:45:30  Sweep Mode step  248/715
+
+17:45:30  Sweep Mode step  249/715
+
+17:45:31  Sweep Mode step  250/715
+
+17:45:33  Sweep Mode step  251/715
+
+17:45:34  Sweep Mode step  252/715
+
+17:45:35  Sweep Mode step  253/715
+
+17:45:36  Sweep Mode step  254/715
+
+17:45:37  Sweep Mode step  255/715
+
+17:45:37  Sweep Mode step  256/715
+
+17:45:39  Sweep Mode step  257/715
+
+17:45:40  Sweep Mode step  258/715
+
+17:45:41  Sweep Mode step  259/715
+
+17:45:42  Sweep Mode step  260/715
+
+17:45:43  Sweep Mode step  261/715
+
+17:45:44  Sweep Mode step  262/715
+
+17:45:45  Sweep Mode step  263/715
+
+17:45:46  Sweep Mode step  264/715
+
+17:45:48  Sweep Mode step  265/715
+
+17:45:49  Sweep Mode step  266/715
+
+17:45:50  Sweep Mode step  267/715
+
+17:45:51  Sweep Mode step  268/715
+
+17:45:51  Voltage Sweep canceled
+

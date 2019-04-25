@@ -1,0 +1,44 @@
+20:27:35  File created 
+
+20:27:59  Connecting to C843 IOs
+
+20:27:59  C834 Board 1 not found
+
+20:28:06  Connecting to OPC Server
+
+20:28:06  Connection to OPC Server established
+
+20:28:24  Set ramp to 0,004 %
+
+20:28:24  Set current trip to 500 µA
+
+20:28:24  Set Voltage 1 (Channel 0) to 1 V
+
+20:28:24  Set Voltage 2 (Channel 1) to 1 V
+
+20:28:24  Set Voltage 3 (Channel 2) to 1 V
+
+20:28:37  Set all Channels off
+
+20:28:55  Set ramp to 0,004 %
+
+20:28:55  Set current trip to 500 µA
+
+20:28:55  Set Voltage 1 (Channel 0) to 1 V
+
+20:28:55  Set Voltage 2 (Channel 1) to 1 V
+
+20:28:55  Set Voltage 3 (Channel 2) to 1 V
+
+20:28:58  Set all Channels off
+
+20:29:01  Set ramp to 0,004 %
+
+20:29:01  Set current trip to 500 µA
+
+20:29:01  Set Voltage 1 (Channel 0) to 1 V
+
+20:29:01  Set Voltage 3 (Channel 2) to 1 V
+
+20:29:11  Set all Channels off
+

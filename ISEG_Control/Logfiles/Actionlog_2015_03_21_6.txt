@@ -1,0 +1,10 @@
+19:27:50  File created 
+
+19:27:54  Connecting to OPC Server
+
+19:27:54  Connection to OPC Server established
+
+19:37:25  Connecting to OPC Server
+
+19:37:25  Connection to OPC Server established
+

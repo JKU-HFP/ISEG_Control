@@ -1,0 +1,80 @@
+19:01:20  File created 
+
+19:01:24  Connecting to OPC Server
+
+19:01:38  Connecting to OPC Server
+
+19:01:38  Connection to OPC Server established
+
+19:01:43  Connecting to OPC Server
+
+19:01:43  Connection to OPC Server established
+
+19:01:43  CAN Connection interrupted
+
+19:01:43  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:01:44  CAN Connection interrupted
+
+19:02:02  Connecting to OPC Server
+
+19:02:03  Connection to OPC Server established
+

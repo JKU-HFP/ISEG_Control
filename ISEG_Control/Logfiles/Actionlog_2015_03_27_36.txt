@@ -1,0 +1,620 @@
+15:10:33  File created 
+
+15:10:42  Connecting to OPC Server
+
+15:10:42  Connection to OPC Server established
+
+15:10:55  Set ramp to 2,1 %
+
+15:10:55  Set current trip to 500 µA
+
+15:10:55  Set Voltage 1 (Channel 0) to 2 V
+
+15:11:03  Set ramp to 2,1 %
+
+15:11:03  Set current trip to 500 µA
+
+15:11:03  Set Voltage 1 (Channel 0) to 2 V
+
+15:11:12  Set ramp to 2,1 %
+
+15:11:12  Set current trip to 500 µA
+
+15:11:12  Set Voltage 1 (Channel 0) to 2 V
+
+15:11:12  Set Voltage 2 (Channel 1) to 2 V
+
+15:11:32  Set ramp to 2,1 %
+
+15:11:32  Set current trip to 0,08 µA
+
+15:11:32  Set Voltage 1 (Channel 0) to 2 V
+
+15:11:32  Set Voltage 2 (Channel 1) to 10 V
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:32  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:33  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:34  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:34  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:34  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:34  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:34  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:34  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:34  Current Trip Voltage 2 (Channel 1) exeeded
+
+15:11:46  Set ramp to 2,1 %
+
+15:11:46  Set current trip to 0,08 µA
+
+15:11:46  Set Voltage 1 (Channel 0) to 10 V
+
+15:12:09  Set ramp to 2,1 %
+
+15:12:09  Set current trip to 1 µA
+
+15:12:09  Set Voltage 1 (Channel 0) to 10 V
+
+15:12:09  Set Voltage 2 (Channel 1) to 10 V
+
+15:12:26  Set all Channels off
+
+15:12:45  Set ramp to 2,1 %
+
+15:12:45  Set current trip to 0,02 µA
+
+15:12:45  Set Voltage 3 (Channel 2) to 10 V
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:12:45  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:13:16  Set ramp to 2,1 %
+
+15:13:16  Set current trip to 0,4 µA
+
+15:13:16  Set Voltage 3 (Channel 2) to 10 V
+
+15:14:20  Voltage Sweep started 
+
+15:14:20  Sweep Mode step  1/6
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Voltage Sweep canceled
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+15:14:23  Current Trip Voltage 3 (Channel 2) exeeded
+

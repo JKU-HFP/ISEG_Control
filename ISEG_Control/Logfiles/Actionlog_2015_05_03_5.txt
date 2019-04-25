@@ -1,0 +1,98 @@
+18:20:50  File created 
+
+18:20:53  Connecting to OPC Server
+
+18:21:00  Connecting to OPC Server
+
+18:21:00  Connection to OPC Server established
+
+18:21:03  Connecting to OPC Server
+
+18:21:03  Connection to OPC Server established
+
+18:21:53  Voltage Sweep started 
+
+18:21:53  Sweep Mode step  1/41
+
+18:21:56  Sweep Mode step  2/41
+
+18:21:58  Sweep Mode step  3/41
+
+18:21:59  Sweep Mode step  4/41
+
+18:21:59  Sweep Mode step  5/41
+
+18:22:00  Sweep Mode step  6/41
+
+18:22:02  Sweep Mode step  7/41
+
+18:22:03  Sweep Mode step  8/41
+
+18:22:04  Sweep Mode step  9/41
+
+18:22:04  Sweep Mode step  10/41
+
+18:22:05  Sweep Mode step  11/41
+
+18:22:06  Sweep Mode step  12/41
+
+18:22:07  Sweep Mode step  13/41
+
+18:22:07  Sweep Mode step  14/41
+
+18:22:08  Sweep Mode step  15/41
+
+18:22:09  Sweep Mode step  16/41
+
+18:22:10  Sweep Mode step  17/41
+
+18:22:11  Sweep Mode step  18/41
+
+18:22:12  Sweep Mode step  19/41
+
+18:22:13  Sweep Mode step  20/41
+
+18:22:14  Sweep Mode step  21/41
+
+18:22:16  Sweep Mode step  22/41
+
+18:22:18  Sweep Mode step  23/41
+
+18:22:19  Sweep Mode step  24/41
+
+18:22:20  Sweep Mode step  25/41
+
+18:22:20  Sweep Mode step  26/41
+
+18:22:22  Sweep Mode step  27/41
+
+18:22:23  Sweep Mode step  28/41
+
+18:22:24  Sweep Mode step  29/41
+
+18:22:25  Sweep Mode step  30/41
+
+18:22:26  Sweep Mode step  31/41
+
+18:22:27  Sweep Mode step  32/41
+
+18:22:27  Sweep Mode step  33/41
+
+18:22:28  Sweep Mode step  34/41
+
+18:22:29  Sweep Mode step  35/41
+
+18:22:29  Sweep Mode step  36/41
+
+18:22:30  Sweep Mode step  37/41
+
+18:22:32  Sweep Mode step  38/41
+
+18:22:32  Sweep Mode step  39/41
+
+18:22:33  Sweep Mode step  40/41
+
+18:22:34  Sweep Mode step  41/41
+
+18:22:37  Voltage Sweep done
+

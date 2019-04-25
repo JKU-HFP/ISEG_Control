@@ -1,0 +1,14 @@
+19:47:59  File created 
+
+19:48:00  Connecting to OPC Server
+
+19:48:00  Connection to OPC Server established
+
+19:48:39  Current over Voltage Diagramm1 saved to: C:\Users\Christian\Desktop\1.txt
+
+19:48:42  Current over Voltage Diagramm2 saved to: C:\Users\Christian\Desktop\2.txt
+
+19:48:45  Current over Voltage Diagramm3 saved to: C:\Users\Christian\Desktop\3.txt
+
+19:50:00  Current over Voltage Diagramm2 saved to: C:\Users\Christian\Desktop\22.txt
+

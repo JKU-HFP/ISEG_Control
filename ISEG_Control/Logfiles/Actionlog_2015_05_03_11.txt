@@ -1,0 +1,116 @@
+19:18:01  File created 
+
+19:18:08  Connecting to OPC Server
+
+19:18:08  Connection to OPC Server established
+
+19:18:08  CAN Connection interrupted
+
+19:18:08  CAN Connection interrupted
+
+19:18:08  CAN Connection interrupted
+
+19:18:08  CAN Connection interrupted
+
+19:18:08  CAN Connection interrupted
+
+19:18:08  CAN Connection interrupted
+
+19:18:08  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  CAN Connection interrupted
+
+19:18:09  Set ramp to 2,1 %
+
+19:18:09  Set current trip to 500 µA
+
+19:18:09  Set Voltage 1 (Channel 0) to 2 V
+
+19:18:09  Set Voltage 3 (Channel 2) to 2 V
+
+19:18:09  CAN Connection interrupted
+

@@ -1,0 +1,142 @@
+13:19:42  File created 
+
+13:19:44  Connecting to OPC Server
+
+13:19:49  Connecting to OPC Server
+
+13:19:49  Connection to OPC Server established
+
+13:19:49  CAN Connection interrupted
+
+13:19:49  CAN Connection interrupted
+
+13:19:49  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:50  CAN Connection interrupted
+
+13:19:52  Connecting to OPC Server
+
+13:19:53  Connection to OPC Server established
+
+13:19:55  Connecting to OPC Server
+
+13:19:55  Connection to OPC Server established
+
+13:19:55  CAN Connection interrupted
+
+13:19:55  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+
+13:19:56  CAN Connection interrupted
+

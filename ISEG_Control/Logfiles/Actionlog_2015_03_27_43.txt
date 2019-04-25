@@ -1,0 +1,146 @@
+16:39:27  File created 
+
+16:39:29  Connecting to OPC Server
+
+16:39:30  Connection to OPC Server established
+
+16:40:21  Voltage Sweep started 
+
+16:40:21  Sweep Mode step  1/8
+
+16:40:28  Sweep Mode step  2/8
+
+16:40:31  Sweep Mode step  3/8
+
+16:40:35  Sweep Mode step  4/8
+
+16:40:38  Sweep Mode step  5/8
+
+16:48:47  Voltage Sweep canceled
+
+16:48:53  Voltage Sweep started 
+
+16:48:53  Sweep Mode step  1/8
+
+16:48:55  Sweep Mode step  2/8
+
+16:48:59  Sweep Mode step  3/8
+
+16:49:02  Sweep Mode step  4/8
+
+16:49:05  Sweep Mode step  5/8
+
+16:49:08  Sweep Mode step  6/8
+
+16:49:11  Sweep Mode step  7/8
+
+16:49:15  Sweep Mode step  8/8
+
+16:49:17  Voltage Sweep done
+
+16:49:24  Voltage Sweep started 
+
+16:49:24  Sweep Mode step  1/8
+
+16:49:30  Sweep Mode step  2/8
+
+16:49:33  Sweep Mode step  3/8
+
+16:49:36  Sweep Mode step  4/8
+
+16:49:40  Sweep Mode step  5/8
+
+16:49:43  Sweep Mode step  6/8
+
+16:49:46  Sweep Mode step  7/8
+
+16:49:49  Sweep Mode step  8/8
+
+16:49:51  Voltage Sweep done
+
+16:49:56  Voltage Sweep started 
+
+16:49:56  Sweep Mode step  1/8
+
+16:50:02  Sweep Mode step  2/8
+
+16:50:05  Sweep Mode step  3/8
+
+16:50:09  Sweep Mode step  4/8
+
+16:54:51  Voltage Sweep canceled
+
+16:55:00  Voltage Sweep started 
+
+16:55:06  Sweep Mode step  1/8
+
+16:55:12  Sweep Mode step  2/8
+
+16:55:22  Sweep Mode step  3/8
+
+16:55:31  Sweep Mode step  4/8
+
+16:55:47  Voltage Sweep canceled
+
+16:55:54  Set ramp to 2,1 %
+
+16:55:54  Set current trip to 500 µA
+
+16:55:54  Set Voltage 1 (Channel 0) to 1 V
+
+16:57:18  Voltage Sweep started 
+
+16:57:22  Sweep Mode step  1/8
+
+16:57:24  Sweep Mode step  2/8
+
+16:57:28  Sweep Mode step  3/8
+
+16:57:31  Sweep Mode step  4/8
+
+16:57:34  Sweep Mode step  5/8
+
+16:57:37  Sweep Mode step  6/8
+
+16:57:40  Sweep Mode step  7/8
+
+16:57:44  Sweep Mode step  8/8
+
+16:57:47  Voltage Sweep done
+
+16:57:56  Voltage Sweep started 
+
+16:57:56  Sweep Mode step  1/8
+
+16:58:03  Sweep Mode step  2/8
+
+16:58:06  Sweep Mode step  3/8
+
+16:58:09  Sweep Mode step  4/8
+
+16:58:12  Sweep Mode step  5/8
+
+16:58:15  Sweep Mode step  6/8
+
+16:58:19  Sweep Mode step  7/8
+
+16:58:22  Sweep Mode step  8/8
+
+16:58:24  Voltage Sweep done
+
+16:58:48  Voltage Sweep started 
+
+16:58:48  Sweep Mode step  1/15
+
+16:58:54  Sweep Mode step  2/15
+
+16:58:57  Sweep Mode step  3/15
+
+16:59:00  Sweep Mode step  4/15
+
+16:59:04  Sweep Mode step  5/15
+
+16:59:07  Sweep Mode step  6/15
+
+16:59:10  Sweep Mode step  7/15
+

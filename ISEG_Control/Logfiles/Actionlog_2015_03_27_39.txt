@@ -1,0 +1,110 @@
+16:23:31  File created 
+
+16:23:32  Connecting to OPC Server
+
+16:23:32  Connection to OPC Server established
+
+16:24:11  Voltage Sweep started 
+
+16:24:11  Sweep Mode step  1/5
+
+16:24:15  Sweep Mode step  2/5
+
+16:24:18  Sweep Mode step  3/5
+
+16:24:21  Sweep Mode step  4/5
+
+16:24:24  Sweep Mode step  5/5
+
+16:24:25  Voltage Sweep done
+
+16:24:38  Voltage Sweep started 
+
+16:24:38  Sweep Mode step  1/9
+
+16:24:42  Sweep Mode step  2/9
+
+16:24:45  Sweep Mode step  3/9
+
+16:24:48  Sweep Mode step  4/9
+
+16:24:51  Sweep Mode step  5/9
+
+16:24:52  Sweep Mode step  6/9
+
+16:24:53  Sweep Mode step  7/9
+
+16:24:56  Sweep Mode step  8/9
+
+16:24:59  Sweep Mode step  9/9
+
+16:25:03  Voltage Sweep done
+
+16:25:17  Voltage Sweep started 
+
+16:25:17  Sweep Mode step  1/9
+
+16:25:20  Sweep Mode step  2/9
+
+16:25:23  Sweep Mode step  3/9
+
+16:25:26  Sweep Mode step  4/9
+
+16:25:29  Sweep Mode step  5/9
+
+16:25:31  Sweep Mode step  6/9
+
+16:25:32  Sweep Mode step  7/9
+
+16:25:35  Sweep Mode step  8/9
+
+16:25:38  Sweep Mode step  9/9
+
+16:25:41  Voltage Sweep done
+
+16:25:52  Voltage Sweep started 
+
+16:25:52  Sweep Mode step  1/15
+
+16:25:52  Sweep Mode step  2/15
+
+16:25:55  Sweep Mode step  3/15
+
+16:25:58  Sweep Mode step  4/15
+
+16:26:00  Voltage Sweep canceled
+
+16:26:05  Voltage Sweep started 
+
+16:26:05  Sweep Mode step  1/15
+
+16:26:08  Sweep Mode step  2/15
+
+16:26:11  Sweep Mode step  3/15
+
+16:26:14  Sweep Mode step  4/15
+
+16:26:17  Sweep Mode step  5/15
+
+16:26:20  Sweep Mode step  6/15
+
+16:26:24  Sweep Mode step  7/15
+
+16:26:27  Sweep Mode step  8/15
+
+16:26:29  Sweep Mode step  9/15
+
+16:26:31  Sweep Mode step  10/15
+
+16:26:34  Sweep Mode step  11/15
+
+16:26:37  Sweep Mode step  12/15
+
+16:26:40  Sweep Mode step  13/15
+
+16:26:43  Sweep Mode step  14/15
+
+16:26:46  Sweep Mode step  15/15
+
+16:26:49  Voltage Sweep done
+

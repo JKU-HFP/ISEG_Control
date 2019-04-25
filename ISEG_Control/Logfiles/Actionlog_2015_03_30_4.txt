@@ -1,0 +1,6 @@
+10:51:57  File created 
+
+10:52:07  Connecting to C843 IOs
+
+10:52:07  C834 Board 1 not found
+

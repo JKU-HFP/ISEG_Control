@@ -1,0 +1,8 @@
+15:00:47  File created 
+
+15:00:50  Connecting to OPC Server
+
+15:00:50  Connection to OPC Server established
+
+15:01:14  Set all Channels off
+

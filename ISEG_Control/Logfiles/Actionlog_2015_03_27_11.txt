@@ -1,0 +1,136 @@
+13:25:11  File created 
+
+13:25:13  Connecting to OPC Server
+
+13:25:13  Connection to OPC Server established
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:13  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:14  CAN Connection interrupted
+
+13:25:24  Voltage Sweep started 
+
+13:25:24  Sweep Mode step  1/6
+
+13:25:28  Sweep Mode step  2/6
+
+13:25:29  Sweep Mode step  3/6
+
+13:25:29  Sweep Mode step  4/6
+
+13:25:30  Sweep Mode step  5/6
+
+13:25:31  Sweep Mode step  6/6
+
+13:25:32  Voltage Sweep done
+
+13:25:39  Voltage Sweep started 
+
+13:25:39  Sweep Mode step  1/11
+
+13:25:42  Sweep Mode step  2/11
+
+13:25:43  Sweep Mode step  3/11
+
+13:25:44  Sweep Mode step  4/11
+
+13:25:44  Sweep Mode step  5/11
+
+13:25:45  Sweep Mode step  6/11
+
+13:25:45  Sweep Mode step  7/11
+
+13:25:45  Sweep Mode step  8/11
+
+13:25:46  Sweep Mode step  9/11
+
+13:25:46  Sweep Mode step  10/11
+
+13:25:47  Sweep Mode step  11/11
+
+13:25:47  Voltage Sweep done
+
+13:25:59  Voltage Sweep started 
+
+13:26:00  Sweep Mode step  1/11
+
+13:26:03  Sweep Mode step  2/11
+
+13:26:04  Sweep Mode step  3/11
+
+13:26:05  Sweep Mode step  4/11
+
+13:26:06  Sweep Mode step  5/11
+
+13:26:07  Sweep Mode step  6/11
+
+13:26:08  Sweep Mode step  7/11
+
+13:26:09  Sweep Mode step  8/11
+
+13:26:10  Sweep Mode step  9/11
+
+13:26:11  Sweep Mode step  10/11
+
+13:26:12  Sweep Mode step  11/11
+
+13:26:13  Voltage Sweep done
+

@@ -1,0 +1,170 @@
+09:40:37  File created 
+
+09:41:34  Connecting to OPC Server
+
+09:41:34  Connection to OPC Server established
+
+09:42:09  Voltage Sweep started 
+
+09:42:09  Sweep Mode step  1/6
+
+09:42:14  Sweep Mode step  2/6
+
+09:42:20  Sweep Mode step  3/6
+
+09:42:26  Sweep Mode step  4/6
+
+09:42:31  Sweep Mode step  5/6
+
+09:42:37  Sweep Mode step  6/6
+
+09:42:43  Voltage Sweep done
+
+09:42:50  Voltage Sweep started 
+
+09:42:50  Sweep Mode step  1/6
+
+09:42:58  Sweep Mode step  2/6
+
+09:43:04  Sweep Mode step  3/6
+
+09:43:10  Sweep Mode step  4/6
+
+09:43:16  Sweep Mode step  5/6
+
+09:43:21  Sweep Mode step  6/6
+
+09:43:27  Voltage Sweep done
+
+09:43:57  Voltage Sweep started 
+
+09:43:57  Sweep Mode step  1/31
+
+09:44:02  Sweep Mode step  2/31
+
+09:44:03  Sweep Mode step  3/31
+
+09:44:03  Sweep Mode step  4/31
+
+09:44:04  Sweep Mode step  5/31
+
+09:44:04  Sweep Mode step  6/31
+
+09:44:05  Sweep Mode step  7/31
+
+09:44:05  Sweep Mode step  8/31
+
+09:44:06  Sweep Mode step  9/31
+
+09:44:06  Sweep Mode step  10/31
+
+09:44:07  Sweep Mode step  11/31
+
+09:44:08  Sweep Mode step  12/31
+
+09:44:08  Sweep Mode step  13/31
+
+09:44:09  Sweep Mode step  14/31
+
+09:44:09  Sweep Mode step  15/31
+
+09:44:10  Sweep Mode step  16/31
+
+09:44:11  Sweep Mode step  17/31
+
+09:44:11  Sweep Mode step  18/31
+
+09:44:14  Sweep Mode step  19/31
+
+09:44:14  Sweep Mode step  20/31
+
+09:44:15  Sweep Mode step  21/31
+
+09:44:16  Sweep Mode step  22/31
+
+09:44:16  Sweep Mode step  23/31
+
+09:44:17  Sweep Mode step  24/31
+
+09:44:17  Sweep Mode step  25/31
+
+09:44:18  Sweep Mode step  26/31
+
+09:44:18  Sweep Mode step  27/31
+
+09:44:19  Sweep Mode step  28/31
+
+09:44:19  Sweep Mode step  29/31
+
+09:44:20  Sweep Mode step  30/31
+
+09:44:21  Sweep Mode step  31/31
+
+09:44:21  Voltage Sweep done
+
+09:44:30  Voltage Sweep started 
+
+09:44:30  Sweep Mode step  1/31
+
+09:44:33  Sweep Mode step  2/31
+
+09:44:34  Sweep Mode step  3/31
+
+09:44:35  Sweep Mode step  4/31
+
+09:44:36  Sweep Mode step  5/31
+
+09:44:37  Sweep Mode step  6/31
+
+09:44:38  Sweep Mode step  7/31
+
+09:44:39  Sweep Mode step  8/31
+
+09:44:40  Sweep Mode step  9/31
+
+09:44:41  Sweep Mode step  10/31
+
+09:44:42  Sweep Mode step  11/31
+
+09:44:43  Sweep Mode step  12/31
+
+09:44:44  Sweep Mode step  13/31
+
+09:44:45  Sweep Mode step  14/31
+
+09:44:47  Sweep Mode step  15/31
+
+09:44:48  Sweep Mode step  16/31
+
+09:44:49  Sweep Mode step  17/31
+
+09:44:51  Sweep Mode step  18/31
+
+09:44:54  Sweep Mode step  19/31
+
+09:44:55  Sweep Mode step  20/31
+
+09:44:56  Sweep Mode step  21/31
+
+09:44:57  Sweep Mode step  22/31
+
+09:44:59  Sweep Mode step  23/31
+
+09:45:00  Sweep Mode step  24/31
+
+09:45:01  Sweep Mode step  25/31
+
+09:45:02  Sweep Mode step  26/31
+
+09:45:03  Sweep Mode step  27/31
+
+09:45:04  Sweep Mode step  28/31
+
+09:45:05  Sweep Mode step  29/31
+
+09:45:06  Sweep Mode step  30/31
+
+09:45:07  Sweep Mode step  31/31
+
+09:45:08  Voltage Sweep done
+

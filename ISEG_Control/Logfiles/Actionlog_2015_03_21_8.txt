@@ -1,0 +1,34 @@
+19:46:37  File created 
+
+19:46:48  Connecting to OPC Server
+
+19:46:48  Connection to OPC Server established
+
+19:46:58  Voltage Sweep started 
+
+19:46:58  Sweep Mode step  1/11
+
+19:47:05  Voltage Sweep canceled
+
+19:47:10  Set ramp to 0,004 %
+
+19:47:10  Set current trip to 21 µA
+
+19:47:10  Set Voltage 1 (Channel 0) to 1 V
+
+19:47:10  Set Voltage 2 (Channel 1) to 1 V
+
+19:47:10  Set Voltage 3 (Channel 2) to 1 V
+
+19:47:30  Set all Channels off
+
+19:47:39  Set ramp to 0,004 %
+
+19:47:39  Set current trip to 21 µA
+
+19:47:39  Set Voltage 1 (Channel 0) to 1 V
+
+19:47:39  Set Voltage 2 (Channel 1) to 1 V
+
+19:47:39  Set Voltage 3 (Channel 2) to 1 V
+

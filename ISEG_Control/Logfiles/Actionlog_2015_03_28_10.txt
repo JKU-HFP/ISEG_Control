@@ -1,0 +1,126 @@
+18:34:07  File created 
+
+18:34:08  Connecting to OPC Server
+
+18:34:08  Connection to OPC Server established
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:08  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+
+18:34:09  CAN Connection interrupted
+

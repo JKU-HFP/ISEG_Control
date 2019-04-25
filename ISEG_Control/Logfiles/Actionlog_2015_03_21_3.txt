@@ -1,0 +1,4842 @@
+19:01:06  File created 
+
+19:01:09  Connecting to OPC Server
+
+19:01:09  Connection to OPC Server established
+
+19:01:56  Voltage Sweep started 
+
+19:01:56  Sweep Mode step  1/21
+
+19:02:22  Sweep Mode step  2/21
+
+19:02:31  Sweep Mode step  3/21
+
+19:02:41  Sweep Mode step  4/21
+
+19:02:52  Sweep Mode step  5/21
+
+19:03:03  Sweep Mode step  6/21
+
+19:03:13  Sweep Mode step  7/21
+
+19:03:23  Sweep Mode step  8/21
+
+19:03:34  Sweep Mode step  9/21
+
+19:03:44  Sweep Mode step  10/21
+
+19:03:55  Sweep Mode step  11/21
+
+19:04:05  Sweep Mode step  12/21
+
+19:04:13  Sweep Mode step  13/21
+
+19:04:16  Sweep Mode step  14/21
+
+19:04:18  Sweep Mode step  15/21
+
+19:04:20  Sweep Mode step  16/21
+
+19:04:22  Sweep Mode step  17/21
+
+19:04:25  Sweep Mode step  18/21
+
+19:04:27  Sweep Mode step  19/21
+
+19:04:29  Sweep Mode step  20/21
+
+19:04:31  Sweep Mode step  21/21
+
+19:04:33  Voltage Sweep done
+
+19:04:54  Current over Voltage Diagramm1 saved to: C:\Users\Christian\Desktop\1.txt
+
+19:05:01  Current over Voltage Diagramm2 saved to: C:\Users\Christian\Desktop\2.txt
+
+19:05:10  Current over Voltage Diagramm3 saved to: C:\Users\Christian\Desktop\3.txt
+
+19:05:25  Voltage Sweep started 
+
+19:05:25  Sweep Mode step  1/61
+
+19:05:25  Sweep Mode step  2/61
+
+19:05:27  Sweep Mode step  3/61
+
+19:05:28  Sweep Mode step  4/61
+
+19:05:29  Sweep Mode step  5/61
+
+19:05:30  Sweep Mode step  6/61
+
+19:05:31  Sweep Mode step  7/61
+
+19:05:32  Sweep Mode step  8/61
+
+19:05:33  Sweep Mode step  9/61
+
+19:05:34  Sweep Mode step  10/61
+
+19:05:35  Sweep Mode step  11/61
+
+19:05:36  Sweep Mode step  12/61
+
+19:05:37  Sweep Mode step  13/61
+
+19:05:38  Sweep Mode step  14/61
+
+19:05:39  Sweep Mode step  15/61
+
+19:05:40  Sweep Mode step  16/61
+
+19:05:41  Sweep Mode step  17/61
+
+19:05:43  Sweep Mode step  18/61
+
+19:05:44  Sweep Mode step  19/61
+
+19:05:45  Sweep Mode step  20/61
+
+19:05:46  Sweep Mode step  21/61
+
+19:05:47  Sweep Mode step  22/61
+
+19:05:49  Sweep Mode step  23/61
+
+19:05:50  Sweep Mode step  24/61
+
+19:05:51  Sweep Mode step  25/61
+
+19:05:52  Sweep Mode step  26/61
+
+19:05:54  Sweep Mode step  27/61
+
+19:05:55  Sweep Mode step  28/61
+
+19:05:56  Sweep Mode step  29/61
+
+19:05:57  Sweep Mode step  30/61
+
+19:05:58  Sweep Mode step  31/61
+
+19:05:59  Sweep Mode step  32/61
+
+19:06:00  Sweep Mode step  33/61
+
+19:06:01  Sweep Mode step  34/61
+
+19:06:02  Sweep Mode step  35/61
+
+19:06:03  Sweep Mode step  36/61
+
+19:06:04  Sweep Mode step  37/61
+
+19:06:05  Sweep Mode step  38/61
+
+19:06:06  Sweep Mode step  39/61
+
+19:06:07  Sweep Mode step  40/61
+
+19:06:08  Sweep Mode step  41/61
+
+19:06:09  Sweep Mode step  42/61
+
+19:06:11  Sweep Mode step  43/61
+
+19:06:12  Sweep Mode step  44/61
+
+19:06:13  Sweep Mode step  45/61
+
+19:06:14  Sweep Mode step  46/61
+
+19:06:15  Sweep Mode step  47/61
+
+19:06:16  Sweep Mode step  48/61
+
+19:06:17  Sweep Mode step  49/61
+
+19:06:18  Sweep Mode step  50/61
+
+19:06:19  Sweep Mode step  51/61
+
+19:06:20  Sweep Mode step  52/61
+
+19:06:21  Sweep Mode step  53/61
+
+19:06:22  Sweep Mode step  54/61
+
+19:06:23  Sweep Mode step  55/61
+
+19:06:24  Sweep Mode step  56/61
+
+19:06:25  Sweep Mode step  57/61
+
+19:06:27  Sweep Mode step  58/61
+
+19:06:28  Sweep Mode step  59/61
+
+19:06:29  Sweep Mode step  60/61
+
+19:06:30  Sweep Mode step  61/61
+
+19:06:31  Voltage Sweep done
+
+19:06:54  Voltage Sweep started 
+
+19:06:54  Sweep Mode step  1/21
+
+19:06:54  Sweep Mode step  2/21
+
+19:06:56  Sweep Mode step  3/21
+
+19:06:57  Sweep Mode step  4/21
+
+19:06:58  Sweep Mode step  5/21
+
+19:06:59  Sweep Mode step  6/21
+
+19:07:00  Sweep Mode step  7/21
+
+19:07:01  Sweep Mode step  8/21
+
+19:07:02  Sweep Mode step  9/21
+
+19:07:03  Sweep Mode step  10/21
+
+19:07:04  Sweep Mode step  11/21
+
+19:07:05  Sweep Mode step  12/21
+
+19:07:06  Sweep Mode step  13/21
+
+19:07:07  Sweep Mode step  14/21
+
+19:07:08  Sweep Mode step  15/21
+
+19:07:09  Sweep Mode step  16/21
+
+19:07:10  Sweep Mode step  17/21
+
+19:07:12  Sweep Mode step  18/21
+
+19:07:13  Sweep Mode step  19/21
+
+19:07:14  Sweep Mode step  20/21
+
+19:07:15  Sweep Mode step  21/21
+
+19:07:16  Voltage Sweep done
+
+19:08:11  Voltage Sweep started 
+
+19:08:11  Sweep Mode step  1/21
+
+19:08:11  Sweep Mode step  2/21
+
+19:08:13  Sweep Mode step  3/21
+
+19:08:14  Sweep Mode step  4/21
+
+19:08:15  Sweep Mode step  5/21
+
+19:08:16  Sweep Mode step  6/21
+
+19:08:24  Sweep Mode step  7/21
+
+19:08:33  Sweep Mode step  8/21
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Voltage Sweep canceled
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:33  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:34  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:35  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:36  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:37  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:38  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:39  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:40  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:41  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:42  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:43  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:44  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:45  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:46  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:47  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:48  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:49  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:50  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:51  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:52  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:53  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:54  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:55  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:56  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:57  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:58  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:08:59  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:00  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:01  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:02  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:03  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:04  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:05  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:06  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:07  Current Trip Voltage 1 (Channel 0) exeeded
+
+19:09:17  Voltage Sweep started 
+
+19:09:17  Sweep Mode step  1/21
+
+19:09:23  Sweep Mode step  2/21
+
+19:09:31  Sweep Mode step  3/21
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Voltage Sweep canceled
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:36  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:37  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:38  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:39  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:40  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:41  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:42  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:43  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:44  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:45  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:46  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:09:47  Current Trip Voltage 2 (Channel 1) exeeded
+
+19:10:04  Voltage Sweep started 
+
+19:10:04  Sweep Mode step  1/21
+
+19:10:06  Sweep Mode step  2/21
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Voltage Sweep canceled
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:10  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:11  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:12  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:13  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:14  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:15  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:16  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:17  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:18  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:19  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:20  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:21  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:22  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:23  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:24  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:25  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:26  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:27  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:28  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:29  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:30  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:31  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:32  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:33  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:34  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:35  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:36  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:37  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:37  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:37  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:37  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:37  Current Trip Voltage 3 (Channel 2) exeeded
+
+19:10:38  Voltage Sweep started 
+
+19:10:38  Sweep Mode step  1/21
+
+19:10:42  Sweep Mode step  2/21
+
+19:10:49  Sweep Mode step  3/21
+
+19:10:51  Voltage Sweep canceled
+

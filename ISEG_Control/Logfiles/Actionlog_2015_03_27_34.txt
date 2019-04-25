@@ -1,0 +1,22 @@
+15:03:15  File created 
+
+15:03:17  Connecting to OPC Server
+
+15:03:17  Connection to OPC Server established
+
+15:03:28  Set ramp to 2,1 %
+
+15:03:28  Set current trip to 500 µA
+
+15:03:36  Set ramp to 2,1 %
+
+15:03:36  Set current trip to 500 µA
+
+15:03:36  Set Voltage 1 (Channel 6) to 2 V
+
+15:03:36  Set Voltage 2 (Channel 7) to 3 V
+
+15:03:36  Set Voltage 3 (Channel 3) to 6 V
+
+15:04:12  Set all Channels off
+

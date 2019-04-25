@@ -1,0 +1,8 @@
+11:19:07  File created 
+
+11:19:12  Connecting to OPC Server
+
+11:19:13  Connecting to C843 IOs
+
+11:19:13  C834 Board 1 not found
+

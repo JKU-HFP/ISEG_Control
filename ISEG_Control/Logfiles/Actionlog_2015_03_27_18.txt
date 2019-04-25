@@ -1,0 +1,126 @@
+14:10:54  File created 
+
+14:10:56  Connecting to OPC Server
+
+14:10:56  Connection to OPC Server established
+
+14:11:27  Voltage Sweep started 
+
+14:11:27  Sweep Mode step  1/11
+
+14:11:33  Sweep Mode step  2/11
+
+14:11:35  Sweep Mode step  3/11
+
+14:11:36  Sweep Mode step  4/11
+
+14:11:37  Sweep Mode step  5/11
+
+14:11:38  Sweep Mode step  6/11
+
+14:11:39  Sweep Mode step  7/11
+
+14:11:40  Sweep Mode step  8/11
+
+14:11:41  Sweep Mode step  9/11
+
+14:11:42  Sweep Mode step  10/11
+
+14:11:43  Sweep Mode step  11/11
+
+14:11:45  Voltage Sweep done
+
+14:11:53  Voltage Sweep started 
+
+14:11:53  Sweep Mode step  1/11
+
+14:11:57  Sweep Mode step  2/11
+
+14:11:58  Sweep Mode step  3/11
+
+14:11:59  Sweep Mode step  4/11
+
+14:12:00  Sweep Mode step  5/11
+
+14:12:01  Sweep Mode step  6/11
+
+14:12:02  Sweep Mode step  7/11
+
+14:12:03  Sweep Mode step  8/11
+
+14:12:04  Sweep Mode step  9/11
+
+14:12:05  Sweep Mode step  10/11
+
+14:12:06  Sweep Mode step  11/11
+
+14:12:07  Voltage Sweep done
+
+14:14:00  Voltage Sweep started 
+
+14:14:00  Sweep Mode step  1/11
+
+14:14:04  Sweep Mode step  2/11
+
+14:14:06  Sweep Mode step  3/11
+
+14:14:08  Sweep Mode step  4/11
+
+14:14:10  Sweep Mode step  5/11
+
+14:14:12  Sweep Mode step  6/11
+
+14:14:14  Sweep Mode step  7/11
+
+14:14:16  Sweep Mode step  8/11
+
+14:14:18  Sweep Mode step  9/11
+
+14:14:20  Sweep Mode step  10/11
+
+14:14:22  Sweep Mode step  11/11
+
+14:14:24  Voltage Sweep done
+
+14:14:30  Voltage Sweep started 
+
+14:14:30  Sweep Mode step  1/11
+
+14:14:34  Sweep Mode step  2/11
+
+14:14:36  Sweep Mode step  3/11
+
+14:14:38  Sweep Mode step  4/11
+
+14:14:40  Sweep Mode step  5/11
+
+14:14:42  Sweep Mode step  6/11
+
+14:14:44  Sweep Mode step  7/11
+
+14:14:46  Sweep Mode step  8/11
+
+14:14:48  Sweep Mode step  9/11
+
+14:14:50  Sweep Mode step  10/11
+
+14:14:52  Sweep Mode step  11/11
+
+14:14:54  Voltage Sweep done
+
+14:15:07  Voltage Sweep started 
+
+14:15:07  Sweep Mode step  1/3
+
+14:15:11  Sweep Mode step  2/3
+
+14:15:20  Voltage Sweep canceled
+
+14:15:22  Voltage Sweep started 
+
+14:15:22  Sweep Mode step  1/3
+
+14:15:25  Sweep Mode step  2/3
+
+14:15:26  Voltage Sweep canceled
+

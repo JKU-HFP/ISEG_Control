@@ -1,0 +1,16 @@
+16:28:02  File created 
+
+16:28:06  Connecting to OPC Server
+
+16:28:06  Connection to OPC Server established
+
+16:28:52  Voltage Sweep started 
+
+16:28:52  Sweep Mode step  1/10
+
+16:28:56  Sweep Mode step  2/10
+
+16:28:57  Sweep Mode step  3/10
+
+16:28:58  Sweep Mode step  4/10
+

@@ -1,0 +1,62 @@
+17:04:19  File created 
+
+17:04:20  Connecting to OPC Server
+
+17:04:20  Connection to OPC Server established
+
+17:05:07  Voltage Sweep started 
+
+17:05:07  Sweep Mode step  1/8
+
+17:05:12  Sweep Mode step  2/8
+
+17:05:15  Sweep Mode step  3/8
+
+17:05:18  Sweep Mode step  4/8
+
+17:05:21  Sweep Mode step  5/8
+
+17:05:24  Sweep Mode step  6/8
+
+17:05:28  Sweep Mode step  7/8
+
+17:05:31  Sweep Mode step  8/8
+
+17:05:33  Voltage Sweep done
+
+17:05:39  Voltage Sweep started 
+
+17:05:39  Sweep Mode step  1/15
+
+17:05:45  Sweep Mode step  2/15
+
+17:05:48  Sweep Mode step  3/15
+
+17:05:51  Sweep Mode step  4/15
+
+17:05:54  Sweep Mode step  5/15
+
+17:05:57  Sweep Mode step  6/15
+
+17:06:01  Sweep Mode step  7/15
+
+17:06:04  Sweep Mode step  8/15
+
+17:06:06  Sweep Mode step  9/15
+
+17:06:08  Sweep Mode step  10/15
+
+17:06:11  Sweep Mode step  11/15
+
+17:06:15  Sweep Mode step  12/15
+
+17:06:19  Sweep Mode step  13/15
+
+17:06:22  Sweep Mode step  14/15
+
+17:06:25  Sweep Mode step  15/15
+
+17:06:28  Voltage Sweep done
+
+17:06:42  Current over Voltage Diagramm1 saved to: C:\Users\Christian\Desktop\1.txt
+

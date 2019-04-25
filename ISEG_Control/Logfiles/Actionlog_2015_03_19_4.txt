@@ -1,0 +1,100 @@
+19:02:25  File created 
+
+19:02:27  Connecting to OPC Server
+
+19:02:27  Connection to OPC Server established
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:27  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:28  CAN Connection interrupted
+
+19:02:40  Set ramp to 0,004 %
+
+19:02:40  Set current trip to 500 µA
+
+19:02:40  Set Voltage 1 (Channel 0) to 1 V
+
+19:02:40  Set Voltage 2 (Channel 1) to 1 V
+
+19:02:40  Set Voltage 3 (Channel 2) to 1 V
+
+19:02:52  Set all Channels off
+
+19:05:20  Set ramp to 0,004 %
+
+19:05:20  Set current trip to 500 µA
+
+19:05:20  Set Voltage 1 (Channel 0) to 1 V
+
+19:05:20  Set Voltage 2 (Channel 1) to 1 V
+
+19:05:20  Set Voltage 3 (Channel 2) to 1 V
+
+19:05:35  Set ramp to 0,004 %
+
+19:05:35  Set current trip to 500 µA
+
+19:05:36  Set Voltage 1 (Channel 0) to 20 V
+
+19:05:36  Set Voltage 2 (Channel 1) to 20 V
+
+19:05:36  Set Voltage 3 (Channel 2) to 20 V
+
