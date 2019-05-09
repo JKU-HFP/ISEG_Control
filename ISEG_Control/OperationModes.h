@@ -39,9 +39,15 @@ public:
 	
 	static manualval Default; //Default values:
 	static manualval UserInputData;
+	static float CreepLambda;
 	static ManualValStatus InputError;
 	static ManualValStatus InputWarning;
+
+	static float CreepSetpointVoltage;
+	static float CreepTime;
+	static float CreepModelVoltage(float involt, float lambda, float t);
 };
+
 
 
 //***********************************************************

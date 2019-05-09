@@ -9,6 +9,10 @@ using namespace System::IO;
 //					 Manual Mode
 //***********************************************************
 
+float ManualMode::CreepModelVoltage(float involt, float lambda, float t)
+{
+	return involt * (1 + Math::Exp(lambda * t));
+}
 
 //***********************************************************
 //					  Sweep Mode
