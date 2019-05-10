@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 
 #define  _CancelPending  if (backgroundWorker_Sweep->CancellationPending) \
 						 {								  \
@@ -22,7 +22,7 @@ namespace ISEG_Control {
 	using namespace ChartDirector;
 
 	/// <summary>
-	/// Zusammenfassung für Form1
+	/// Zusammenfassung fÃ¼r Form1
 	/// </summary>
 	public ref class Form1 : public System::Windows::Forms::Form
 	{
@@ -31,7 +31,7 @@ namespace ISEG_Control {
 		{
 			InitializeComponent();
 			//
-			//TODO: Konstruktorcode hier hinzufügen.
+			//TODO: Konstruktorcode hier hinzufÃ¼gen.
 			//
 		}
 
@@ -508,6 +508,10 @@ private: System::Windows::Forms::TextBox^ creep_time;
 
 private: System::Windows::Forms::Label^ label117;
 private: System::Windows::Forms::Timer^ timer_creep_update;
+private: System::Windows::Forms::TextBox^ creep_A;
+
+private: System::Windows::Forms::Label^ label119;
+private: System::Windows::Forms::Label^ label120;
 
 
 
@@ -517,8 +521,8 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Erforderliche Methode für die Designerunterstützung.
-		/// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+		/// Erforderliche Methode fÃ¼r die DesignerunterstÃ¼tzung.
+		/// Der Inhalt der Methode darf nicht mit dem Code-Editor geÃ¤ndert werden.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -543,6 +547,9 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->TabControl1 = (gcnew System::Windows::Forms::TabControl());
 			this->tabPage_Manual = (gcnew System::Windows::Forms::TabPage());
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->creep_A = (gcnew System::Windows::Forms::TextBox());
+			this->label119 = (gcnew System::Windows::Forms::Label());
+			this->label120 = (gcnew System::Windows::Forms::Label());
 			this->label118 = (gcnew System::Windows::Forms::Label());
 			this->creep_time = (gcnew System::Windows::Forms::TextBox());
 			this->label117 = (gcnew System::Windows::Forms::Label());
@@ -933,7 +940,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label15->Name = L"label15";
 			this->label15->Size = System::Drawing::Size(20, 13);
 			this->label15->TabIndex = 38;
-			this->label15->Text = L"µA";
+			this->label15->Text = L"ÂµA";
 			// 
 			// out_val_I2
 			// 
@@ -970,7 +977,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label18->Name = L"label18";
 			this->label18->Size = System::Drawing::Size(20, 13);
 			this->label18->TabIndex = 43;
-			this->label18->Text = L"µA";
+			this->label18->Text = L"ÂµA";
 			// 
 			// timer_OPC_update
 			// 
@@ -1023,6 +1030,9 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->creep_A);
+			this->groupBox8->Controls->Add(this->label119);
+			this->groupBox8->Controls->Add(this->label120);
 			this->groupBox8->Controls->Add(this->label118);
 			this->groupBox8->Controls->Add(this->creep_time);
 			this->groupBox8->Controls->Add(this->label117);
@@ -1038,19 +1048,47 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"Creep Compensation";
 			// 
+			// creep_A
+			// 
+			this->creep_A->BackColor = System::Drawing::SystemColors::Window;
+			this->creep_A->ForeColor = System::Drawing::SystemColors::WindowText;
+			this->creep_A->Location = System::Drawing::Point(260, 45);
+			this->creep_A->Name = L"creep_A";
+			this->creep_A->Size = System::Drawing::Size(64, 20);
+			this->creep_A->TabIndex = 71;
+			this->creep_A->Text = L"0";
+			// 
+			// label119
+			// 
+			this->label119->AutoSize = true;
+			this->label119->Location = System::Drawing::Point(232, 48);
+			this->label119->Name = L"label119";
+			this->label119->Size = System::Drawing::Size(14, 13);
+			this->label119->TabIndex = 73;
+			this->label119->Text = L"A";
+			// 
+			// label120
+			// 
+			this->label120->AutoSize = true;
+			this->label120->Location = System::Drawing::Point(330, 49);
+			this->label120->Name = L"label120";
+			this->label120->Size = System::Drawing::Size(23, 13);
+			this->label120->TabIndex = 72;
+			this->label120->Text = L"1/s";
+			// 
 			// label118
 			// 
 			this->label118->AutoSize = true;
-			this->label118->Location = System::Drawing::Point(213, 82);
+			this->label118->Location = System::Drawing::Point(232, 100);
 			this->label118->Name = L"label118";
-			this->label118->Size = System::Drawing::Size(43, 13);
+			this->label118->Size = System::Drawing::Size(10, 13);
 			this->label118->TabIndex = 70;
-			this->label118->Text = L"ex. time";
+			this->label118->Text = L"t";
 			// 
 			// creep_time
 			// 
 			this->creep_time->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->creep_time->Location = System::Drawing::Point(260, 79);
+			this->creep_time->Location = System::Drawing::Point(260, 97);
 			this->creep_time->Name = L"creep_time";
 			this->creep_time->ReadOnly = true;
 			this->creep_time->Size = System::Drawing::Size(64, 20);
@@ -1059,7 +1097,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			// label117
 			// 
 			this->label117->AutoSize = true;
-			this->label117->Location = System::Drawing::Point(330, 83);
+			this->label117->Location = System::Drawing::Point(330, 101);
 			this->label117->Name = L"label117";
 			this->label117->Size = System::Drawing::Size(12, 13);
 			this->label117->TabIndex = 69;
@@ -1068,7 +1106,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			// enable_CreepCompensation
 			// 
 			this->enable_CreepCompensation->AutoSize = true;
-			this->enable_CreepCompensation->Location = System::Drawing::Point(248, 19);
+			this->enable_CreepCompensation->Location = System::Drawing::Point(263, 19);
 			this->enable_CreepCompensation->Name = L"enable_CreepCompensation";
 			this->enable_CreepCompensation->Size = System::Drawing::Size(58, 17);
 			this->enable_CreepCompensation->TabIndex = 33;
@@ -1079,7 +1117,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			// 
 			this->creep_lambda->BackColor = System::Drawing::SystemColors::Window;
 			this->creep_lambda->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->creep_lambda->Location = System::Drawing::Point(260, 53);
+			this->creep_lambda->Location = System::Drawing::Point(260, 71);
 			this->creep_lambda->Name = L"creep_lambda";
 			this->creep_lambda->Size = System::Drawing::Size(64, 20);
 			this->creep_lambda->TabIndex = 33;
@@ -1088,11 +1126,11 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			// label115
 			// 
 			this->label115->AutoSize = true;
-			this->label115->Location = System::Drawing::Point(213, 56);
+			this->label115->Location = System::Drawing::Point(232, 74);
 			this->label115->Name = L"label115";
-			this->label115->Size = System::Drawing::Size(41, 13);
+			this->label115->Size = System::Drawing::Size(12, 13);
 			this->label115->TabIndex = 35;
-			this->label115->Text = L"lambda";
+			this->label115->Text = L"Î»";
 			// 
 			// pictureBox4
 			// 
@@ -1107,7 +1145,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			// label116
 			// 
 			this->label116->AutoSize = true;
-			this->label116->Location = System::Drawing::Point(330, 57);
+			this->label116->Location = System::Drawing::Point(330, 75);
 			this->label116->Name = L"label116";
 			this->label116->Size = System::Drawing::Size(23, 13);
 			this->label116->TabIndex = 34;
@@ -2880,7 +2918,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label113->Name = L"label113";
 			this->label113->Size = System::Drawing::Size(20, 13);
 			this->label113->TabIndex = 49;
-			this->label113->Text = L"µA";
+			this->label113->Text = L"ÂµA";
 			// 
 			// label114
 			// 
@@ -2908,7 +2946,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label111->Name = L"label111";
 			this->label111->Size = System::Drawing::Size(20, 13);
 			this->label111->TabIndex = 46;
-			this->label111->Text = L"µA";
+			this->label111->Text = L"ÂµA";
 			// 
 			// label112
 			// 
@@ -3449,7 +3487,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(26, 13);
 			this->label20->TabIndex = 62;
-			this->label20->Text = L"[µA]";
+			this->label20->Text = L"[ÂµA]";
 			// 
 			// label13
 			// 
@@ -3458,7 +3496,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(26, 13);
 			this->label13->TabIndex = 61;
-			this->label13->Text = L"[µA]";
+			this->label13->Text = L"[ÂµA]";
 			// 
 			// pictureBox3
 			// 
@@ -3521,7 +3559,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(20, 13);
 			this->label16->TabIndex = 54;
-			this->label16->Text = L"µA";
+			this->label16->Text = L"ÂµA";
 			// 
 			// groupBox5
 			// 
@@ -3598,7 +3636,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label25->Name = L"label25";
 			this->label25->Size = System::Drawing::Size(26, 13);
 			this->label25->TabIndex = 63;
-			this->label25->Text = L"[µA]";
+			this->label25->Text = L"[ÂµA]";
 			// 
 			// label23
 			// 
@@ -3607,7 +3645,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label23->Name = L"label23";
 			this->label23->Size = System::Drawing::Size(26, 13);
 			this->label23->TabIndex = 62;
-			this->label23->Text = L"[µA]";
+			this->label23->Text = L"[ÂµA]";
 			// 
 			// pictureBox1
 			// 
@@ -3703,7 +3741,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label26->Name = L"label26";
 			this->label26->Size = System::Drawing::Size(26, 13);
 			this->label26->TabIndex = 68;
-			this->label26->Text = L"[µA]";
+			this->label26->Text = L"[ÂµA]";
 			// 
 			// label24
 			// 
@@ -3712,7 +3750,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label24->Name = L"label24";
 			this->label24->Size = System::Drawing::Size(26, 13);
 			this->label24->TabIndex = 67;
-			this->label24->Text = L"[µA]";
+			this->label24->Text = L"[ÂµA]";
 			// 
 			// pictureBox2
 			// 
@@ -3739,7 +3777,7 @@ private: System::Windows::Forms::Timer^ timer_creep_update;
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(20, 13);
 			this->label14->TabIndex = 59;
-			this->label14->Text = L"µA";
+			this->label14->Text = L"ÂµA";
 			// 
 			// out_val_I3
 			// 
@@ -3961,6 +3999,7 @@ private: System::Void get_form_data()
 			 ManualMode::UserInputData.I_Limit_V3 = Global::StringToFloat(current_limit_V3->Text, &ok);
 			 ManualMode::UserInputData.Ramp = Global::StringToFloat(manual_val_ramp->Text, &ok);
 			 ManualMode::CreepLambda = Global::StringToFloat(creep_lambda->Text, &ok);
+			 ManualMode::CreepAmplitude = Global::StringToFloat(creep_A->Text, &ok);
 
 			 if (tabPage_Manual->Visible)
 			 {
@@ -4472,9 +4511,9 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 				VoltControl::set_Current(VoltControl::Chan_V2,ManualMode::UserInputData.I_Limit_V2);
 				VoltControl::set_Current(VoltControl::Chan_V3,ManualMode::UserInputData.I_Limit_V3);
 				Actionlog->add_entry("Set ramp to " +ManualMode::UserInputData.Ramp.ToString()+" %");
-				Actionlog->add_entry("Set current trip V1 to " + ManualMode::UserInputData.I_Limit_V1.ToString() + " µA");
-				Actionlog->add_entry("Set current trip V2 to " + ManualMode::UserInputData.I_Limit_V2.ToString() + " µA");
-				Actionlog->add_entry("Set current trip V3 to " + ManualMode::UserInputData.I_Limit_V3.ToString() + " µA");
+				Actionlog->add_entry("Set current trip V1 to " + ManualMode::UserInputData.I_Limit_V1.ToString() + " ÂµA");
+				Actionlog->add_entry("Set current trip V2 to " + ManualMode::UserInputData.I_Limit_V2.ToString() + " ÂµA");
+				Actionlog->add_entry("Set current trip V3 to " + ManualMode::UserInputData.I_Limit_V3.ToString() + " ÂµA");
 
 				//Restart creep compensation	
 				bool creepCompensationOn = enable_CreepCompensation->Checked;
@@ -4493,7 +4532,7 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 				{
 					if (creepCompensationOn)
 					{
-						VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V1, ManualMode::CreepLambda, ManualMode::CreepTime));
+						VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V1, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
 					}
 					else
 					{
@@ -4508,7 +4547,7 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 				{
 					if (creepCompensationOn)
 					{
-						VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V2, ManualMode::CreepLambda, ManualMode::CreepTime));
+						VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V2, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
 					}
 					else
 					{
@@ -4521,7 +4560,7 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 				{
 					if (creepCompensationOn)
 					{
-						VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V3, ManualMode::CreepLambda, ManualMode::CreepTime));
+						VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V3, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
 					}
 					else
 					{
@@ -5209,22 +5248,22 @@ private: System::Void timer_form_update_Tick(System::Object^  sender, System::Ev
 		 }
 
 private: System::Void Timer_creep_update_Tick(System::Object^ sender, System::EventArgs^ e)
-{
-	ManualMode::CreepTime += timer_creep_update->Interval / 1000.0;
+	{
+		ManualMode::CreepTime += timer_creep_update->Interval / 1000.0;
 
-	if (enable_set_V1->Checked && !VoltControl::ChanStatus_V1.set_IsTripExeeded)
-	{
-		VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V1, ManualMode::CreepLambda, ManualMode::CreepTime));
+		if (enable_set_V1->Checked && !VoltControl::ChanStatus_V1.set_IsTripExeeded)
+		{
+			VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V1, ManualMode::CreepAmplitude,ManualMode::CreepLambda, ManualMode::CreepTime));
+		}
+		if (enable_set_V2->Checked && !VoltControl::ChanStatus_V2.set_IsTripExeeded)
+		{
+			VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V2, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
+		}
+		if (enable_set_V3->Checked && !VoltControl::ChanStatus_V3.set_IsTripExeeded)
+		{
+			VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V3, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
+		}
 	}
-	if (enable_set_V2->Checked && !VoltControl::ChanStatus_V2.set_IsTripExeeded)
-	{
-		VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V2, ManualMode::CreepLambda, ManualMode::CreepTime));
-	}
-	if (enable_set_V3->Checked && !VoltControl::ChanStatus_V3.set_IsTripExeeded)
-	{
-		VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V3, ManualMode::CreepLambda, ManualMode::CreepTime));
-	}
-}
 
 #pragma endregion
 
@@ -5468,7 +5507,5 @@ private: System::Void Form1_FormClosing(System::Object^  sender, System::Windows
 			 delete curr_time1, curr_time2, curr_time3, curr1, curr2, curr3;
 		 }
 		 
-
 };
-}		 
-
+}

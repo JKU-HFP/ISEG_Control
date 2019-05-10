@@ -38,14 +38,15 @@ ref class ManualMode abstract sealed
 public:
 	
 	static manualval Default; //Default values:
-	static manualval UserInputData;
-	static float CreepLambda;
+	static manualval UserInputData;	
 	static ManualValStatus InputError;
 	static ManualValStatus InputWarning;
 
 	static float CreepSetpointVoltage;
+	static float CreepAmplitude;
+	static float CreepLambda;
 	static float CreepTime;
-	static float CreepModelVoltage(float involt, float lambda, float t);
+	static float CreepModelVoltage(float involt, float A, float lambda, float t);
 };
 
 
