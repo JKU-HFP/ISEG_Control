@@ -512,6 +512,7 @@ private: System::Windows::Forms::TextBox^ creep_A;
 
 private: System::Windows::Forms::Label^ label119;
 private: System::Windows::Forms::Label^ label120;
+private: System::Windows::Forms::Button^ creep_apply;
 
 
 
@@ -818,6 +819,7 @@ private: System::Windows::Forms::Label^ label120;
 			this->toolTip = (gcnew System::Windows::Forms::ToolTip(this->components));
 			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->timer_creep_update = (gcnew System::Windows::Forms::Timer(this->components));
+			this->creep_apply = (gcnew System::Windows::Forms::Button());
 			this->TabControl1->SuspendLayout();
 			this->tabPage_Manual->SuspendLayout();
 			this->groupBox8->SuspendLayout();
@@ -1030,6 +1032,7 @@ private: System::Windows::Forms::Label^ label120;
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->creep_apply);
 			this->groupBox8->Controls->Add(this->creep_A);
 			this->groupBox8->Controls->Add(this->label119);
 			this->groupBox8->Controls->Add(this->label120);
@@ -1079,7 +1082,7 @@ private: System::Windows::Forms::Label^ label120;
 			// label118
 			// 
 			this->label118->AutoSize = true;
-			this->label118->Location = System::Drawing::Point(232, 100);
+			this->label118->Location = System::Drawing::Point(232, 160);
 			this->label118->Name = L"label118";
 			this->label118->Size = System::Drawing::Size(10, 13);
 			this->label118->TabIndex = 70;
@@ -1088,7 +1091,7 @@ private: System::Windows::Forms::Label^ label120;
 			// creep_time
 			// 
 			this->creep_time->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->creep_time->Location = System::Drawing::Point(260, 97);
+			this->creep_time->Location = System::Drawing::Point(260, 157);
 			this->creep_time->Name = L"creep_time";
 			this->creep_time->ReadOnly = true;
 			this->creep_time->Size = System::Drawing::Size(64, 20);
@@ -1097,7 +1100,7 @@ private: System::Windows::Forms::Label^ label120;
 			// label117
 			// 
 			this->label117->AutoSize = true;
-			this->label117->Location = System::Drawing::Point(330, 101);
+			this->label117->Location = System::Drawing::Point(330, 161);
 			this->label117->Name = L"label117";
 			this->label117->Size = System::Drawing::Size(12, 13);
 			this->label117->TabIndex = 69;
@@ -3835,6 +3838,16 @@ private: System::Windows::Forms::Label^ label120;
 			this->timer_creep_update->Interval = 500;
 			this->timer_creep_update->Tick += gcnew System::EventHandler(this, &Form1::Timer_creep_update_Tick);
 			// 
+			// creep_apply
+			// 
+			this->creep_apply->Location = System::Drawing::Point(260, 99);
+			this->creep_apply->Name = L"creep_apply";
+			this->creep_apply->Size = System::Drawing::Size(64, 23);
+			this->creep_apply->TabIndex = 54;
+			this->creep_apply->Text = L"Apply";
+			this->creep_apply->UseVisualStyleBackColor = true;
+			this->creep_apply->Click += gcnew System::EventHandler(this, &Form1::Creep_apply_Click);
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -3998,8 +4011,6 @@ private: System::Void get_form_data()
 			 ManualMode::UserInputData.I_Limit_V2 = Global::StringToFloat(current_limit_V2->Text, &ok);
 			 ManualMode::UserInputData.I_Limit_V3 = Global::StringToFloat(current_limit_V3->Text, &ok);
 			 ManualMode::UserInputData.Ramp = Global::StringToFloat(manual_val_ramp->Text, &ok);
-			 ManualMode::CreepLambda = Global::StringToFloat(creep_lambda->Text, &ok);
-			 ManualMode::CreepAmplitude = Global::StringToFloat(creep_A->Text, &ok);
 
 			 if (tabPage_Manual->Visible)
 			 {
@@ -4600,6 +4611,13 @@ private: System::Void button_manual_ClearErrors_Click(System::Object^  sender, S
 			 VoltControl::ChanStatus_V2.ack_IsTripExeeded=true;
 			 VoltControl::ChanStatus_V3.ack_IsTripExeeded=true;
 		 }
+
+private: System::Void Creep_apply_Click(System::Object^ sender, System::EventArgs^ e)
+{
+	bool ok = false;
+	ManualMode::CreepLambda = Global::StringToFloat(creep_lambda->Text, &ok);
+	ManualMode::CreepAmplitude = Global::StringToFloat(creep_A->Text, &ok);
+}
 
 //***********************************
 //         Sweep Mode
@@ -5507,5 +5525,6 @@ private: System::Void Form1_FormClosing(System::Object^  sender, System::Windows
 			 delete curr_time1, curr_time2, curr_time3, curr1, curr2, curr3;
 		 }
 		 
+
 };
 }
