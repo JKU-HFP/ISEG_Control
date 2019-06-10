@@ -42,6 +42,7 @@ public:
 	static ManualValStatus InputError;
 	static ManualValStatus InputWarning;
 
+	static bool CreepActive;
 	static float CreepSetpointVoltage;
 	static float CreepAmplitude;
 	static float CreepLambda;

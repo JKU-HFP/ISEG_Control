@@ -548,6 +548,7 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->TabControl1 = (gcnew System::Windows::Forms::TabControl());
 			this->tabPage_Manual = (gcnew System::Windows::Forms::TabPage());
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->creep_apply = (gcnew System::Windows::Forms::Button());
 			this->creep_A = (gcnew System::Windows::Forms::TextBox());
 			this->label119 = (gcnew System::Windows::Forms::Label());
 			this->label120 = (gcnew System::Windows::Forms::Label());
@@ -819,7 +820,6 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->toolTip = (gcnew System::Windows::Forms::ToolTip(this->components));
 			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->timer_creep_update = (gcnew System::Windows::Forms::Timer(this->components));
-			this->creep_apply = (gcnew System::Windows::Forms::Button());
 			this->TabControl1->SuspendLayout();
 			this->tabPage_Manual->SuspendLayout();
 			this->groupBox8->SuspendLayout();
@@ -1050,6 +1050,16 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->groupBox8->TabIndex = 53;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"Creep Compensation";
+			// 
+			// creep_apply
+			// 
+			this->creep_apply->Location = System::Drawing::Point(260, 99);
+			this->creep_apply->Name = L"creep_apply";
+			this->creep_apply->Size = System::Drawing::Size(64, 23);
+			this->creep_apply->TabIndex = 54;
+			this->creep_apply->Text = L"Apply";
+			this->creep_apply->UseVisualStyleBackColor = true;
+			this->creep_apply->Click += gcnew System::EventHandler(this, &Form1::Creep_apply_Click);
 			// 
 			// creep_A
 			// 
@@ -1597,7 +1607,7 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->manual_groupbox_V1->Size = System::Drawing::Size(139, 142);
 			this->manual_groupbox_V1->TabIndex = 0;
 			this->manual_groupbox_V1->TabStop = false;
-			this->manual_groupbox_V1->Text = L"Voltage 1";
+			this->manual_groupbox_V1->Text = L"Voltage 1 (Creep comp.)";
 			// 
 			// enable_set_V1
 			// 
@@ -3838,16 +3848,6 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->timer_creep_update->Interval = 500;
 			this->timer_creep_update->Tick += gcnew System::EventHandler(this, &Form1::Timer_creep_update_Tick);
 			// 
-			// creep_apply
-			// 
-			this->creep_apply->Location = System::Drawing::Point(260, 99);
-			this->creep_apply->Name = L"creep_apply";
-			this->creep_apply->Size = System::Drawing::Size(64, 23);
-			this->creep_apply->TabIndex = 54;
-			this->creep_apply->Text = L"Apply";
-			this->creep_apply->UseVisualStyleBackColor = true;
-			this->creep_apply->Click += gcnew System::EventHandler(this, &Form1::Creep_apply_Click);
-			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -4528,6 +4528,7 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 
 				//Restart creep compensation	
 				bool creepCompensationOn = enable_CreepCompensation->Checked;
+				ManualMode::CreepActive = false;
 				if (creepCompensationOn)
 				{
 					ManualMode::CreepTime = 0.0;
@@ -4543,7 +4544,8 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 				{
 					if (creepCompensationOn)
 					{
-						VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V1, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
+						ManualMode::CreepSetpointVoltage = ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V1, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime);
+						VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::CreepSetpointVoltage);
 					}
 					else
 					{
@@ -4556,27 +4558,13 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 				}
 				if (enable_set_V2->Checked && !VoltControl::ChanStatus_V2.set_IsTripExeeded)
 				{
-					if (creepCompensationOn)
-					{
-						VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V2, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
-					}
-					else
-					{
-						VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::UserInputData.Setpoint_V2);
-					}			
+					VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::UserInputData.Setpoint_V2);					
 					VoltControl::set_ChanOn(VoltControl::Chan_V2, true);
 					Actionlog->add_entry("Set Voltage 2 (Channel " + VoltControl::Chan_V2->ToString() + ") to " + ManualMode::UserInputData.Setpoint_V2.ToString()+ " V");
 				}
 				if (enable_set_V3->Checked && !VoltControl::ChanStatus_V3.set_IsTripExeeded)
-				{
-					if (creepCompensationOn)
-					{
-						VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V3, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
-					}
-					else
-					{
-						VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::UserInputData.Setpoint_V3);
-					}
+				{		
+					VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::UserInputData.Setpoint_V3);			
 					VoltControl::set_ChanOn(VoltControl::Chan_V3, true);
 					Actionlog->add_entry("Set Voltage 3 (Channel " + VoltControl::Chan_V3->ToString() + ") to " + ManualMode::UserInputData.Setpoint_V3.ToString() + " V");
 				}
@@ -5267,20 +5255,19 @@ private: System::Void timer_form_update_Tick(System::Object^  sender, System::Ev
 
 private: System::Void Timer_creep_update_Tick(System::Object^ sender, System::EventArgs^ e)
 	{
-		ManualMode::CreepTime += timer_creep_update->Interval / 1000.0;
+
+		if (Global::CheckRangeFloat(VoltControl::Act.V1, ManualMode::CreepSetpointVoltage - 0.2, ManualMode::CreepSetpointVoltage + 0.2))
+		{
+			ManualMode::CreepActive = true;
+		}
+
+		if(ManualMode::CreepActive) ManualMode::CreepTime += timer_creep_update->Interval / 1000.0;
 
 		if (enable_set_V1->Checked && !VoltControl::ChanStatus_V1.set_IsTripExeeded)
 		{
 			VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V1, ManualMode::CreepAmplitude,ManualMode::CreepLambda, ManualMode::CreepTime));
 		}
-		if (enable_set_V2->Checked && !VoltControl::ChanStatus_V2.set_IsTripExeeded)
-		{
-			VoltControl::set_Voltage(VoltControl::Chan_V2, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V2, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
-		}
-		if (enable_set_V3->Checked && !VoltControl::ChanStatus_V3.set_IsTripExeeded)
-		{
-			VoltControl::set_Voltage(VoltControl::Chan_V3, ManualMode::CreepModelVoltage(ManualMode::UserInputData.Setpoint_V3, ManualMode::CreepAmplitude, ManualMode::CreepLambda, ManualMode::CreepTime));
-		}
+
 	}
 
 #pragma endregion
