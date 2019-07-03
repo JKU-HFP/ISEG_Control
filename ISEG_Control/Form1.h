@@ -5060,6 +5060,13 @@ private: System::Void backgroundWorker_Sweep_DoWork(System::Object^  sender, Sys
 						 if (curr2->active) curr2->AddData(VoltControl::Act.V2, VoltControl::Act.I2);
 						 if (curr3->active) curr3->AddData(VoltControl::Act.V3, VoltControl::Act.I3);
 
+						 //Write frequency counter to file
+						 if (freqCounter->Connected)
+						 {
+							 System::IO::File::AppendAllLines("Frequencies.txt", gcnew array<String^>{ freqCounter->GetFrequency().ToString()});
+						 }
+						
+
 						 overall_steps++;
 					 }
 
