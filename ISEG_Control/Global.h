@@ -25,6 +25,9 @@ public:
 	//Corrects decimal separator
 	static String^ Correct_NumberSeparator(String^ s);
 
+	//COM Port Frequency Counter
+	static int Freq_COM;
+	
 	//Converts String^ to float.
 	//If String^ is no parseable number --> returns 0 and ok=false
 	static float StringToFloat(String^ s, bool* ok);
@@ -41,6 +44,7 @@ public:
 
 	//Resize arrays of abitrary order
 	static Array^ ResizeArray(Array^ arr, cli::array<int>^ newSizes);
+
 
 };
 

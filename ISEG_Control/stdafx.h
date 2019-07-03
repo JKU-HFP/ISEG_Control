@@ -11,6 +11,7 @@
 #include "OperationModes.h"
 #include "C843_GCS_DLL.H"
 #include "PICardControl.h"
+#include "HPFrequencyCounter.h"
 #include "isegOpcClientLibrary.h"
 #include "Global.h"
 #include "ChartDirector.h"

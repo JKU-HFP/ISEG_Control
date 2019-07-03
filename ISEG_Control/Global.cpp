@@ -93,7 +93,8 @@ void Global::Read_Init(String^ filepath)
 	"sweep_default_final",
 	"Output_Time",
 	"sweep_default_ramp_initial",
-	"sweep_default_ramp_cycle"
+	"sweep_default_ramp_cycle",
+	"freq_com"
 	};
 
 	cli::array<String^>^ initvalues = gcnew cli::array<String^>(200);
@@ -202,6 +203,8 @@ void Global::Read_Init(String^ filepath)
 					case 25: //sweep_default_ramp_cycle
 						SweepMode::Default.Ramp_Cycle = Global::StringToFloat(s_value, &ok);
 						break;
+					case 26: //frequency counter COM port
+						Global::Freq_COM = Convert::ToInt32(s_value);
 					}
 			
 				}

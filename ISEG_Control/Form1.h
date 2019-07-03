@@ -19,6 +19,7 @@ namespace ISEG_Control {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace System::IO::Ports;
 	using namespace ChartDirector;
 
 	/// <summary>
@@ -162,6 +163,7 @@ private: ChartDirector::WinChartViewer^  manual_Chart_It2;
 		 Chart_IV^ curr3;
 		 WatchDog^ watch;
 		 PICardControl^ TriggerIO;
+		 HPFreqSerial^ freqCounter;
 
 private: System::Windows::Forms::Button^  button_Connect_IOs;
 private: System::Windows::Forms::Label^  Status_IOs;
@@ -513,6 +515,11 @@ private: System::Windows::Forms::TextBox^ creep_A;
 private: System::Windows::Forms::Label^ label119;
 private: System::Windows::Forms::Label^ label120;
 private: System::Windows::Forms::Button^ creep_apply;
+private: System::Windows::Forms::TextBox^ tbFrequency;
+private: System::Windows::Forms::Button^ button_Connect_Freq;
+private: System::Windows::Forms::Label^ Status_FreqCounter;
+private: System::Windows::Forms::Label^ label121;
+private: System::Windows::Forms::Label^ label122;
 
 
 
@@ -775,6 +782,10 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->Status_CAN = (gcnew System::Windows::Forms::Label());
 			this->label34 = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->button_Connect_Freq = (gcnew System::Windows::Forms::Button());
+			this->Status_FreqCounter = (gcnew System::Windows::Forms::Label());
+			this->label121 = (gcnew System::Windows::Forms::Label());
+			this->tbFrequency = (gcnew System::Windows::Forms::TextBox());
 			this->Module_error = (gcnew System::Windows::Forms::Label());
 			this->groupBox4 = (gcnew System::Windows::Forms::GroupBox());
 			this->out_setpoint_V1 = (gcnew System::Windows::Forms::TextBox());
@@ -820,6 +831,7 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->toolTip = (gcnew System::Windows::Forms::ToolTip(this->components));
 			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->timer_creep_update = (gcnew System::Windows::Forms::Timer(this->components));
+			this->label122 = (gcnew System::Windows::Forms::Label());
 			this->TabControl1->SuspendLayout();
 			this->tabPage_Manual->SuspendLayout();
 			this->groupBox8->SuspendLayout();
@@ -3399,6 +3411,10 @@ private: System::Windows::Forms::Button^ creep_apply;
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->button_Connect_Freq);
+			this->groupBox3->Controls->Add(this->Status_FreqCounter);
+			this->groupBox3->Controls->Add(this->label121);
+			this->groupBox3->Controls->Add(this->tbFrequency);
 			this->groupBox3->Controls->Add(this->Module_error);
 			this->groupBox3->Controls->Add(this->button_manual_ClearErrors);
 			this->groupBox3->Controls->Add(this->button_Connect_IOs);
@@ -3409,10 +3425,48 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->groupBox3->Controls->Add(this->label34);
 			this->groupBox3->Location = System::Drawing::Point(681, 27);
 			this->groupBox3->Name = L"groupBox3";
-			this->groupBox3->Size = System::Drawing::Size(543, 81);
+			this->groupBox3->Size = System::Drawing::Size(543, 96);
 			this->groupBox3->TabIndex = 59;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"Connections";
+			// 
+			// button_Connect_Freq
+			// 
+			this->button_Connect_Freq->Location = System::Drawing::Point(250, 65);
+			this->button_Connect_Freq->Name = L"button_Connect_Freq";
+			this->button_Connect_Freq->Size = System::Drawing::Size(106, 22);
+			this->button_Connect_Freq->TabIndex = 68;
+			this->button_Connect_Freq->Text = L"Connect Freq";
+			this->button_Connect_Freq->UseVisualStyleBackColor = true;
+			this->button_Connect_Freq->Click += gcnew System::EventHandler(this, &Form1::Button_Connect_Freq_Click);
+			// 
+			// Status_FreqCounter
+			// 
+			this->Status_FreqCounter->AutoSize = true;
+			this->Status_FreqCounter->Location = System::Drawing::Point(130, 70);
+			this->Status_FreqCounter->Name = L"Status_FreqCounter";
+			this->Status_FreqCounter->Size = System::Drawing::Size(76, 13);
+			this->Status_FreqCounter->TabIndex = 67;
+			this->Status_FreqCounter->Text = L"not connected";
+			// 
+			// label121
+			// 
+			this->label121->AutoSize = true;
+			this->label121->Location = System::Drawing::Point(11, 70);
+			this->label121->Name = L"label121";
+			this->label121->Size = System::Drawing::Size(118, 13);
+			this->label121->TabIndex = 66;
+			this->label121->Text = L"HP Frequency Counter:";
+			// 
+			// tbFrequency
+			// 
+			this->tbFrequency->BackColor = System::Drawing::SystemColors::Control;
+			this->tbFrequency->ForeColor = System::Drawing::SystemColors::WindowText;
+			this->tbFrequency->Location = System::Drawing::Point(375, 66);
+			this->tbFrequency->Name = L"tbFrequency";
+			this->tbFrequency->ReadOnly = true;
+			this->tbFrequency->Size = System::Drawing::Size(106, 20);
+			this->tbFrequency->TabIndex = 62;
 			// 
 			// Module_error
 			// 
@@ -3848,13 +3902,23 @@ private: System::Windows::Forms::Button^ creep_apply;
 			this->timer_creep_update->Interval = 500;
 			this->timer_creep_update->Tick += gcnew System::EventHandler(this, &Form1::Timer_creep_update_Tick);
 			// 
+			// label122
+			// 
+			this->label122->AutoSize = true;
+			this->label122->Location = System::Drawing::Point(1164, 97);
+			this->label122->Name = L"label122";
+			this->label122->Size = System::Drawing::Size(20, 13);
+			this->label122->TabIndex = 69;
+			this->label122->Text = L"Hz";
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
 			this->BackColor = System::Drawing::SystemColors::Control;
-			this->ClientSize = System::Drawing::Size(1237, 687);
+			this->ClientSize = System::Drawing::Size(1237, 682);
+			this->Controls->Add(this->label122);
 			this->Controls->Add(this->channel_V1);
 			this->Controls->Add(this->channel_V2);
 			this->Controls->Add(this->groupBox4);
@@ -4242,6 +4306,20 @@ private: System::Void set_form_data()
 			 // General
 			 //*********************
 			
+			 //Frequency
+			 tbFrequency->Text = freqCounter->GetFrequency().ToString("F4");
+
+			 if (freqCounter->Connected)
+			 {
+				 Status_FreqCounter->Text = "Connected";
+				 Status_FreqCounter->ForeColor = System::Drawing::Color::Black;
+			 }
+			 else
+			 {
+				 Status_FreqCounter->Text = "Not Connected";
+				 Status_FreqCounter->ForeColor = System::Drawing::Color::Red;
+			 }
+
 			 //CAN Status
 			 Status_CAN->Text = VoltControl::Status_CAN;
 			 Status_CAN->ForeColor = VoltControl::Status_CAN_Color;
@@ -4637,6 +4715,15 @@ private: System::Void button_Connect_IOs_Click(System::Object^  sender, System::
 				 Status_IOs->ForeColor = System::Drawing::Color::Red;
 				 Actionlog->add_entry("Connection to C843 IOs failed ");
 			 }
+		}
+
+private: System::Void Button_Connect_Freq_Click(System::Object^ sender, System::EventArgs^ e)
+		{
+			if (!freqCounter->Connected)
+			{
+				freqCounter->Connect(Global::Freq_COM);
+				if (freqCounter->Connected) freqCounter->StartReading();
+			}	
 		}
 
 private: System::Void Sweep_Calculate_Click(System::Object^  sender, System::EventArgs^  e)
@@ -5481,6 +5568,11 @@ private:
 		testthread = gcnew Threading::Thread(gcnew Threading::ThreadStart(VoltControl::Connect_CAN));
 		testthread->IsBackground = true;
 		watch = gcnew WatchDog(5);
+
+
+		//Test RS232
+		freqCounter = gcnew HPFreqSerial();
+		freqCounter->StartReading();
 								
 	}
 #pragma endregion	

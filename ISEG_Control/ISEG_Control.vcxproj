@@ -122,6 +122,7 @@
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="ChartDirector.cpp" />
     <ClCompile Include="Global.cpp" />
+    <ClCompile Include="HPFrequencyCounter.cpp" />
     <ClCompile Include="Logfile.cpp" />
     <ClCompile Include="OperationModes.cpp" />
     <ClCompile Include="PICardControl.cpp" />
@@ -138,6 +139,7 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Global.h" />
+    <ClInclude Include="HPFrequencyCounter.h" />
     <ClInclude Include="isegOpcClientLibrary\isegOpcClientLibrary.h" />
     <ClInclude Include="Logfile.h" />
     <ClInclude Include="OperationModes.h" />
