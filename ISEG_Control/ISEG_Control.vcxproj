@@ -106,8 +106,12 @@
     <Reference Include="netchartdir_cp, Version=5.1.1.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\..\..\..\Downloads\chartdir_net\ChartDirector\NetWinCharts\bin\netchartdir_cp.dll</HintPath>
     </Reference>
+    <Reference Include="PIDLibrary">
+      <HintPath>C:\Users\yongheng\Desktop\PIDLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows" />

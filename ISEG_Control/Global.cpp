@@ -94,7 +94,12 @@ void Global::Read_Init(String^ filepath)
 	"Output_Time",
 	"sweep_default_ramp_initial",
 	"sweep_default_ramp_cycle",
-	"freq_com"
+	"freq_com",
+	"freq_average",
+	"pid_P",
+	"pid_D",
+	"pid_I",
+	"pid_L"
 	};
 
 	cli::array<String^>^ initvalues = gcnew cli::array<String^>(200);
@@ -205,6 +210,22 @@ void Global::Read_Init(String^ filepath)
 						break;
 					case 26: //frequency counter COM port
 						Global::Freq_COM = Convert::ToInt32(s_value);
+						break;
+					case 27: //Average over x points
+						Global::Freq_Average = Convert::ToInt32(s_value);
+						break;
+					case 28: //PID P value
+						ManualMode::PID_P = Convert::ToDouble(s_value);
+						break;
+					case 29: //PID D value
+						ManualMode::PID_D = Convert::ToDouble(s_value);
+						break;
+					case 30: //PID I value
+						ManualMode::PID_I = Convert::ToDouble(s_value);
+						break;
+					case 31: //PID L 
+						ManualMode::L = Convert::ToDouble(s_value);
+						break;
 					}
 			
 				}

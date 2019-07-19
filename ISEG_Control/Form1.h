@@ -21,6 +21,7 @@ namespace ISEG_Control {
 	using namespace System::Drawing;
 	using namespace System::IO::Ports;
 	using namespace ChartDirector;
+	using namespace PIDLibrary;
 
 	/// <summary>
 	/// Zusammenfassung für Form1
@@ -164,6 +165,7 @@ private: ChartDirector::WinChartViewer^  manual_Chart_It2;
 		 WatchDog^ watch;
 		 PICardControl^ TriggerIO;
 		 HPFreqSerial^ freqCounter;
+		 PID^ creepPID;
 
 private: System::Windows::Forms::Button^  button_Connect_IOs;
 private: System::Windows::Forms::Label^  Status_IOs;
@@ -499,7 +501,7 @@ private: System::Windows::Forms::Label^  label114;
 private: System::Windows::Forms::TextBox^  current_limit_V2;
 private: System::Windows::Forms::Label^  label111;
 private: System::Windows::Forms::Label^  label112;
-private: System::Windows::Forms::GroupBox^ groupBox8;
+
 private: System::Windows::Forms::TextBox^ creep_lambda;
 private: System::Windows::Forms::Label^ label115;
 private: System::Windows::Forms::PictureBox^ pictureBox4;
@@ -520,6 +522,51 @@ private: System::Windows::Forms::Button^ button_Connect_Freq;
 private: System::Windows::Forms::Label^ Status_FreqCounter;
 private: System::Windows::Forms::Label^ label121;
 private: System::Windows::Forms::Label^ label122;
+private: System::Windows::Forms::TabControl^ tabControl_Creep;
+private: System::Windows::Forms::TabPage^ tabPage_CreepPassive;
+private: System::Windows::Forms::TabPage^ tabPage_CreepPID;
+
+
+
+private: System::Windows::Forms::PictureBox^ pictureBox5;
+private: System::Windows::Forms::Label^ label124;
+private: System::Windows::Forms::Label^ label123;
+private: System::Windows::Forms::TextBox^ tbPID_L;
+private: System::Windows::Forms::TextBox^ tBPID_Output;
+
+
+private: System::Windows::Forms::Button^ btnPIDStart;
+private: System::Windows::Forms::TextBox^ tbPID_D;
+
+
+private: System::Windows::Forms::TextBox^ tbPID_P;
+private: System::Windows::Forms::TextBox^ tbPID_I;
+
+
+private: System::Windows::Forms::Label^ label126;
+private: System::Windows::Forms::Label^ label125;
+private: System::Windows::Forms::PictureBox^ pictureBox6;
+private: System::Windows::Forms::Label^ label127;
+private: System::Windows::Forms::Button^ btnPIDDisable;
+
+private: System::Windows::Forms::Label^ label131;
+private: System::Windows::Forms::Label^ label132;
+private: System::Windows::Forms::TextBox^ tBPID_C;
+
+private: System::Windows::Forms::Label^ label130;
+private: System::Windows::Forms::TextBox^ tBPIDError;
+
+private: System::Windows::Forms::Label^ label128;
+private: System::Windows::Forms::Label^ label129;
+private: System::Windows::Forms::TextBox^ tBPIDSetpoint;
+private: System::Windows::Forms::Label^ label135;
+private: System::Windows::Forms::Label^ label134;
+private: System::Windows::Forms::Label^ label133;
+
+
+
+
+
 
 
 
@@ -554,19 +601,46 @@ private: System::Windows::Forms::Label^ label122;
 			this->timer_form_update = (gcnew System::Windows::Forms::Timer(this->components));
 			this->TabControl1 = (gcnew System::Windows::Forms::TabControl());
 			this->tabPage_Manual = (gcnew System::Windows::Forms::TabPage());
-			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->tabControl_Creep = (gcnew System::Windows::Forms::TabControl());
+			this->tabPage_CreepPID = (gcnew System::Windows::Forms::TabPage());
+			this->label126 = (gcnew System::Windows::Forms::Label());
+			this->label125 = (gcnew System::Windows::Forms::Label());
+			this->tbPID_L = (gcnew System::Windows::Forms::TextBox());
+			this->label135 = (gcnew System::Windows::Forms::Label());
+			this->label134 = (gcnew System::Windows::Forms::Label());
+			this->label133 = (gcnew System::Windows::Forms::Label());
+			this->label131 = (gcnew System::Windows::Forms::Label());
+			this->label132 = (gcnew System::Windows::Forms::Label());
+			this->tBPID_C = (gcnew System::Windows::Forms::TextBox());
+			this->label130 = (gcnew System::Windows::Forms::Label());
+			this->tBPIDError = (gcnew System::Windows::Forms::TextBox());
+			this->label128 = (gcnew System::Windows::Forms::Label());
+			this->label129 = (gcnew System::Windows::Forms::Label());
+			this->tBPIDSetpoint = (gcnew System::Windows::Forms::TextBox());
+			this->btnPIDDisable = (gcnew System::Windows::Forms::Button());
+			this->label127 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox6 = (gcnew System::Windows::Forms::PictureBox());
+			this->label124 = (gcnew System::Windows::Forms::Label());
+			this->label123 = (gcnew System::Windows::Forms::Label());
+			this->tBPID_Output = (gcnew System::Windows::Forms::TextBox());
+			this->btnPIDStart = (gcnew System::Windows::Forms::Button());
+			this->tbPID_D = (gcnew System::Windows::Forms::TextBox());
+			this->tbPID_P = (gcnew System::Windows::Forms::TextBox());
+			this->tbPID_I = (gcnew System::Windows::Forms::TextBox());
+			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
+			this->tabPage_CreepPassive = (gcnew System::Windows::Forms::TabPage());
+			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 			this->creep_apply = (gcnew System::Windows::Forms::Button());
 			this->creep_A = (gcnew System::Windows::Forms::TextBox());
 			this->label119 = (gcnew System::Windows::Forms::Label());
-			this->label120 = (gcnew System::Windows::Forms::Label());
-			this->label118 = (gcnew System::Windows::Forms::Label());
-			this->creep_time = (gcnew System::Windows::Forms::TextBox());
-			this->label117 = (gcnew System::Windows::Forms::Label());
-			this->enable_CreepCompensation = (gcnew System::Windows::Forms::CheckBox());
-			this->creep_lambda = (gcnew System::Windows::Forms::TextBox());
-			this->label115 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 			this->label116 = (gcnew System::Windows::Forms::Label());
+			this->label120 = (gcnew System::Windows::Forms::Label());
+			this->label115 = (gcnew System::Windows::Forms::Label());
+			this->label118 = (gcnew System::Windows::Forms::Label());
+			this->creep_lambda = (gcnew System::Windows::Forms::TextBox());
+			this->creep_time = (gcnew System::Windows::Forms::TextBox());
+			this->enable_CreepCompensation = (gcnew System::Windows::Forms::CheckBox());
+			this->label117 = (gcnew System::Windows::Forms::Label());
 			this->manual_groupbox_V8 = (gcnew System::Windows::Forms::GroupBox());
 			this->checkBox5 = (gcnew System::Windows::Forms::CheckBox());
 			this->textBox11 = (gcnew System::Windows::Forms::TextBox());
@@ -834,7 +908,11 @@ private: System::Windows::Forms::Label^ label122;
 			this->label122 = (gcnew System::Windows::Forms::Label());
 			this->TabControl1->SuspendLayout();
 			this->tabPage_Manual->SuspendLayout();
-			this->groupBox8->SuspendLayout();
+			this->tabControl_Creep->SuspendLayout();
+			this->tabPage_CreepPID->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
+			this->tabPage_CreepPassive->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
 			this->manual_groupbox_V8->SuspendLayout();
 			this->manual_groupbox_V7->SuspendLayout();
@@ -921,7 +999,7 @@ private: System::Windows::Forms::Label^ label122;
 			// 
 			// button_AllOff
 			// 
-			this->button_AllOff->Location = System::Drawing::Point(22, 150);
+			this->button_AllOff->Location = System::Drawing::Point(206, 56);
 			this->button_AllOff->Name = L"button_AllOff";
 			this->button_AllOff->Size = System::Drawing::Size(173, 22);
 			this->button_AllOff->TabIndex = 2;
@@ -1025,7 +1103,7 @@ private: System::Windows::Forms::Label^ label122;
 			// 
 			this->tabPage_Manual->AutoScroll = true;
 			this->tabPage_Manual->BackColor = System::Drawing::Color::WhiteSmoke;
-			this->tabPage_Manual->Controls->Add(this->groupBox8);
+			this->tabPage_Manual->Controls->Add(this->tabControl_Creep);
 			this->tabPage_Manual->Controls->Add(this->manual_groupbox_V8);
 			this->tabPage_Manual->Controls->Add(this->manual_groupbox_V7);
 			this->tabPage_Manual->Controls->Add(this->manual_groupbox_V6);
@@ -1042,30 +1120,318 @@ private: System::Windows::Forms::Label^ label122;
 			this->tabPage_Manual->TabIndex = 0;
 			this->tabPage_Manual->Text = L"Manual Mode";
 			// 
-			// groupBox8
+			// tabControl_Creep
 			// 
-			this->groupBox8->Controls->Add(this->creep_apply);
-			this->groupBox8->Controls->Add(this->creep_A);
-			this->groupBox8->Controls->Add(this->label119);
-			this->groupBox8->Controls->Add(this->label120);
-			this->groupBox8->Controls->Add(this->label118);
-			this->groupBox8->Controls->Add(this->creep_time);
-			this->groupBox8->Controls->Add(this->label117);
-			this->groupBox8->Controls->Add(this->enable_CreepCompensation);
-			this->groupBox8->Controls->Add(this->creep_lambda);
-			this->groupBox8->Controls->Add(this->label115);
-			this->groupBox8->Controls->Add(this->pictureBox4);
-			this->groupBox8->Controls->Add(this->label116);
-			this->groupBox8->Location = System::Drawing::Point(258, 24);
-			this->groupBox8->Name = L"groupBox8";
-			this->groupBox8->Size = System::Drawing::Size(362, 196);
-			this->groupBox8->TabIndex = 53;
-			this->groupBox8->TabStop = false;
-			this->groupBox8->Text = L"Creep Compensation";
+			this->tabControl_Creep->Controls->Add(this->tabPage_CreepPID);
+			this->tabControl_Creep->Controls->Add(this->tabPage_CreepPassive);
+			this->tabControl_Creep->Location = System::Drawing::Point(21, 156);
+			this->tabControl_Creep->Name = L"tabControl_Creep";
+			this->tabControl_Creep->SelectedIndex = 0;
+			this->tabControl_Creep->Size = System::Drawing::Size(594, 246);
+			this->tabControl_Creep->TabIndex = 54;
+			// 
+			// tabPage_CreepPID
+			// 
+			this->tabPage_CreepPID->Controls->Add(this->label126);
+			this->tabPage_CreepPID->Controls->Add(this->label125);
+			this->tabPage_CreepPID->Controls->Add(this->tbPID_L);
+			this->tabPage_CreepPID->Controls->Add(this->label135);
+			this->tabPage_CreepPID->Controls->Add(this->label134);
+			this->tabPage_CreepPID->Controls->Add(this->label133);
+			this->tabPage_CreepPID->Controls->Add(this->label131);
+			this->tabPage_CreepPID->Controls->Add(this->label132);
+			this->tabPage_CreepPID->Controls->Add(this->tBPID_C);
+			this->tabPage_CreepPID->Controls->Add(this->label130);
+			this->tabPage_CreepPID->Controls->Add(this->tBPIDError);
+			this->tabPage_CreepPID->Controls->Add(this->label128);
+			this->tabPage_CreepPID->Controls->Add(this->label129);
+			this->tabPage_CreepPID->Controls->Add(this->tBPIDSetpoint);
+			this->tabPage_CreepPID->Controls->Add(this->btnPIDDisable);
+			this->tabPage_CreepPID->Controls->Add(this->label127);
+			this->tabPage_CreepPID->Controls->Add(this->pictureBox6);
+			this->tabPage_CreepPID->Controls->Add(this->label124);
+			this->tabPage_CreepPID->Controls->Add(this->label123);
+			this->tabPage_CreepPID->Controls->Add(this->tBPID_Output);
+			this->tabPage_CreepPID->Controls->Add(this->btnPIDStart);
+			this->tabPage_CreepPID->Controls->Add(this->tbPID_D);
+			this->tabPage_CreepPID->Controls->Add(this->tbPID_P);
+			this->tabPage_CreepPID->Controls->Add(this->tbPID_I);
+			this->tabPage_CreepPID->Controls->Add(this->pictureBox5);
+			this->tabPage_CreepPID->Location = System::Drawing::Point(4, 22);
+			this->tabPage_CreepPID->Name = L"tabPage_CreepPID";
+			this->tabPage_CreepPID->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage_CreepPID->Size = System::Drawing::Size(586, 220);
+			this->tabPage_CreepPID->TabIndex = 1;
+			this->tabPage_CreepPID->Text = L"PID";
+			this->tabPage_CreepPID->UseVisualStyleBackColor = true;
+			// 
+			// label126
+			// 
+			this->label126->AutoSize = true;
+			this->label126->Location = System::Drawing::Point(413, 54);
+			this->label126->Name = L"label126";
+			this->label126->Size = System::Drawing::Size(19, 13);
+			this->label126->TabIndex = 75;
+			this->label126->Text = L"L=";
+			// 
+			// label125
+			// 
+			this->label125->AutoSize = true;
+			this->label125->Location = System::Drawing::Point(494, 54);
+			this->label125->Name = L"label125";
+			this->label125->Size = System::Drawing::Size(21, 13);
+			this->label125->TabIndex = 74;
+			this->label125->Text = L"μH";
+			// 
+			// tbPID_L
+			// 
+			this->tbPID_L->BackColor = System::Drawing::SystemColors::Window;
+			this->tbPID_L->Location = System::Drawing::Point(441, 50);
+			this->tbPID_L->Name = L"tbPID_L";
+			this->tbPID_L->Size = System::Drawing::Size(53, 20);
+			this->tbPID_L->TabIndex = 71;
+			this->tbPID_L->Text = L"0";
+			// 
+			// label135
+			// 
+			this->label135->AutoSize = true;
+			this->label135->Location = System::Drawing::Point(306, 194);
+			this->label135->Name = L"label135";
+			this->label135->Size = System::Drawing::Size(37, 13);
+			this->label135->TabIndex = 89;
+			this->label135->Text = L"Vs/nC";
+			// 
+			// label134
+			// 
+			this->label134->AutoSize = true;
+			this->label134->Location = System::Drawing::Point(299, 122);
+			this->label134->Name = L"label134";
+			this->label134->Size = System::Drawing::Size(47, 13);
+			this->label134->TabIndex = 88;
+			this->label134->Text = L"V/(nC*s)";
+			// 
+			// label133
+			// 
+			this->label133->AutoSize = true;
+			this->label133->Location = System::Drawing::Point(299, 46);
+			this->label133->Name = L"label133";
+			this->label133->Size = System::Drawing::Size(32, 13);
+			this->label133->TabIndex = 87;
+			this->label133->Text = L"V/nC";
+			// 
+			// label131
+			// 
+			this->label131->AutoSize = true;
+			this->label131->Location = System::Drawing::Point(492, 24);
+			this->label131->Name = L"label131";
+			this->label131->Size = System::Drawing::Size(13, 13);
+			this->label131->TabIndex = 86;
+			this->label131->Text = L"=";
+			// 
+			// label132
+			// 
+			this->label132->AutoSize = true;
+			this->label132->Location = System::Drawing::Point(558, 24);
+			this->label132->Name = L"label132";
+			this->label132->Size = System::Drawing::Size(19, 13);
+			this->label132->TabIndex = 85;
+			this->label132->Text = L"pF";
+			// 
+			// tBPID_C
+			// 
+			this->tBPID_C->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->tBPID_C->Location = System::Drawing::Point(507, 21);
+			this->tBPID_C->Name = L"tBPID_C";
+			this->tBPID_C->ReadOnly = true;
+			this->tBPID_C->Size = System::Drawing::Size(47, 20);
+			this->tBPID_C->TabIndex = 84;
+			this->tBPID_C->Text = L"0";
+			// 
+			// label130
+			// 
+			this->label130->AutoSize = true;
+			this->label130->Location = System::Drawing::Point(219, 128);
+			this->label130->Name = L"label130";
+			this->label130->Size = System::Drawing::Size(20, 13);
+			this->label130->TabIndex = 83;
+			this->label130->Text = L"nC";
+			// 
+			// tBPIDError
+			// 
+			this->tBPIDError->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->tBPIDError->Location = System::Drawing::Point(166, 125);
+			this->tBPIDError->Name = L"tBPIDError";
+			this->tBPIDError->ReadOnly = true;
+			this->tBPIDError->Size = System::Drawing::Size(53, 20);
+			this->tBPIDError->TabIndex = 82;
+			this->tBPIDError->Text = L"0";
+			// 
+			// label128
+			// 
+			this->label128->AutoSize = true;
+			this->label128->Location = System::Drawing::Point(0, 117);
+			this->label128->Name = L"label128";
+			this->label128->Size = System::Drawing::Size(54, 13);
+			this->label128->TabIndex = 81;
+			this->label128->Text = L"Q = C*V =";
+			// 
+			// label129
+			// 
+			this->label129->AutoSize = true;
+			this->label129->Location = System::Drawing::Point(109, 118);
+			this->label129->Name = L"label129";
+			this->label129->Size = System::Drawing::Size(20, 13);
+			this->label129->TabIndex = 80;
+			this->label129->Text = L"nC";
+			// 
+			// tBPIDSetpoint
+			// 
+			this->tBPIDSetpoint->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->tBPIDSetpoint->Location = System::Drawing::Point(56, 114);
+			this->tBPIDSetpoint->Name = L"tBPIDSetpoint";
+			this->tBPIDSetpoint->ReadOnly = true;
+			this->tBPIDSetpoint->Size = System::Drawing::Size(53, 20);
+			this->tBPIDSetpoint->TabIndex = 79;
+			this->tBPIDSetpoint->Text = L"0";
+			// 
+			// btnPIDDisable
+			// 
+			this->btnPIDDisable->Location = System::Drawing::Point(19, 46);
+			this->btnPIDDisable->Name = L"btnPIDDisable";
+			this->btnPIDDisable->Size = System::Drawing::Size(87, 21);
+			this->btnPIDDisable->TabIndex = 78;
+			this->btnPIDDisable->Text = L"Disable";
+			this->btnPIDDisable->UseVisualStyleBackColor = true;
+			this->btnPIDDisable->Click += gcnew System::EventHandler(this, &Form1::BtnPIDDisable_Click);
+			// 
+			// label127
+			// 
+			this->label127->AutoSize = true;
+			this->label127->Location = System::Drawing::Point(486, 118);
+			this->label127->Name = L"label127";
+			this->label127->Size = System::Drawing::Size(27, 13);
+			this->label127->TabIndex = 76;
+			this->label127->Text = L"ΔV=";
+			// 
+			// pictureBox6
+			// 
+			this->pictureBox6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.Image")));
+			this->pictureBox6->Location = System::Drawing::Point(384, 6);
+			this->pictureBox6->Name = L"pictureBox6";
+			this->pictureBox6->Size = System::Drawing::Size(110, 47);
+			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox6->TabIndex = 73;
+			this->pictureBox6->TabStop = false;
+			// 
+			// label124
+			// 
+			this->label124->AutoSize = true;
+			this->label124->Location = System::Drawing::Point(25, 24);
+			this->label124->Name = L"label124";
+			this->label124->Size = System::Drawing::Size(0, 13);
+			this->label124->TabIndex = 72;
+			// 
+			// label123
+			// 
+			this->label123->AutoSize = true;
+			this->label123->Location = System::Drawing::Point(563, 118);
+			this->label123->Name = L"label123";
+			this->label123->Size = System::Drawing::Size(14, 13);
+			this->label123->TabIndex = 33;
+			this->label123->Text = L"V";
+			// 
+			// tBPID_Output
+			// 
+			this->tBPID_Output->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->tBPID_Output->Location = System::Drawing::Point(519, 115);
+			this->tBPID_Output->Name = L"tBPID_Output";
+			this->tBPID_Output->ReadOnly = true;
+			this->tBPID_Output->Size = System::Drawing::Size(43, 20);
+			this->tBPID_Output->TabIndex = 70;
+			this->tBPID_Output->Text = L"0";
+			// 
+			// btnPIDStart
+			// 
+			this->btnPIDStart->Location = System::Drawing::Point(19, 21);
+			this->btnPIDStart->Name = L"btnPIDStart";
+			this->btnPIDStart->Size = System::Drawing::Size(87, 22);
+			this->btnPIDStart->TabIndex = 69;
+			this->btnPIDStart->Text = L"Enable";
+			this->btnPIDStart->UseVisualStyleBackColor = true;
+			this->btnPIDStart->Click += gcnew System::EventHandler(this, &Form1::BtnPIDStart_Click);
+			// 
+			// tbPID_D
+			// 
+			this->tbPID_D->BackColor = System::Drawing::SystemColors::Window;
+			this->tbPID_D->Location = System::Drawing::Point(247, 191);
+			this->tbPID_D->Name = L"tbPID_D";
+			this->tbPID_D->Size = System::Drawing::Size(53, 20);
+			this->tbPID_D->TabIndex = 57;
+			this->tbPID_D->Text = L"0";
+			// 
+			// tbPID_P
+			// 
+			this->tbPID_P->BackColor = System::Drawing::SystemColors::Window;
+			this->tbPID_P->Location = System::Drawing::Point(245, 43);
+			this->tbPID_P->Name = L"tbPID_P";
+			this->tbPID_P->Size = System::Drawing::Size(53, 20);
+			this->tbPID_P->TabIndex = 56;
+			this->tbPID_P->Text = L"0";
+			// 
+			// tbPID_I
+			// 
+			this->tbPID_I->BackColor = System::Drawing::SystemColors::Window;
+			this->tbPID_I->Location = System::Drawing::Point(245, 118);
+			this->tbPID_I->Name = L"tbPID_I";
+			this->tbPID_I->Size = System::Drawing::Size(53, 20);
+			this->tbPID_I->TabIndex = 55;
+			this->tbPID_I->Text = L"0";
+			// 
+			// pictureBox5
+			// 
+			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
+			this->pictureBox5->Location = System::Drawing::Point(12, 6);
+			this->pictureBox5->Name = L"pictureBox5";
+			this->pictureBox5->Size = System::Drawing::Size(568, 208);
+			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox5->TabIndex = 0;
+			this->pictureBox5->TabStop = false;
+			// 
+			// tabPage_CreepPassive
+			// 
+			this->tabPage_CreepPassive->Controls->Add(this->pictureBox4);
+			this->tabPage_CreepPassive->Controls->Add(this->creep_apply);
+			this->tabPage_CreepPassive->Controls->Add(this->creep_A);
+			this->tabPage_CreepPassive->Controls->Add(this->label119);
+			this->tabPage_CreepPassive->Controls->Add(this->label116);
+			this->tabPage_CreepPassive->Controls->Add(this->label120);
+			this->tabPage_CreepPassive->Controls->Add(this->label115);
+			this->tabPage_CreepPassive->Controls->Add(this->label118);
+			this->tabPage_CreepPassive->Controls->Add(this->creep_lambda);
+			this->tabPage_CreepPassive->Controls->Add(this->creep_time);
+			this->tabPage_CreepPassive->Controls->Add(this->enable_CreepCompensation);
+			this->tabPage_CreepPassive->Controls->Add(this->label117);
+			this->tabPage_CreepPassive->Location = System::Drawing::Point(4, 22);
+			this->tabPage_CreepPassive->Name = L"tabPage_CreepPassive";
+			this->tabPage_CreepPassive->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage_CreepPassive->Size = System::Drawing::Size(586, 220);
+			this->tabPage_CreepPassive->TabIndex = 0;
+			this->tabPage_CreepPassive->Text = L"Passive";
+			this->tabPage_CreepPassive->UseVisualStyleBackColor = true;
+			// 
+			// pictureBox4
+			// 
+			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
+			this->pictureBox4->Location = System::Drawing::Point(33, 27);
+			this->pictureBox4->Name = L"pictureBox4";
+			this->pictureBox4->Size = System::Drawing::Size(204, 161);
+			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox4->TabIndex = 0;
+			this->pictureBox4->TabStop = false;
 			// 
 			// creep_apply
 			// 
-			this->creep_apply->Location = System::Drawing::Point(260, 99);
+			this->creep_apply->Location = System::Drawing::Point(285, 106);
 			this->creep_apply->Name = L"creep_apply";
 			this->creep_apply->Size = System::Drawing::Size(64, 23);
 			this->creep_apply->TabIndex = 54;
@@ -1077,7 +1443,7 @@ private: System::Windows::Forms::Label^ label122;
 			// 
 			this->creep_A->BackColor = System::Drawing::SystemColors::Window;
 			this->creep_A->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->creep_A->Location = System::Drawing::Point(260, 45);
+			this->creep_A->Location = System::Drawing::Point(285, 52);
 			this->creep_A->Name = L"creep_A";
 			this->creep_A->Size = System::Drawing::Size(64, 20);
 			this->creep_A->TabIndex = 71;
@@ -1086,95 +1452,85 @@ private: System::Windows::Forms::Label^ label122;
 			// label119
 			// 
 			this->label119->AutoSize = true;
-			this->label119->Location = System::Drawing::Point(232, 48);
+			this->label119->Location = System::Drawing::Point(257, 55);
 			this->label119->Name = L"label119";
 			this->label119->Size = System::Drawing::Size(14, 13);
 			this->label119->TabIndex = 73;
 			this->label119->Text = L"A";
 			// 
+			// label116
+			// 
+			this->label116->AutoSize = true;
+			this->label116->Location = System::Drawing::Point(355, 82);
+			this->label116->Name = L"label116";
+			this->label116->Size = System::Drawing::Size(23, 13);
+			this->label116->TabIndex = 34;
+			this->label116->Text = L"1/s";
+			// 
 			// label120
 			// 
 			this->label120->AutoSize = true;
-			this->label120->Location = System::Drawing::Point(330, 49);
+			this->label120->Location = System::Drawing::Point(355, 56);
 			this->label120->Name = L"label120";
 			this->label120->Size = System::Drawing::Size(23, 13);
 			this->label120->TabIndex = 72;
 			this->label120->Text = L"1/s";
 			// 
+			// label115
+			// 
+			this->label115->AutoSize = true;
+			this->label115->Location = System::Drawing::Point(257, 81);
+			this->label115->Name = L"label115";
+			this->label115->Size = System::Drawing::Size(12, 13);
+			this->label115->TabIndex = 35;
+			this->label115->Text = L"λ";
+			// 
 			// label118
 			// 
 			this->label118->AutoSize = true;
-			this->label118->Location = System::Drawing::Point(232, 160);
+			this->label118->Location = System::Drawing::Point(257, 167);
 			this->label118->Name = L"label118";
 			this->label118->Size = System::Drawing::Size(10, 13);
 			this->label118->TabIndex = 70;
 			this->label118->Text = L"t";
 			// 
+			// creep_lambda
+			// 
+			this->creep_lambda->BackColor = System::Drawing::SystemColors::Window;
+			this->creep_lambda->ForeColor = System::Drawing::SystemColors::WindowText;
+			this->creep_lambda->Location = System::Drawing::Point(285, 78);
+			this->creep_lambda->Name = L"creep_lambda";
+			this->creep_lambda->Size = System::Drawing::Size(64, 20);
+			this->creep_lambda->TabIndex = 33;
+			this->creep_lambda->Text = L"0";
+			// 
 			// creep_time
 			// 
 			this->creep_time->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->creep_time->Location = System::Drawing::Point(260, 157);
+			this->creep_time->Location = System::Drawing::Point(285, 164);
 			this->creep_time->Name = L"creep_time";
 			this->creep_time->ReadOnly = true;
 			this->creep_time->Size = System::Drawing::Size(64, 20);
 			this->creep_time->TabIndex = 68;
 			// 
-			// label117
-			// 
-			this->label117->AutoSize = true;
-			this->label117->Location = System::Drawing::Point(330, 161);
-			this->label117->Name = L"label117";
-			this->label117->Size = System::Drawing::Size(12, 13);
-			this->label117->TabIndex = 69;
-			this->label117->Text = L"s";
-			// 
 			// enable_CreepCompensation
 			// 
 			this->enable_CreepCompensation->AutoSize = true;
-			this->enable_CreepCompensation->Location = System::Drawing::Point(263, 19);
+			this->enable_CreepCompensation->Location = System::Drawing::Point(288, 26);
 			this->enable_CreepCompensation->Name = L"enable_CreepCompensation";
 			this->enable_CreepCompensation->Size = System::Drawing::Size(58, 17);
 			this->enable_CreepCompensation->TabIndex = 33;
 			this->enable_CreepCompensation->Text = L"enable";
 			this->enable_CreepCompensation->UseVisualStyleBackColor = true;
 			// 
-			// creep_lambda
+			// label117
 			// 
-			this->creep_lambda->BackColor = System::Drawing::SystemColors::Window;
-			this->creep_lambda->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->creep_lambda->Location = System::Drawing::Point(260, 71);
-			this->creep_lambda->Name = L"creep_lambda";
-			this->creep_lambda->Size = System::Drawing::Size(64, 20);
-			this->creep_lambda->TabIndex = 33;
-			this->creep_lambda->Text = L"0";
-			// 
-			// label115
-			// 
-			this->label115->AutoSize = true;
-			this->label115->Location = System::Drawing::Point(232, 74);
-			this->label115->Name = L"label115";
-			this->label115->Size = System::Drawing::Size(12, 13);
-			this->label115->TabIndex = 35;
-			this->label115->Text = L"λ";
-			// 
-			// pictureBox4
-			// 
-			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(6, 16);
-			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(204, 161);
-			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox4->TabIndex = 0;
-			this->pictureBox4->TabStop = false;
-			// 
-			// label116
-			// 
-			this->label116->AutoSize = true;
-			this->label116->Location = System::Drawing::Point(330, 75);
-			this->label116->Name = L"label116";
-			this->label116->Size = System::Drawing::Size(23, 13);
-			this->label116->TabIndex = 34;
-			this->label116->Text = L"1/s";
+			this->label117->AutoSize = true;
+			this->label117->Location = System::Drawing::Point(355, 168);
+			this->label117->Name = L"label117";
+			this->label117->Size = System::Drawing::Size(12, 13);
+			this->label117->TabIndex = 69;
+			this->label117->Text = L"s";
 			// 
 			// manual_groupbox_V8
 			// 
@@ -1182,9 +1538,9 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V8->Controls->Add(this->textBox11);
 			this->manual_groupbox_V8->Controls->Add(this->label95);
 			this->manual_groupbox_V8->Controls->Add(this->label96);
-			this->manual_groupbox_V8->Location = System::Drawing::Point(482, 410);
+			this->manual_groupbox_V8->Location = System::Drawing::Point(475, 529);
 			this->manual_groupbox_V8->Name = L"manual_groupbox_V8";
-			this->manual_groupbox_V8->Size = System::Drawing::Size(135, 142);
+			this->manual_groupbox_V8->Size = System::Drawing::Size(140, 94);
 			this->manual_groupbox_V8->TabIndex = 52;
 			this->manual_groupbox_V8->TabStop = false;
 			this->manual_groupbox_V8->Text = L"Voltage 8";
@@ -1235,9 +1591,9 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V7->Controls->Add(this->textBox10);
 			this->manual_groupbox_V7->Controls->Add(this->label93);
 			this->manual_groupbox_V7->Controls->Add(this->label94);
-			this->manual_groupbox_V7->Location = System::Drawing::Point(331, 410);
+			this->manual_groupbox_V7->Location = System::Drawing::Point(324, 529);
 			this->manual_groupbox_V7->Name = L"manual_groupbox_V7";
-			this->manual_groupbox_V7->Size = System::Drawing::Size(135, 142);
+			this->manual_groupbox_V7->Size = System::Drawing::Size(135, 94);
 			this->manual_groupbox_V7->TabIndex = 52;
 			this->manual_groupbox_V7->TabStop = false;
 			this->manual_groupbox_V7->Text = L"Voltage 7";
@@ -1288,9 +1644,9 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V6->Controls->Add(this->manual_val_V6);
 			this->manual_groupbox_V6->Controls->Add(this->label73);
 			this->manual_groupbox_V6->Controls->Add(this->label74);
-			this->manual_groupbox_V6->Location = System::Drawing::Point(175, 410);
+			this->manual_groupbox_V6->Location = System::Drawing::Point(168, 529);
 			this->manual_groupbox_V6->Name = L"manual_groupbox_V6";
-			this->manual_groupbox_V6->Size = System::Drawing::Size(135, 142);
+			this->manual_groupbox_V6->Size = System::Drawing::Size(135, 94);
 			this->manual_groupbox_V6->TabIndex = 51;
 			this->manual_groupbox_V6->TabStop = false;
 			this->manual_groupbox_V6->Text = L"Voltage 6";
@@ -1341,9 +1697,9 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V5->Controls->Add(this->manual_val_V5);
 			this->manual_groupbox_V5->Controls->Add(this->label71);
 			this->manual_groupbox_V5->Controls->Add(this->label72);
-			this->manual_groupbox_V5->Location = System::Drawing::Point(20, 410);
+			this->manual_groupbox_V5->Location = System::Drawing::Point(13, 529);
 			this->manual_groupbox_V5->Name = L"manual_groupbox_V5";
-			this->manual_groupbox_V5->Size = System::Drawing::Size(139, 142);
+			this->manual_groupbox_V5->Size = System::Drawing::Size(139, 94);
 			this->manual_groupbox_V5->TabIndex = 50;
 			this->manual_groupbox_V5->TabStop = false;
 			this->manual_groupbox_V5->Text = L"Voltage 5";
@@ -1394,9 +1750,9 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V4->Controls->Add(this->manual_val_V4);
 			this->manual_groupbox_V4->Controls->Add(this->label69);
 			this->manual_groupbox_V4->Controls->Add(this->label70);
-			this->manual_groupbox_V4->Location = System::Drawing::Point(483, 256);
+			this->manual_groupbox_V4->Location = System::Drawing::Point(476, 427);
 			this->manual_groupbox_V4->Name = L"manual_groupbox_V4";
-			this->manual_groupbox_V4->Size = System::Drawing::Size(139, 142);
+			this->manual_groupbox_V4->Size = System::Drawing::Size(139, 92);
 			this->manual_groupbox_V4->TabIndex = 49;
 			this->manual_groupbox_V4->TabStop = false;
 			this->manual_groupbox_V4->Text = L"Voltage 4";
@@ -1447,9 +1803,9 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V3->Controls->Add(this->enable_set_V3);
 			this->manual_groupbox_V3->Controls->Add(this->manual_val_V3);
 			this->manual_groupbox_V3->Controls->Add(this->label10);
-			this->manual_groupbox_V3->Location = System::Drawing::Point(327, 258);
+			this->manual_groupbox_V3->Location = System::Drawing::Point(320, 429);
 			this->manual_groupbox_V3->Name = L"manual_groupbox_V3";
-			this->manual_groupbox_V3->Size = System::Drawing::Size(139, 140);
+			this->manual_groupbox_V3->Size = System::Drawing::Size(139, 90);
 			this->manual_groupbox_V3->TabIndex = 0;
 			this->manual_groupbox_V3->TabStop = false;
 			this->manual_groupbox_V3->Text = L"Voltage 3";
@@ -1498,9 +1854,9 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V2->Controls->Add(this->enable_set_V2);
 			this->manual_groupbox_V2->Controls->Add(this->label8);
 			this->manual_groupbox_V2->Controls->Add(this->manual_val_V2);
-			this->manual_groupbox_V2->Location = System::Drawing::Point(175, 258);
+			this->manual_groupbox_V2->Location = System::Drawing::Point(168, 429);
 			this->manual_groupbox_V2->Name = L"manual_groupbox_V2";
-			this->manual_groupbox_V2->Size = System::Drawing::Size(135, 140);
+			this->manual_groupbox_V2->Size = System::Drawing::Size(135, 90);
 			this->manual_groupbox_V2->TabIndex = 1;
 			this->manual_groupbox_V2->TabStop = false;
 			this->manual_groupbox_V2->Text = L"Voltage 2";
@@ -1553,7 +1909,7 @@ private: System::Windows::Forms::Label^ label122;
 			this->groupBox2->Controls->Add(this->Act_ChartUpdateRate);
 			this->groupBox2->Location = System::Drawing::Point(20, 24);
 			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Size = System::Drawing::Size(221, 196);
+			this->groupBox2->Size = System::Drawing::Size(595, 122);
 			this->groupBox2->TabIndex = 48;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"General";
@@ -1573,7 +1929,7 @@ private: System::Windows::Forms::Label^ label122;
 			// 
 			// button_SetVoltage
 			// 
-			this->button_SetVoltage->Location = System::Drawing::Point(22, 124);
+			this->button_SetVoltage->Location = System::Drawing::Point(206, 30);
 			this->button_SetVoltage->Name = L"button_SetVoltage";
 			this->button_SetVoltage->Size = System::Drawing::Size(173, 23);
 			this->button_SetVoltage->TabIndex = 1;
@@ -1614,9 +1970,10 @@ private: System::Windows::Forms::Label^ label122;
 			this->manual_groupbox_V1->Controls->Add(this->manual_val_V1);
 			this->manual_groupbox_V1->Controls->Add(this->label11);
 			this->manual_groupbox_V1->Controls->Add(this->label5);
-			this->manual_groupbox_V1->Location = System::Drawing::Point(20, 256);
+			this->manual_groupbox_V1->ForeColor = System::Drawing::Color::Red;
+			this->manual_groupbox_V1->Location = System::Drawing::Point(13, 427);
 			this->manual_groupbox_V1->Name = L"manual_groupbox_V1";
-			this->manual_groupbox_V1->Size = System::Drawing::Size(139, 142);
+			this->manual_groupbox_V1->Size = System::Drawing::Size(139, 92);
 			this->manual_groupbox_V1->TabIndex = 0;
 			this->manual_groupbox_V1->TabStop = false;
 			this->manual_groupbox_V1->Text = L"Voltage 1 (Creep comp.)";
@@ -2919,7 +3276,7 @@ private: System::Windows::Forms::Label^ label122;
 			this->groupBox7->Controls->Add(this->current_limit_V1);
 			this->groupBox7->Controls->Add(this->label18);
 			this->groupBox7->Controls->Add(this->label17);
-			this->groupBox7->Location = System::Drawing::Point(31, 120);
+			this->groupBox7->Location = System::Drawing::Point(31, 133);
 			this->groupBox7->Name = L"groupBox7";
 			this->groupBox7->Size = System::Drawing::Size(409, 124);
 			this->groupBox7->TabIndex = 55;
@@ -3933,8 +4290,13 @@ private: System::Windows::Forms::Label^ label122;
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load_1);
 			this->TabControl1->ResumeLayout(false);
 			this->tabPage_Manual->ResumeLayout(false);
-			this->groupBox8->ResumeLayout(false);
-			this->groupBox8->PerformLayout();
+			this->tabControl_Creep->ResumeLayout(false);
+			this->tabPage_CreepPID->ResumeLayout(false);
+			this->tabPage_CreepPID->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->EndInit();
+			this->tabPage_CreepPassive->ResumeLayout(false);
+			this->tabPage_CreepPassive->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
 			this->manual_groupbox_V8->ResumeLayout(false);
 			this->manual_groupbox_V8->PerformLayout();
@@ -4040,6 +4402,12 @@ private: System::Void init_form_data()
 				trackBar_ChartUpdateRate->Value=ManualMode::Default.ChartUpdateRate;
 			}
 
+			//PID Creep compensation
+			tbPID_P->Text = (ManualMode::PID_P/1E9).ToString();
+			tbPID_D->Text = (ManualMode::PID_D/1E9).ToString();
+			tbPID_I->Text = (ManualMode::PID_I/1E9).ToString();
+			tbPID_L->Text = (ManualMode::L*1E6).ToString();
+			
 			//*********************
 			// SweepMode
 			//*********************
@@ -4082,7 +4450,6 @@ private: System::Void get_form_data()
 				 ManualMode::UserInputData.Setpoint_V2 = Global::StringToFloat(manual_val_V2->Text, &ok);
 				 ManualMode::UserInputData.Setpoint_V3 = Global::StringToFloat(manual_val_V3->Text, &ok);
 			 }
-
 			
 			 //*********************
 			 // Sweep Mode
@@ -4401,6 +4768,14 @@ private: System::Void set_form_data()
 				 else manual_val_V3->BackColor = System::Drawing::SystemColors::Window;
 
 				 creep_time->Text = ManualMode::CreepTime.ToString();
+				 
+				 if (tabPage_CreepPID->Visible)
+				 {
+					 tBPIDSetpoint->Text = (ManualMode::PID_Setpoint/1E-9).ToString("F4");
+					 tBPIDError->Text = (ManualMode::Error/1E-9).ToString("F4");
+					 tBPID_C->Text = (ManualMode::act_C/1E-12).ToString("F4");
+					 tBPID_Output->Text = ManualMode::Output.ToString("F2");
+				 }
 			 }
 		
 			//*********************
@@ -4605,7 +4980,7 @@ private: System::Void button_SetVoltage_Click(System::Object^  sender, System::E
 				Actionlog->add_entry("Set current trip V3 to " + ManualMode::UserInputData.I_Limit_V3.ToString() + " µA");
 
 				//Restart creep compensation	
-				bool creepCompensationOn = enable_CreepCompensation->Checked;
+				bool creepCompensationOn = enable_CreepCompensation->Checked && tabPage_CreepPassive->Visible;
 				ManualMode::CreepActive = false;
 				if (creepCompensationOn)
 				{
@@ -5576,11 +5951,36 @@ private:
 		testthread->IsBackground = true;
 		watch = gcnew WatchDog(5);
 
-
-		//Test RS232
 		freqCounter = gcnew HPFreqSerial();
-		freqCounter->StartReading();
-								
+		freqCounter->AveragePoints = Global::Freq_Average;
+
+		PIDLibrary::GetDouble^ getPv_del = gcnew PIDLibrary::GetDouble(this, &Form1::PIDGetQ);
+		PIDLibrary::GetDouble^ getSp_del = gcnew PIDLibrary::GetDouble(this, &Form1::PIDGetSp);
+		PIDLibrary::SetDouble^ setOut_del = gcnew PIDLibrary::SetDouble(this, &Form1::PIDSetOutput);
+
+		creepPID = gcnew PID(ManualMode::PID_P, ManualMode::PID_D, ManualMode::PID_I, ManualMode::Pv_Max, ManualMode::Pv_Min, ManualMode::Output_Max, ManualMode::Output_Min, getPv_del, getSp_del, setOut_del);
+	}
+
+	private: System::Double PIDGetQ()
+	{
+		//Return Q in [C]
+		ManualMode::act_C = 1 / (Math::Pow(2 * Math::PI, 2) * ManualMode::L) * 1 / Math::Pow(freqCounter->GetFrequency(), 2);
+		ManualMode::act_Q = VoltControl::Act.V1 * ManualMode::act_C;
+
+		ManualMode::Error = ManualMode::PID_Setpoint - ManualMode::act_Q;
+
+		return ManualMode::act_Q;
+	}
+
+	private: System::Double PIDGetSp()
+	{
+		return ManualMode::PID_Setpoint;
+	}
+
+	private: System::Void PIDSetOutput(double delta_V)
+	{
+		ManualMode::Output = delta_V;
+		VoltControl::set_Voltage(VoltControl::Chan_V1, ManualMode::PID_Start_V + delta_V);
 	}
 #pragma endregion	
 
@@ -5612,5 +6012,30 @@ private: System::Void Form1_FormClosing(System::Object^  sender, System::Windows
 		 }
 		 
 
+private: System::Void BtnPIDStart_Click(System::Object^ sender, System::EventArgs^ e)
+		{
+
+			if (!enable_set_V1->Checked) return;
+
+			ManualMode::PID_P = double::Parse(tbPID_P->Text)*1E9;
+			ManualMode::PID_D = double::Parse(tbPID_D->Text)*1E9;
+			ManualMode::PID_I = double::Parse(tbPID_I->Text) * 1E9;
+			ManualMode::L = double::Parse(tbPID_L->Text)*1E-6;
+
+			ManualMode::PID_Setpoint = PIDGetQ();
+			
+			creepPID->Disable();
+
+			creepPID->PGain = ManualMode::PID_P;
+			creepPID->DGain = ManualMode::PID_D;
+			creepPID->IGain = ManualMode::PID_I;
+			
+			creepPID->Reset();
+			creepPID->Enable();
+		}
+private: System::Void BtnPIDDisable_Click(System::Object^ sender, System::EventArgs^ e) 
+		{
+			creepPID-> Disable();
+		}
 };
 }

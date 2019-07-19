@@ -1,5 +1,6 @@
 #include "stdafx.h"
 
+using namespace System::Data::Linq;
 
 HPFreqSerial::HPFreqSerial()
 {
@@ -45,11 +46,22 @@ void HPFreqSerial::StartReading()
 {
 	if (_serialPort->IsOpen)
 	{
+		_freqStack = gcnew array<double>(AveragePoints);
+
 		_doRead = true;
 		_serialPort->ReadExisting(); //Clear buffer
 		_readThread->Start();
 	}
 }
+
+array<double>^ HPFreqSerial::ShiftRight(array<double>^ inarr)
+{
+	array<double>^ tmp_arr = gcnew array<double>(inarr->Length);
+	Array::Copy(inarr, 1, tmp_arr, 0, inarr->Length - 1);
+	
+	return tmp_arr;
+}
+
 
 void HPFreqSerial::StopReading()
 {
@@ -103,7 +115,22 @@ void HPFreqSerial::DoRead()
 		{
 			Monitor::Exit(_lockObj);
 		}	*/
-		_frequency = val;
+		
+		if (val >= 0)
+		{
+			_freqStack = ShiftRight(_freqStack);
+			_freqStack[0] = val;
+			
+			double average = 0;
+			for (int i = 0; i < _freqStack->Length; i++)
+			{
+				average += _freqStack[i];
+			}
+			average = average / _freqStack->Length;
+
+			_frequency = average;
+		}
+	
 	}
 }
 

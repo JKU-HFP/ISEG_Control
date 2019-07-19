@@ -27,6 +27,7 @@ public:
 
 	//COM Port Frequency Counter
 	static int Freq_COM;
+	static int Freq_Average;
 	
 	//Converts String^ to float.
 	//If String^ is no parseable number --> returns 0 and ok=false

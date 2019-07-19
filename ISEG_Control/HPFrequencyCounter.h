@@ -18,16 +18,19 @@ private:
 	Thread^ _readThread;
 	bool _doRead;
 	Object^ _lockObj;
+	array<double>^ _freqStack;
 
 	double _frequency = -1.0;
-	
+
 	void DoRead();
+	array<double>^ ShiftRight(array<double>^ inarr);
 
 public:
 	HPFreqSerial();
 	~HPFreqSerial();
 
 	property bool Connected;
+	property int AveragePoints;
 
 	void Connect(int com);
 	void StartReading();

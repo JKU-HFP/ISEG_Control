@@ -42,12 +42,30 @@ public:
 	static ManualValStatus InputError;
 	static ManualValStatus InputWarning;
 
+	//Passive creep control
 	static bool CreepActive;
 	static float CreepSetpointVoltage;
 	static float CreepAmplitude;
 	static float CreepLambda;
 	static float CreepTime;
 	static float CreepModelVoltage(float involt, float A, float lambda, float t);
+
+	//Active PID creep control
+	static double PID_Setpoint;
+	static double PID_Start_V;
+	static double Error;
+	static double PID_P = 0;
+	static double PID_I = 0;
+	static double PID_D = 0;
+	static double L = 50E-6;
+	static double act_C;
+	static double act_Q;
+	static double Pv_Min = 0;
+	static double Pv_Max = 1;
+	static double Output;
+	static double Output_Min = -10;
+	static double Output_Max = 10;
+
 };
 
 
