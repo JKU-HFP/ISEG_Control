@@ -66,6 +66,8 @@ public:
 	static double Output_Min = -10;
 	static double Output_Max = 10;
 
+	static double GetC(double freq, double L);
+
 };
 
 

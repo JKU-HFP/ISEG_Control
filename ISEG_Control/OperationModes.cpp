@@ -14,6 +14,11 @@ float ManualMode::CreepModelVoltage(float involt, float A, float lambda, float t
 	return involt * (1 + A * Math::Exp(- lambda * t));
 }
 
+double ManualMode::GetC(double freq, double L)
+{
+	return 1 / (Math::Pow(2 * Math::PI, 2) * ManualMode::L) * 1 / Math::Pow(freq, 2);
+}
+
 //***********************************************************
 //					  Sweep Mode
 //***********************************************************

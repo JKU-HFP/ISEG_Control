@@ -5103,6 +5103,9 @@ private: System::Void set_form_data()
 				 
 				 if (tabPage_CreepPID->Visible)
 				 {
+					
+					 if(!creepPID->Enabled) ManualMode::act_C = ManualMode::GetC(freqCounter->GetFrequency(), ManualMode::L);
+
 					 tBPIDSetpoint->Text = (ManualMode::PID_Setpoint/1E-9).ToString("F4");
 					 tBPIDError->Text = (ManualMode::Error/1E-9).ToString("F4");
 					 tBPID_C->Text = (ManualMode::act_C/1E-12).ToString("F4");
@@ -6296,7 +6299,7 @@ private:
 	private: System::Double PIDGetQ()
 	{
 		//Return Q in [C]
-		ManualMode::act_C = 1 / (Math::Pow(2 * Math::PI, 2) * ManualMode::L) * 1 / Math::Pow(freqCounter->GetFrequency(), 2);
+		ManualMode::act_C = ManualMode::GetC(freqCounter->GetFrequency, ManualMode::L);
 		ManualMode::act_Q = VoltControl::Act.V1 * ManualMode::act_C;
 
 		ManualMode::Error = ManualMode::PID_Setpoint - ManualMode::act_Q;

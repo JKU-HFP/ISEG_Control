@@ -99,7 +99,9 @@ void Global::Read_Init(String^ filepath)
 	"pid_P",
 	"pid_D",
 	"pid_I",
-	"pid_L"
+	"pid_L",
+	"pid_out_min"
+	"pid_out_max"
 	};
 
 	cli::array<String^>^ initvalues = gcnew cli::array<String^>(200);
@@ -226,6 +228,11 @@ void Global::Read_Init(String^ filepath)
 					case 31: //PID L 
 						ManualMode::L = Convert::ToDouble(s_value);
 						break;
+					case 32: //Pid output min
+						ManualMode::Output_Min = Convert::ToDouble(s_value);
+						break;
+					case 33: //Pid output max
+						ManualMode::Output_Max = Convert::ToDouble(s_value);
 					}
 			
 				}
