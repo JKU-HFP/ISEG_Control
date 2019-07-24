@@ -956,52 +956,58 @@ private: System::Windows::Forms::Label^ label133;
 			// out_val_V2
 			// 
 			this->out_val_V2->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_val_V2->Location = System::Drawing::Point(160, 23);
+			this->out_val_V2->Location = System::Drawing::Point(213, 28);
+			this->out_val_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_val_V2->Name = L"out_val_V2";
 			this->out_val_V2->ReadOnly = true;
-			this->out_val_V2->Size = System::Drawing::Size(64, 20);
+			this->out_val_V2->Size = System::Drawing::Size(84, 22);
 			this->out_val_V2->TabIndex = 18;
 			// 
 			// manual_val_ramp
 			// 
-			this->manual_val_ramp->Location = System::Drawing::Point(184, 32);
+			this->manual_val_ramp->Location = System::Drawing::Point(245, 39);
+			this->manual_val_ramp->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_val_ramp->Name = L"manual_val_ramp";
-			this->manual_val_ramp->Size = System::Drawing::Size(67, 20);
+			this->manual_val_ramp->Size = System::Drawing::Size(88, 22);
 			this->manual_val_ramp->TabIndex = 20;
 			this->manual_val_ramp->Text = L"0,01";
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(27, 35);
+			this->label2->Location = System::Drawing::Point(36, 43);
+			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(103, 13);
+			this->label2->Size = System::Drawing::Size(134, 17);
 			this->label2->TabIndex = 21;
 			this->label2->Text = L"Ramp Manual Mode";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(257, 35);
+			this->label3->Location = System::Drawing::Point(343, 43);
+			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(24, 13);
+			this->label3->Size = System::Drawing::Size(28, 17);
 			this->label3->TabIndex = 22;
 			this->label3->Text = L"V/s";
 			// 
 			// out_val_ramp
 			// 
-			this->out_val_ramp->Location = System::Drawing::Point(373, 32);
+			this->out_val_ramp->Location = System::Drawing::Point(497, 39);
+			this->out_val_ramp->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_val_ramp->Name = L"out_val_ramp";
 			this->out_val_ramp->ReadOnly = true;
-			this->out_val_ramp->Size = System::Drawing::Size(67, 20);
+			this->out_val_ramp->Size = System::Drawing::Size(88, 22);
 			this->out_val_ramp->TabIndex = 23;
 			this->toolTip->SetToolTip(this->out_val_ramp, L"Actually used ramp for all channels");
 			// 
 			// button_AllOff
 			// 
-			this->button_AllOff->Location = System::Drawing::Point(206, 56);
+			this->button_AllOff->Location = System::Drawing::Point(275, 69);
+			this->button_AllOff->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button_AllOff->Name = L"button_AllOff";
-			this->button_AllOff->Size = System::Drawing::Size(173, 22);
+			this->button_AllOff->Size = System::Drawing::Size(231, 27);
 			this->button_AllOff->TabIndex = 2;
 			this->button_AllOff->Text = L"All Off";
 			this->button_AllOff->UseVisualStyleBackColor = true;
@@ -1010,53 +1016,59 @@ private: System::Windows::Forms::Label^ label133;
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(446, 35);
+			this->label4->Location = System::Drawing::Point(595, 43);
+			this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(24, 13);
+			this->label4->Size = System::Drawing::Size(28, 17);
 			this->label4->TabIndex = 25;
 			this->label4->Text = L"V/s";
 			// 
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(229, 26);
+			this->label7->Location = System::Drawing::Point(305, 32);
+			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(14, 13);
+			this->label7->Size = System::Drawing::Size(17, 17);
 			this->label7->TabIndex = 28;
 			this->label7->Text = L"V";
 			// 
 			// label15
 			// 
 			this->label15->AutoSize = true;
-			this->label15->Location = System::Drawing::Point(227, 49);
+			this->label15->Location = System::Drawing::Point(303, 60);
+			this->label15->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(20, 13);
+			this->label15->Size = System::Drawing::Size(25, 17);
 			this->label15->TabIndex = 38;
 			this->label15->Text = L"µA";
 			// 
 			// out_val_I2
 			// 
 			this->out_val_I2->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_val_I2->Location = System::Drawing::Point(160, 48);
+			this->out_val_I2->Location = System::Drawing::Point(213, 59);
+			this->out_val_I2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_val_I2->Name = L"out_val_I2";
 			this->out_val_I2->ReadOnly = true;
-			this->out_val_I2->Size = System::Drawing::Size(64, 20);
+			this->out_val_I2->Size = System::Drawing::Size(84, 22);
 			this->out_val_I2->TabIndex = 35;
 			// 
 			// label17
 			// 
 			this->label17->AutoSize = true;
-			this->label17->Location = System::Drawing::Point(18, 33);
+			this->label17->Location = System::Drawing::Point(24, 41);
+			this->label17->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(20, 13);
+			this->label17->Size = System::Drawing::Size(25, 17);
 			this->label17->TabIndex = 41;
 			this->label17->Text = L"V1";
 			// 
 			// current_limit_V1
 			// 
-			this->current_limit_V1->Location = System::Drawing::Point(154, 30);
+			this->current_limit_V1->Location = System::Drawing::Point(205, 37);
+			this->current_limit_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->current_limit_V1->Name = L"current_limit_V1";
-			this->current_limit_V1->Size = System::Drawing::Size(67, 20);
+			this->current_limit_V1->Size = System::Drawing::Size(88, 22);
 			this->current_limit_V1->TabIndex = 42;
 			this->current_limit_V1->Text = L"0";
 			this->toolTip->SetToolTip(this->current_limit_V1, L"If a channel exceeds this limit, all channels ramp down\r\nto 0V. A new voltage can"
@@ -1065,9 +1077,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label18
 			// 
 			this->label18->AutoSize = true;
-			this->label18->Location = System::Drawing::Point(223, 33);
+			this->label18->Location = System::Drawing::Point(297, 41);
+			this->label18->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(20, 13);
+			this->label18->Size = System::Drawing::Size(25, 17);
 			this->label18->TabIndex = 43;
 			this->label18->Text = L"µA";
 			// 
@@ -1092,10 +1105,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->TabControl1->Controls->Add(this->tabPage_Sweep);
 			this->TabControl1->Controls->Add(this->tabPage_Settings);
 			this->TabControl1->Controls->Add(this->tabPage_test);
-			this->TabControl1->Location = System::Drawing::Point(12, 12);
+			this->TabControl1->Location = System::Drawing::Point(16, 15);
+			this->TabControl1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->TabControl1->Name = L"TabControl1";
 			this->TabControl1->SelectedIndex = 0;
-			this->TabControl1->Size = System::Drawing::Size(644, 663);
+			this->TabControl1->Size = System::Drawing::Size(859, 816);
 			this->TabControl1->SizeMode = System::Windows::Forms::TabSizeMode::FillToRight;
 			this->TabControl1->TabIndex = 0;
 			// 
@@ -1113,10 +1127,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_Manual->Controls->Add(this->manual_groupbox_V2);
 			this->tabPage_Manual->Controls->Add(this->groupBox2);
 			this->tabPage_Manual->Controls->Add(this->manual_groupbox_V1);
-			this->tabPage_Manual->Location = System::Drawing::Point(4, 22);
+			this->tabPage_Manual->Location = System::Drawing::Point(4, 25);
+			this->tabPage_Manual->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tabPage_Manual->Name = L"tabPage_Manual";
-			this->tabPage_Manual->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage_Manual->Size = System::Drawing::Size(636, 637);
+			this->tabPage_Manual->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Manual->Size = System::Drawing::Size(851, 787);
 			this->tabPage_Manual->TabIndex = 0;
 			this->tabPage_Manual->Text = L"Manual Mode";
 			// 
@@ -1124,10 +1139,11 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tabControl_Creep->Controls->Add(this->tabPage_CreepPID);
 			this->tabControl_Creep->Controls->Add(this->tabPage_CreepPassive);
-			this->tabControl_Creep->Location = System::Drawing::Point(21, 156);
+			this->tabControl_Creep->Location = System::Drawing::Point(28, 192);
+			this->tabControl_Creep->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tabControl_Creep->Name = L"tabControl_Creep";
 			this->tabControl_Creep->SelectedIndex = 0;
-			this->tabControl_Creep->Size = System::Drawing::Size(594, 246);
+			this->tabControl_Creep->Size = System::Drawing::Size(792, 303);
 			this->tabControl_Creep->TabIndex = 54;
 			// 
 			// tabPage_CreepPID
@@ -1157,10 +1173,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_CreepPID->Controls->Add(this->tbPID_P);
 			this->tabPage_CreepPID->Controls->Add(this->tbPID_I);
 			this->tabPage_CreepPID->Controls->Add(this->pictureBox5);
-			this->tabPage_CreepPID->Location = System::Drawing::Point(4, 22);
+			this->tabPage_CreepPID->Location = System::Drawing::Point(4, 25);
+			this->tabPage_CreepPID->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tabPage_CreepPID->Name = L"tabPage_CreepPID";
-			this->tabPage_CreepPID->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage_CreepPID->Size = System::Drawing::Size(586, 220);
+			this->tabPage_CreepPID->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_CreepPID->Size = System::Drawing::Size(784, 274);
 			this->tabPage_CreepPID->TabIndex = 1;
 			this->tabPage_CreepPID->Text = L"PID";
 			this->tabPage_CreepPID->UseVisualStyleBackColor = true;
@@ -1168,137 +1185,152 @@ private: System::Windows::Forms::Label^ label133;
 			// label126
 			// 
 			this->label126->AutoSize = true;
-			this->label126->Location = System::Drawing::Point(413, 54);
+			this->label126->Location = System::Drawing::Point(551, 66);
+			this->label126->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label126->Name = L"label126";
-			this->label126->Size = System::Drawing::Size(19, 13);
+			this->label126->Size = System::Drawing::Size(24, 17);
 			this->label126->TabIndex = 75;
 			this->label126->Text = L"L=";
 			// 
 			// label125
 			// 
 			this->label125->AutoSize = true;
-			this->label125->Location = System::Drawing::Point(494, 54);
+			this->label125->Location = System::Drawing::Point(659, 66);
+			this->label125->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label125->Name = L"label125";
-			this->label125->Size = System::Drawing::Size(21, 13);
+			this->label125->Size = System::Drawing::Size(26, 17);
 			this->label125->TabIndex = 74;
 			this->label125->Text = L"μH";
 			// 
 			// tbPID_L
 			// 
 			this->tbPID_L->BackColor = System::Drawing::SystemColors::Window;
-			this->tbPID_L->Location = System::Drawing::Point(441, 50);
+			this->tbPID_L->Location = System::Drawing::Point(588, 62);
+			this->tbPID_L->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tbPID_L->Name = L"tbPID_L";
-			this->tbPID_L->Size = System::Drawing::Size(53, 20);
+			this->tbPID_L->Size = System::Drawing::Size(69, 22);
 			this->tbPID_L->TabIndex = 71;
 			this->tbPID_L->Text = L"0";
 			// 
 			// label135
 			// 
 			this->label135->AutoSize = true;
-			this->label135->Location = System::Drawing::Point(306, 194);
+			this->label135->Location = System::Drawing::Point(399, 229);
+			this->label135->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label135->Name = L"label135";
-			this->label135->Size = System::Drawing::Size(37, 13);
+			this->label135->Size = System::Drawing::Size(45, 17);
 			this->label135->TabIndex = 89;
 			this->label135->Text = L"Vs/nC";
 			// 
 			// label134
 			// 
 			this->label134->AutoSize = true;
-			this->label134->Location = System::Drawing::Point(299, 122);
+			this->label134->Location = System::Drawing::Point(399, 150);
+			this->label134->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label134->Name = L"label134";
-			this->label134->Size = System::Drawing::Size(47, 13);
+			this->label134->Size = System::Drawing::Size(60, 17);
 			this->label134->TabIndex = 88;
 			this->label134->Text = L"V/(nC*s)";
 			// 
 			// label133
 			// 
 			this->label133->AutoSize = true;
-			this->label133->Location = System::Drawing::Point(299, 46);
+			this->label133->Location = System::Drawing::Point(399, 57);
+			this->label133->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label133->Name = L"label133";
-			this->label133->Size = System::Drawing::Size(32, 13);
+			this->label133->Size = System::Drawing::Size(38, 17);
 			this->label133->TabIndex = 87;
 			this->label133->Text = L"V/nC";
 			// 
 			// label131
 			// 
 			this->label131->AutoSize = true;
-			this->label131->Location = System::Drawing::Point(492, 24);
+			this->label131->Location = System::Drawing::Point(656, 30);
+			this->label131->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label131->Name = L"label131";
-			this->label131->Size = System::Drawing::Size(13, 13);
+			this->label131->Size = System::Drawing::Size(16, 17);
 			this->label131->TabIndex = 86;
 			this->label131->Text = L"=";
 			// 
 			// label132
 			// 
 			this->label132->AutoSize = true;
-			this->label132->Location = System::Drawing::Point(558, 24);
+			this->label132->Location = System::Drawing::Point(744, 30);
+			this->label132->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label132->Name = L"label132";
-			this->label132->Size = System::Drawing::Size(19, 13);
+			this->label132->Size = System::Drawing::Size(24, 17);
 			this->label132->TabIndex = 85;
 			this->label132->Text = L"pF";
 			// 
 			// tBPID_C
 			// 
 			this->tBPID_C->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->tBPID_C->Location = System::Drawing::Point(507, 21);
+			this->tBPID_C->Location = System::Drawing::Point(676, 26);
+			this->tBPID_C->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tBPID_C->Name = L"tBPID_C";
 			this->tBPID_C->ReadOnly = true;
-			this->tBPID_C->Size = System::Drawing::Size(47, 20);
+			this->tBPID_C->Size = System::Drawing::Size(61, 22);
 			this->tBPID_C->TabIndex = 84;
 			this->tBPID_C->Text = L"0";
 			// 
 			// label130
 			// 
 			this->label130->AutoSize = true;
-			this->label130->Location = System::Drawing::Point(219, 128);
+			this->label130->Location = System::Drawing::Point(292, 158);
+			this->label130->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label130->Name = L"label130";
-			this->label130->Size = System::Drawing::Size(20, 13);
+			this->label130->Size = System::Drawing::Size(25, 17);
 			this->label130->TabIndex = 83;
 			this->label130->Text = L"nC";
 			// 
 			// tBPIDError
 			// 
 			this->tBPIDError->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->tBPIDError->Location = System::Drawing::Point(166, 125);
+			this->tBPIDError->Location = System::Drawing::Point(221, 154);
+			this->tBPIDError->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tBPIDError->Name = L"tBPIDError";
 			this->tBPIDError->ReadOnly = true;
-			this->tBPIDError->Size = System::Drawing::Size(53, 20);
+			this->tBPIDError->Size = System::Drawing::Size(69, 22);
 			this->tBPIDError->TabIndex = 82;
 			this->tBPIDError->Text = L"0";
 			// 
 			// label128
 			// 
 			this->label128->AutoSize = true;
-			this->label128->Location = System::Drawing::Point(0, 117);
+			this->label128->Location = System::Drawing::Point(0, 144);
+			this->label128->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label128->Name = L"label128";
-			this->label128->Size = System::Drawing::Size(54, 13);
+			this->label128->Size = System::Drawing::Size(70, 17);
 			this->label128->TabIndex = 81;
 			this->label128->Text = L"Q = C*V =";
 			// 
 			// label129
 			// 
 			this->label129->AutoSize = true;
-			this->label129->Location = System::Drawing::Point(109, 118);
+			this->label129->Location = System::Drawing::Point(145, 145);
+			this->label129->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label129->Name = L"label129";
-			this->label129->Size = System::Drawing::Size(20, 13);
+			this->label129->Size = System::Drawing::Size(25, 17);
 			this->label129->TabIndex = 80;
 			this->label129->Text = L"nC";
 			// 
 			// tBPIDSetpoint
 			// 
 			this->tBPIDSetpoint->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->tBPIDSetpoint->Location = System::Drawing::Point(56, 114);
+			this->tBPIDSetpoint->Location = System::Drawing::Point(75, 140);
+			this->tBPIDSetpoint->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tBPIDSetpoint->Name = L"tBPIDSetpoint";
 			this->tBPIDSetpoint->ReadOnly = true;
-			this->tBPIDSetpoint->Size = System::Drawing::Size(53, 20);
+			this->tBPIDSetpoint->Size = System::Drawing::Size(69, 22);
 			this->tBPIDSetpoint->TabIndex = 79;
 			this->tBPIDSetpoint->Text = L"0";
 			// 
 			// btnPIDDisable
 			// 
-			this->btnPIDDisable->Location = System::Drawing::Point(19, 46);
+			this->btnPIDDisable->Location = System::Drawing::Point(25, 57);
+			this->btnPIDDisable->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->btnPIDDisable->Name = L"btnPIDDisable";
-			this->btnPIDDisable->Size = System::Drawing::Size(87, 21);
+			this->btnPIDDisable->Size = System::Drawing::Size(116, 26);
 			this->btnPIDDisable->TabIndex = 78;
 			this->btnPIDDisable->Text = L"Disable";
 			this->btnPIDDisable->UseVisualStyleBackColor = true;
@@ -1307,18 +1339,20 @@ private: System::Windows::Forms::Label^ label133;
 			// label127
 			// 
 			this->label127->AutoSize = true;
-			this->label127->Location = System::Drawing::Point(486, 118);
+			this->label127->Location = System::Drawing::Point(648, 145);
+			this->label127->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label127->Name = L"label127";
-			this->label127->Size = System::Drawing::Size(27, 13);
+			this->label127->Size = System::Drawing::Size(34, 17);
 			this->label127->TabIndex = 76;
 			this->label127->Text = L"ΔV=";
 			// 
 			// pictureBox6
 			// 
 			this->pictureBox6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.Image")));
-			this->pictureBox6->Location = System::Drawing::Point(384, 6);
+			this->pictureBox6->Location = System::Drawing::Point(512, 7);
+			this->pictureBox6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox6->Name = L"pictureBox6";
-			this->pictureBox6->Size = System::Drawing::Size(110, 47);
+			this->pictureBox6->Size = System::Drawing::Size(147, 58);
 			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox6->TabIndex = 73;
 			this->pictureBox6->TabStop = false;
@@ -1326,73 +1360,82 @@ private: System::Windows::Forms::Label^ label133;
 			// label124
 			// 
 			this->label124->AutoSize = true;
-			this->label124->Location = System::Drawing::Point(25, 24);
+			this->label124->Location = System::Drawing::Point(33, 30);
+			this->label124->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label124->Name = L"label124";
-			this->label124->Size = System::Drawing::Size(0, 13);
+			this->label124->Size = System::Drawing::Size(0, 17);
 			this->label124->TabIndex = 72;
 			// 
 			// label123
 			// 
 			this->label123->AutoSize = true;
-			this->label123->Location = System::Drawing::Point(563, 118);
+			this->label123->Location = System::Drawing::Point(751, 145);
+			this->label123->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label123->Name = L"label123";
-			this->label123->Size = System::Drawing::Size(14, 13);
+			this->label123->Size = System::Drawing::Size(17, 17);
 			this->label123->TabIndex = 33;
 			this->label123->Text = L"V";
 			// 
 			// tBPID_Output
 			// 
 			this->tBPID_Output->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->tBPID_Output->Location = System::Drawing::Point(519, 115);
+			this->tBPID_Output->Location = System::Drawing::Point(692, 142);
+			this->tBPID_Output->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tBPID_Output->Name = L"tBPID_Output";
 			this->tBPID_Output->ReadOnly = true;
-			this->tBPID_Output->Size = System::Drawing::Size(43, 20);
+			this->tBPID_Output->Size = System::Drawing::Size(56, 22);
 			this->tBPID_Output->TabIndex = 70;
 			this->tBPID_Output->Text = L"0";
 			// 
 			// btnPIDStart
 			// 
-			this->btnPIDStart->Location = System::Drawing::Point(19, 21);
+			this->btnPIDStart->Location = System::Drawing::Point(25, 26);
+			this->btnPIDStart->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->btnPIDStart->Name = L"btnPIDStart";
-			this->btnPIDStart->Size = System::Drawing::Size(87, 22);
+			this->btnPIDStart->Size = System::Drawing::Size(116, 27);
 			this->btnPIDStart->TabIndex = 69;
-			this->btnPIDStart->Text = L"Enable";
+			this->btnPIDStart->Text = L"Enable / Reset";
+			this->toolTip->SetToolTip(this->btnPIDStart, L"Enables PID or resets and restarts the PID with the current input values.");
 			this->btnPIDStart->UseVisualStyleBackColor = true;
 			this->btnPIDStart->Click += gcnew System::EventHandler(this, &Form1::BtnPIDStart_Click);
 			// 
 			// tbPID_D
 			// 
 			this->tbPID_D->BackColor = System::Drawing::SystemColors::Window;
-			this->tbPID_D->Location = System::Drawing::Point(247, 191);
+			this->tbPID_D->Location = System::Drawing::Point(327, 226);
+			this->tbPID_D->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tbPID_D->Name = L"tbPID_D";
-			this->tbPID_D->Size = System::Drawing::Size(53, 20);
+			this->tbPID_D->Size = System::Drawing::Size(69, 22);
 			this->tbPID_D->TabIndex = 57;
 			this->tbPID_D->Text = L"0";
 			// 
 			// tbPID_P
 			// 
 			this->tbPID_P->BackColor = System::Drawing::SystemColors::Window;
-			this->tbPID_P->Location = System::Drawing::Point(245, 43);
+			this->tbPID_P->Location = System::Drawing::Point(327, 53);
+			this->tbPID_P->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tbPID_P->Name = L"tbPID_P";
-			this->tbPID_P->Size = System::Drawing::Size(53, 20);
+			this->tbPID_P->Size = System::Drawing::Size(69, 22);
 			this->tbPID_P->TabIndex = 56;
 			this->tbPID_P->Text = L"0";
 			// 
 			// tbPID_I
 			// 
 			this->tbPID_I->BackColor = System::Drawing::SystemColors::Window;
-			this->tbPID_I->Location = System::Drawing::Point(245, 118);
+			this->tbPID_I->Location = System::Drawing::Point(327, 145);
+			this->tbPID_I->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tbPID_I->Name = L"tbPID_I";
-			this->tbPID_I->Size = System::Drawing::Size(53, 20);
+			this->tbPID_I->Size = System::Drawing::Size(69, 22);
 			this->tbPID_I->TabIndex = 55;
 			this->tbPID_I->Text = L"0";
 			// 
 			// pictureBox5
 			// 
 			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
-			this->pictureBox5->Location = System::Drawing::Point(12, 6);
+			this->pictureBox5->Location = System::Drawing::Point(16, 7);
+			this->pictureBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox5->Name = L"pictureBox5";
-			this->pictureBox5->Size = System::Drawing::Size(568, 208);
+			this->pictureBox5->Size = System::Drawing::Size(757, 256);
 			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox5->TabIndex = 0;
 			this->pictureBox5->TabStop = false;
@@ -1411,10 +1454,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_CreepPassive->Controls->Add(this->creep_time);
 			this->tabPage_CreepPassive->Controls->Add(this->enable_CreepCompensation);
 			this->tabPage_CreepPassive->Controls->Add(this->label117);
-			this->tabPage_CreepPassive->Location = System::Drawing::Point(4, 22);
+			this->tabPage_CreepPassive->Location = System::Drawing::Point(4, 25);
+			this->tabPage_CreepPassive->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tabPage_CreepPassive->Name = L"tabPage_CreepPassive";
-			this->tabPage_CreepPassive->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage_CreepPassive->Size = System::Drawing::Size(586, 220);
+			this->tabPage_CreepPassive->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_CreepPassive->Size = System::Drawing::Size(784, 274);
 			this->tabPage_CreepPassive->TabIndex = 0;
 			this->tabPage_CreepPassive->Text = L"Passive";
 			this->tabPage_CreepPassive->UseVisualStyleBackColor = true;
@@ -1422,18 +1466,20 @@ private: System::Windows::Forms::Label^ label133;
 			// pictureBox4
 			// 
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(33, 27);
+			this->pictureBox4->Location = System::Drawing::Point(44, 33);
+			this->pictureBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(204, 161);
+			this->pictureBox4->Size = System::Drawing::Size(272, 198);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox4->TabIndex = 0;
 			this->pictureBox4->TabStop = false;
 			// 
 			// creep_apply
 			// 
-			this->creep_apply->Location = System::Drawing::Point(285, 106);
+			this->creep_apply->Location = System::Drawing::Point(380, 130);
+			this->creep_apply->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->creep_apply->Name = L"creep_apply";
-			this->creep_apply->Size = System::Drawing::Size(64, 23);
+			this->creep_apply->Size = System::Drawing::Size(85, 28);
 			this->creep_apply->TabIndex = 54;
 			this->creep_apply->Text = L"Apply";
 			this->creep_apply->UseVisualStyleBackColor = true;
@@ -1443,54 +1489,60 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->creep_A->BackColor = System::Drawing::SystemColors::Window;
 			this->creep_A->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->creep_A->Location = System::Drawing::Point(285, 52);
+			this->creep_A->Location = System::Drawing::Point(380, 64);
+			this->creep_A->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->creep_A->Name = L"creep_A";
-			this->creep_A->Size = System::Drawing::Size(64, 20);
+			this->creep_A->Size = System::Drawing::Size(84, 22);
 			this->creep_A->TabIndex = 71;
 			this->creep_A->Text = L"0";
 			// 
 			// label119
 			// 
 			this->label119->AutoSize = true;
-			this->label119->Location = System::Drawing::Point(257, 55);
+			this->label119->Location = System::Drawing::Point(343, 68);
+			this->label119->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label119->Name = L"label119";
-			this->label119->Size = System::Drawing::Size(14, 13);
+			this->label119->Size = System::Drawing::Size(17, 17);
 			this->label119->TabIndex = 73;
 			this->label119->Text = L"A";
 			// 
 			// label116
 			// 
 			this->label116->AutoSize = true;
-			this->label116->Location = System::Drawing::Point(355, 82);
+			this->label116->Location = System::Drawing::Point(473, 101);
+			this->label116->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label116->Name = L"label116";
-			this->label116->Size = System::Drawing::Size(23, 13);
+			this->label116->Size = System::Drawing::Size(27, 17);
 			this->label116->TabIndex = 34;
 			this->label116->Text = L"1/s";
 			// 
 			// label120
 			// 
 			this->label120->AutoSize = true;
-			this->label120->Location = System::Drawing::Point(355, 56);
+			this->label120->Location = System::Drawing::Point(473, 69);
+			this->label120->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label120->Name = L"label120";
-			this->label120->Size = System::Drawing::Size(23, 13);
+			this->label120->Size = System::Drawing::Size(27, 17);
 			this->label120->TabIndex = 72;
 			this->label120->Text = L"1/s";
 			// 
 			// label115
 			// 
 			this->label115->AutoSize = true;
-			this->label115->Location = System::Drawing::Point(257, 81);
+			this->label115->Location = System::Drawing::Point(343, 100);
+			this->label115->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label115->Name = L"label115";
-			this->label115->Size = System::Drawing::Size(12, 13);
+			this->label115->Size = System::Drawing::Size(15, 17);
 			this->label115->TabIndex = 35;
 			this->label115->Text = L"λ";
 			// 
 			// label118
 			// 
 			this->label118->AutoSize = true;
-			this->label118->Location = System::Drawing::Point(257, 167);
+			this->label118->Location = System::Drawing::Point(343, 206);
+			this->label118->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label118->Name = L"label118";
-			this->label118->Size = System::Drawing::Size(10, 13);
+			this->label118->Size = System::Drawing::Size(12, 17);
 			this->label118->TabIndex = 70;
 			this->label118->Text = L"t";
 			// 
@@ -1498,27 +1550,30 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->creep_lambda->BackColor = System::Drawing::SystemColors::Window;
 			this->creep_lambda->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->creep_lambda->Location = System::Drawing::Point(285, 78);
+			this->creep_lambda->Location = System::Drawing::Point(380, 96);
+			this->creep_lambda->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->creep_lambda->Name = L"creep_lambda";
-			this->creep_lambda->Size = System::Drawing::Size(64, 20);
+			this->creep_lambda->Size = System::Drawing::Size(84, 22);
 			this->creep_lambda->TabIndex = 33;
 			this->creep_lambda->Text = L"0";
 			// 
 			// creep_time
 			// 
 			this->creep_time->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->creep_time->Location = System::Drawing::Point(285, 164);
+			this->creep_time->Location = System::Drawing::Point(380, 202);
+			this->creep_time->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->creep_time->Name = L"creep_time";
 			this->creep_time->ReadOnly = true;
-			this->creep_time->Size = System::Drawing::Size(64, 20);
+			this->creep_time->Size = System::Drawing::Size(84, 22);
 			this->creep_time->TabIndex = 68;
 			// 
 			// enable_CreepCompensation
 			// 
 			this->enable_CreepCompensation->AutoSize = true;
-			this->enable_CreepCompensation->Location = System::Drawing::Point(288, 26);
+			this->enable_CreepCompensation->Location = System::Drawing::Point(384, 32);
+			this->enable_CreepCompensation->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->enable_CreepCompensation->Name = L"enable_CreepCompensation";
-			this->enable_CreepCompensation->Size = System::Drawing::Size(58, 17);
+			this->enable_CreepCompensation->Size = System::Drawing::Size(73, 21);
 			this->enable_CreepCompensation->TabIndex = 33;
 			this->enable_CreepCompensation->Text = L"enable";
 			this->enable_CreepCompensation->UseVisualStyleBackColor = true;
@@ -1526,9 +1581,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label117
 			// 
 			this->label117->AutoSize = true;
-			this->label117->Location = System::Drawing::Point(355, 168);
+			this->label117->Location = System::Drawing::Point(473, 207);
+			this->label117->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label117->Name = L"label117";
-			this->label117->Size = System::Drawing::Size(12, 13);
+			this->label117->Size = System::Drawing::Size(15, 17);
 			this->label117->TabIndex = 69;
 			this->label117->Text = L"s";
 			// 
@@ -1538,9 +1594,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V8->Controls->Add(this->textBox11);
 			this->manual_groupbox_V8->Controls->Add(this->label95);
 			this->manual_groupbox_V8->Controls->Add(this->label96);
-			this->manual_groupbox_V8->Location = System::Drawing::Point(475, 529);
+			this->manual_groupbox_V8->Location = System::Drawing::Point(633, 651);
+			this->manual_groupbox_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V8->Name = L"manual_groupbox_V8";
-			this->manual_groupbox_V8->Size = System::Drawing::Size(140, 94);
+			this->manual_groupbox_V8->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V8->Size = System::Drawing::Size(187, 116);
 			this->manual_groupbox_V8->TabIndex = 52;
 			this->manual_groupbox_V8->TabStop = false;
 			this->manual_groupbox_V8->Text = L"Voltage 8";
@@ -1549,9 +1607,10 @@ private: System::Windows::Forms::Label^ label133;
 			// checkBox5
 			// 
 			this->checkBox5->AutoSize = true;
-			this->checkBox5->Location = System::Drawing::Point(57, 27);
+			this->checkBox5->Location = System::Drawing::Point(76, 33);
+			this->checkBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->checkBox5->Name = L"checkBox5";
-			this->checkBox5->Size = System::Drawing::Size(58, 17);
+			this->checkBox5->Size = System::Drawing::Size(73, 21);
 			this->checkBox5->TabIndex = 0;
 			this->checkBox5->Text = L"enable";
 			this->checkBox5->UseVisualStyleBackColor = true;
@@ -1561,27 +1620,30 @@ private: System::Windows::Forms::Label^ label133;
 			this->textBox11->BackColor = System::Drawing::SystemColors::Window;
 			this->textBox11->Enabled = false;
 			this->textBox11->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->textBox11->Location = System::Drawing::Point(57, 50);
+			this->textBox11->Location = System::Drawing::Point(76, 62);
+			this->textBox11->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox11->Name = L"textBox11";
-			this->textBox11->Size = System::Drawing::Size(58, 20);
+			this->textBox11->Size = System::Drawing::Size(76, 22);
 			this->textBox11->TabIndex = 1;
 			this->textBox11->Text = L"0";
 			// 
 			// label95
 			// 
 			this->label95->AutoSize = true;
-			this->label95->Location = System::Drawing::Point(4, 50);
+			this->label95->Location = System::Drawing::Point(5, 62);
+			this->label95->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label95->Name = L"label95";
-			this->label95->Size = System::Drawing::Size(46, 13);
+			this->label95->Size = System::Drawing::Size(60, 17);
 			this->label95->TabIndex = 32;
 			this->label95->Text = L"Setpoint";
 			// 
 			// label96
 			// 
 			this->label96->AutoSize = true;
-			this->label96->Location = System::Drawing::Point(117, 53);
+			this->label96->Location = System::Drawing::Point(156, 65);
+			this->label96->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label96->Name = L"label96";
-			this->label96->Size = System::Drawing::Size(14, 13);
+			this->label96->Size = System::Drawing::Size(17, 17);
 			this->label96->TabIndex = 26;
 			this->label96->Text = L"V";
 			// 
@@ -1591,9 +1653,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V7->Controls->Add(this->textBox10);
 			this->manual_groupbox_V7->Controls->Add(this->label93);
 			this->manual_groupbox_V7->Controls->Add(this->label94);
-			this->manual_groupbox_V7->Location = System::Drawing::Point(324, 529);
+			this->manual_groupbox_V7->Location = System::Drawing::Point(432, 651);
+			this->manual_groupbox_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V7->Name = L"manual_groupbox_V7";
-			this->manual_groupbox_V7->Size = System::Drawing::Size(135, 94);
+			this->manual_groupbox_V7->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V7->Size = System::Drawing::Size(180, 116);
 			this->manual_groupbox_V7->TabIndex = 52;
 			this->manual_groupbox_V7->TabStop = false;
 			this->manual_groupbox_V7->Text = L"Voltage 7";
@@ -1602,9 +1666,10 @@ private: System::Windows::Forms::Label^ label133;
 			// checkBox4
 			// 
 			this->checkBox4->AutoSize = true;
-			this->checkBox4->Location = System::Drawing::Point(57, 27);
+			this->checkBox4->Location = System::Drawing::Point(76, 33);
+			this->checkBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->checkBox4->Name = L"checkBox4";
-			this->checkBox4->Size = System::Drawing::Size(58, 17);
+			this->checkBox4->Size = System::Drawing::Size(73, 21);
 			this->checkBox4->TabIndex = 0;
 			this->checkBox4->Text = L"enable";
 			this->checkBox4->UseVisualStyleBackColor = true;
@@ -1614,27 +1679,30 @@ private: System::Windows::Forms::Label^ label133;
 			this->textBox10->BackColor = System::Drawing::SystemColors::Window;
 			this->textBox10->Enabled = false;
 			this->textBox10->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->textBox10->Location = System::Drawing::Point(57, 50);
+			this->textBox10->Location = System::Drawing::Point(76, 62);
+			this->textBox10->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox10->Name = L"textBox10";
-			this->textBox10->Size = System::Drawing::Size(58, 20);
+			this->textBox10->Size = System::Drawing::Size(76, 22);
 			this->textBox10->TabIndex = 1;
 			this->textBox10->Text = L"0";
 			// 
 			// label93
 			// 
 			this->label93->AutoSize = true;
-			this->label93->Location = System::Drawing::Point(4, 50);
+			this->label93->Location = System::Drawing::Point(5, 62);
+			this->label93->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label93->Name = L"label93";
-			this->label93->Size = System::Drawing::Size(46, 13);
+			this->label93->Size = System::Drawing::Size(60, 17);
 			this->label93->TabIndex = 32;
 			this->label93->Text = L"Setpoint";
 			// 
 			// label94
 			// 
 			this->label94->AutoSize = true;
-			this->label94->Location = System::Drawing::Point(117, 53);
+			this->label94->Location = System::Drawing::Point(156, 65);
+			this->label94->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label94->Name = L"label94";
-			this->label94->Size = System::Drawing::Size(14, 13);
+			this->label94->Size = System::Drawing::Size(17, 17);
 			this->label94->TabIndex = 26;
 			this->label94->Text = L"V";
 			// 
@@ -1644,9 +1712,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V6->Controls->Add(this->manual_val_V6);
 			this->manual_groupbox_V6->Controls->Add(this->label73);
 			this->manual_groupbox_V6->Controls->Add(this->label74);
-			this->manual_groupbox_V6->Location = System::Drawing::Point(168, 529);
+			this->manual_groupbox_V6->Location = System::Drawing::Point(224, 651);
+			this->manual_groupbox_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V6->Name = L"manual_groupbox_V6";
-			this->manual_groupbox_V6->Size = System::Drawing::Size(135, 94);
+			this->manual_groupbox_V6->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V6->Size = System::Drawing::Size(180, 116);
 			this->manual_groupbox_V6->TabIndex = 51;
 			this->manual_groupbox_V6->TabStop = false;
 			this->manual_groupbox_V6->Text = L"Voltage 6";
@@ -1655,9 +1725,10 @@ private: System::Windows::Forms::Label^ label133;
 			// enable_set_V6
 			// 
 			this->enable_set_V6->AutoSize = true;
-			this->enable_set_V6->Location = System::Drawing::Point(57, 27);
+			this->enable_set_V6->Location = System::Drawing::Point(76, 33);
+			this->enable_set_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->enable_set_V6->Name = L"enable_set_V6";
-			this->enable_set_V6->Size = System::Drawing::Size(58, 17);
+			this->enable_set_V6->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V6->TabIndex = 0;
 			this->enable_set_V6->Text = L"enable";
 			this->enable_set_V6->UseVisualStyleBackColor = true;
@@ -1667,27 +1738,30 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V6->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V6->Enabled = false;
 			this->manual_val_V6->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->manual_val_V6->Location = System::Drawing::Point(57, 50);
+			this->manual_val_V6->Location = System::Drawing::Point(76, 62);
+			this->manual_val_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_val_V6->Name = L"manual_val_V6";
-			this->manual_val_V6->Size = System::Drawing::Size(58, 20);
+			this->manual_val_V6->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V6->TabIndex = 1;
 			this->manual_val_V6->Text = L"0";
 			// 
 			// label73
 			// 
 			this->label73->AutoSize = true;
-			this->label73->Location = System::Drawing::Point(4, 50);
+			this->label73->Location = System::Drawing::Point(5, 62);
+			this->label73->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label73->Name = L"label73";
-			this->label73->Size = System::Drawing::Size(46, 13);
+			this->label73->Size = System::Drawing::Size(60, 17);
 			this->label73->TabIndex = 32;
 			this->label73->Text = L"Setpoint";
 			// 
 			// label74
 			// 
 			this->label74->AutoSize = true;
-			this->label74->Location = System::Drawing::Point(117, 53);
+			this->label74->Location = System::Drawing::Point(156, 65);
+			this->label74->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label74->Name = L"label74";
-			this->label74->Size = System::Drawing::Size(14, 13);
+			this->label74->Size = System::Drawing::Size(17, 17);
 			this->label74->TabIndex = 26;
 			this->label74->Text = L"V";
 			// 
@@ -1697,9 +1771,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V5->Controls->Add(this->manual_val_V5);
 			this->manual_groupbox_V5->Controls->Add(this->label71);
 			this->manual_groupbox_V5->Controls->Add(this->label72);
-			this->manual_groupbox_V5->Location = System::Drawing::Point(13, 529);
+			this->manual_groupbox_V5->Location = System::Drawing::Point(17, 651);
+			this->manual_groupbox_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V5->Name = L"manual_groupbox_V5";
-			this->manual_groupbox_V5->Size = System::Drawing::Size(139, 94);
+			this->manual_groupbox_V5->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V5->Size = System::Drawing::Size(185, 116);
 			this->manual_groupbox_V5->TabIndex = 50;
 			this->manual_groupbox_V5->TabStop = false;
 			this->manual_groupbox_V5->Text = L"Voltage 5";
@@ -1708,9 +1784,10 @@ private: System::Windows::Forms::Label^ label133;
 			// enable_set_V5
 			// 
 			this->enable_set_V5->AutoSize = true;
-			this->enable_set_V5->Location = System::Drawing::Point(60, 27);
+			this->enable_set_V5->Location = System::Drawing::Point(80, 33);
+			this->enable_set_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->enable_set_V5->Name = L"enable_set_V5";
-			this->enable_set_V5->Size = System::Drawing::Size(58, 17);
+			this->enable_set_V5->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V5->TabIndex = 0;
 			this->enable_set_V5->Text = L"enable";
 			this->enable_set_V5->UseVisualStyleBackColor = true;
@@ -1720,27 +1797,30 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V5->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V5->Enabled = false;
 			this->manual_val_V5->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->manual_val_V5->Location = System::Drawing::Point(60, 50);
+			this->manual_val_V5->Location = System::Drawing::Point(80, 62);
+			this->manual_val_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_val_V5->Name = L"manual_val_V5";
-			this->manual_val_V5->Size = System::Drawing::Size(58, 20);
+			this->manual_val_V5->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V5->TabIndex = 1;
 			this->manual_val_V5->Text = L"0";
 			// 
 			// label71
 			// 
 			this->label71->AutoSize = true;
-			this->label71->Location = System::Drawing::Point(5, 53);
+			this->label71->Location = System::Drawing::Point(7, 65);
+			this->label71->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label71->Name = L"label71";
-			this->label71->Size = System::Drawing::Size(46, 13);
+			this->label71->Size = System::Drawing::Size(60, 17);
 			this->label71->TabIndex = 32;
 			this->label71->Text = L"Setpoint";
 			// 
 			// label72
 			// 
 			this->label72->AutoSize = true;
-			this->label72->Location = System::Drawing::Point(120, 53);
+			this->label72->Location = System::Drawing::Point(160, 65);
+			this->label72->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label72->Name = L"label72";
-			this->label72->Size = System::Drawing::Size(14, 13);
+			this->label72->Size = System::Drawing::Size(17, 17);
 			this->label72->TabIndex = 26;
 			this->label72->Text = L"V";
 			// 
@@ -1750,9 +1830,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V4->Controls->Add(this->manual_val_V4);
 			this->manual_groupbox_V4->Controls->Add(this->label69);
 			this->manual_groupbox_V4->Controls->Add(this->label70);
-			this->manual_groupbox_V4->Location = System::Drawing::Point(476, 427);
+			this->manual_groupbox_V4->Location = System::Drawing::Point(635, 526);
+			this->manual_groupbox_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V4->Name = L"manual_groupbox_V4";
-			this->manual_groupbox_V4->Size = System::Drawing::Size(139, 92);
+			this->manual_groupbox_V4->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V4->Size = System::Drawing::Size(185, 113);
 			this->manual_groupbox_V4->TabIndex = 49;
 			this->manual_groupbox_V4->TabStop = false;
 			this->manual_groupbox_V4->Text = L"Voltage 4";
@@ -1761,9 +1843,10 @@ private: System::Windows::Forms::Label^ label133;
 			// enable_set_V4
 			// 
 			this->enable_set_V4->AutoSize = true;
-			this->enable_set_V4->Location = System::Drawing::Point(60, 27);
+			this->enable_set_V4->Location = System::Drawing::Point(80, 33);
+			this->enable_set_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->enable_set_V4->Name = L"enable_set_V4";
-			this->enable_set_V4->Size = System::Drawing::Size(58, 17);
+			this->enable_set_V4->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V4->TabIndex = 0;
 			this->enable_set_V4->Text = L"enable";
 			this->enable_set_V4->UseVisualStyleBackColor = true;
@@ -1773,27 +1856,30 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V4->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V4->Enabled = false;
 			this->manual_val_V4->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->manual_val_V4->Location = System::Drawing::Point(60, 50);
+			this->manual_val_V4->Location = System::Drawing::Point(80, 62);
+			this->manual_val_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_val_V4->Name = L"manual_val_V4";
-			this->manual_val_V4->Size = System::Drawing::Size(58, 20);
+			this->manual_val_V4->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V4->TabIndex = 1;
 			this->manual_val_V4->Text = L"0";
 			// 
 			// label69
 			// 
 			this->label69->AutoSize = true;
-			this->label69->Location = System::Drawing::Point(5, 53);
+			this->label69->Location = System::Drawing::Point(7, 65);
+			this->label69->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label69->Name = L"label69";
-			this->label69->Size = System::Drawing::Size(46, 13);
+			this->label69->Size = System::Drawing::Size(60, 17);
 			this->label69->TabIndex = 32;
 			this->label69->Text = L"Setpoint";
 			// 
 			// label70
 			// 
 			this->label70->AutoSize = true;
-			this->label70->Location = System::Drawing::Point(120, 53);
+			this->label70->Location = System::Drawing::Point(160, 65);
+			this->label70->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label70->Name = L"label70";
-			this->label70->Size = System::Drawing::Size(14, 13);
+			this->label70->Size = System::Drawing::Size(17, 17);
 			this->label70->TabIndex = 26;
 			this->label70->Text = L"V";
 			// 
@@ -1803,9 +1889,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V3->Controls->Add(this->enable_set_V3);
 			this->manual_groupbox_V3->Controls->Add(this->manual_val_V3);
 			this->manual_groupbox_V3->Controls->Add(this->label10);
-			this->manual_groupbox_V3->Location = System::Drawing::Point(320, 429);
+			this->manual_groupbox_V3->Location = System::Drawing::Point(427, 528);
+			this->manual_groupbox_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V3->Name = L"manual_groupbox_V3";
-			this->manual_groupbox_V3->Size = System::Drawing::Size(139, 90);
+			this->manual_groupbox_V3->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V3->Size = System::Drawing::Size(185, 111);
 			this->manual_groupbox_V3->TabIndex = 0;
 			this->manual_groupbox_V3->TabStop = false;
 			this->manual_groupbox_V3->Text = L"Voltage 3";
@@ -1813,18 +1901,20 @@ private: System::Windows::Forms::Label^ label133;
 			// label41
 			// 
 			this->label41->AutoSize = true;
-			this->label41->Location = System::Drawing::Point(9, 51);
+			this->label41->Location = System::Drawing::Point(12, 63);
+			this->label41->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label41->Name = L"label41";
-			this->label41->Size = System::Drawing::Size(46, 13);
+			this->label41->Size = System::Drawing::Size(60, 17);
 			this->label41->TabIndex = 37;
 			this->label41->Text = L"Setpoint";
 			// 
 			// enable_set_V3
 			// 
 			this->enable_set_V3->AutoSize = true;
-			this->enable_set_V3->Location = System::Drawing::Point(61, 25);
+			this->enable_set_V3->Location = System::Drawing::Point(81, 31);
+			this->enable_set_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->enable_set_V3->Name = L"enable_set_V3";
-			this->enable_set_V3->Size = System::Drawing::Size(58, 17);
+			this->enable_set_V3->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V3->TabIndex = 0;
 			this->enable_set_V3->Text = L"enable";
 			this->enable_set_V3->UseVisualStyleBackColor = true;
@@ -1833,18 +1923,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->manual_val_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V3->Enabled = false;
-			this->manual_val_V3->Location = System::Drawing::Point(61, 51);
+			this->manual_val_V3->Location = System::Drawing::Point(81, 63);
+			this->manual_val_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_val_V3->Name = L"manual_val_V3";
-			this->manual_val_V3->Size = System::Drawing::Size(53, 20);
+			this->manual_val_V3->Size = System::Drawing::Size(69, 22);
 			this->manual_val_V3->TabIndex = 1;
 			this->manual_val_V3->Text = L"0";
 			// 
 			// label10
 			// 
 			this->label10->AutoSize = true;
-			this->label10->Location = System::Drawing::Point(116, 53);
+			this->label10->Location = System::Drawing::Point(155, 65);
+			this->label10->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(14, 13);
+			this->label10->Size = System::Drawing::Size(17, 17);
 			this->label10->TabIndex = 39;
 			this->label10->Text = L"V";
 			// 
@@ -1854,9 +1946,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V2->Controls->Add(this->enable_set_V2);
 			this->manual_groupbox_V2->Controls->Add(this->label8);
 			this->manual_groupbox_V2->Controls->Add(this->manual_val_V2);
-			this->manual_groupbox_V2->Location = System::Drawing::Point(168, 429);
+			this->manual_groupbox_V2->Location = System::Drawing::Point(224, 528);
+			this->manual_groupbox_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V2->Name = L"manual_groupbox_V2";
-			this->manual_groupbox_V2->Size = System::Drawing::Size(135, 90);
+			this->manual_groupbox_V2->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V2->Size = System::Drawing::Size(180, 111);
 			this->manual_groupbox_V2->TabIndex = 1;
 			this->manual_groupbox_V2->TabStop = false;
 			this->manual_groupbox_V2->Text = L"Voltage 2";
@@ -1864,18 +1958,20 @@ private: System::Windows::Forms::Label^ label133;
 			// label12
 			// 
 			this->label12->AutoSize = true;
-			this->label12->Location = System::Drawing::Point(4, 51);
+			this->label12->Location = System::Drawing::Point(5, 63);
+			this->label12->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(46, 13);
+			this->label12->Size = System::Drawing::Size(60, 17);
 			this->label12->TabIndex = 33;
 			this->label12->Text = L"Setpoint";
 			// 
 			// enable_set_V2
 			// 
 			this->enable_set_V2->AutoSize = true;
-			this->enable_set_V2->Location = System::Drawing::Point(57, 25);
+			this->enable_set_V2->Location = System::Drawing::Point(76, 31);
+			this->enable_set_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->enable_set_V2->Name = L"enable_set_V2";
-			this->enable_set_V2->Size = System::Drawing::Size(58, 17);
+			this->enable_set_V2->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V2->TabIndex = 0;
 			this->enable_set_V2->Text = L"enable";
 			this->enable_set_V2->UseVisualStyleBackColor = true;
@@ -1883,9 +1979,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(116, 51);
+			this->label8->Location = System::Drawing::Point(155, 63);
+			this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(14, 13);
+			this->label8->Size = System::Drawing::Size(17, 17);
 			this->label8->TabIndex = 36;
 			this->label8->Text = L"V";
 			// 
@@ -1893,9 +1990,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->manual_val_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V2->Enabled = false;
-			this->manual_val_V2->Location = System::Drawing::Point(57, 48);
+			this->manual_val_V2->Location = System::Drawing::Point(76, 59);
+			this->manual_val_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_val_V2->Name = L"manual_val_V2";
-			this->manual_val_V2->Size = System::Drawing::Size(53, 20);
+			this->manual_val_V2->Size = System::Drawing::Size(69, 22);
 			this->manual_val_V2->TabIndex = 1;
 			this->manual_val_V2->Text = L"0";
 			// 
@@ -1907,20 +2005,23 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox2->Controls->Add(this->label32);
 			this->groupBox2->Controls->Add(this->label33);
 			this->groupBox2->Controls->Add(this->Act_ChartUpdateRate);
-			this->groupBox2->Location = System::Drawing::Point(20, 24);
+			this->groupBox2->Location = System::Drawing::Point(27, 30);
+			this->groupBox2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Size = System::Drawing::Size(595, 122);
+			this->groupBox2->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox2->Size = System::Drawing::Size(793, 150);
 			this->groupBox2->TabIndex = 48;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"General";
 			// 
 			// trackBar_ChartUpdateRate
 			// 
-			this->trackBar_ChartUpdateRate->Location = System::Drawing::Point(17, 66);
+			this->trackBar_ChartUpdateRate->Location = System::Drawing::Point(23, 81);
+			this->trackBar_ChartUpdateRate->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->trackBar_ChartUpdateRate->Maximum = 2000;
 			this->trackBar_ChartUpdateRate->Minimum = 100;
 			this->trackBar_ChartUpdateRate->Name = L"trackBar_ChartUpdateRate";
-			this->trackBar_ChartUpdateRate->Size = System::Drawing::Size(178, 45);
+			this->trackBar_ChartUpdateRate->Size = System::Drawing::Size(237, 56);
 			this->trackBar_ChartUpdateRate->TabIndex = 0;
 			this->trackBar_ChartUpdateRate->TickFrequency = 100;
 			this->trackBar_ChartUpdateRate->TickStyle = System::Windows::Forms::TickStyle::None;
@@ -1929,9 +2030,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			// button_SetVoltage
 			// 
-			this->button_SetVoltage->Location = System::Drawing::Point(206, 30);
+			this->button_SetVoltage->Location = System::Drawing::Point(275, 37);
+			this->button_SetVoltage->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button_SetVoltage->Name = L"button_SetVoltage";
-			this->button_SetVoltage->Size = System::Drawing::Size(173, 23);
+			this->button_SetVoltage->Size = System::Drawing::Size(231, 28);
 			this->button_SetVoltage->TabIndex = 1;
 			this->button_SetVoltage->Text = L"Set Voltage(s)";
 			this->button_SetVoltage->UseVisualStyleBackColor = true;
@@ -1940,28 +2042,31 @@ private: System::Windows::Forms::Label^ label133;
 			// label32
 			// 
 			this->label32->AutoSize = true;
-			this->label32->Location = System::Drawing::Point(19, 30);
+			this->label32->Location = System::Drawing::Point(25, 37);
+			this->label32->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(108, 13);
+			this->label32->Size = System::Drawing::Size(145, 17);
 			this->label32->TabIndex = 50;
 			this->label32->Text = L"V(I) Chart update rate";
 			// 
 			// label33
 			// 
 			this->label33->AutoSize = true;
-			this->label33->Location = System::Drawing::Point(175, 31);
+			this->label33->Location = System::Drawing::Point(233, 38);
+			this->label33->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(20, 13);
+			this->label33->Size = System::Drawing::Size(26, 17);
 			this->label33->TabIndex = 53;
 			this->label33->Text = L"ms";
 			// 
 			// Act_ChartUpdateRate
 			// 
 			this->Act_ChartUpdateRate->BackColor = System::Drawing::SystemColors::Control;
-			this->Act_ChartUpdateRate->Location = System::Drawing::Point(129, 28);
+			this->Act_ChartUpdateRate->Location = System::Drawing::Point(172, 34);
+			this->Act_ChartUpdateRate->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Act_ChartUpdateRate->Name = L"Act_ChartUpdateRate";
 			this->Act_ChartUpdateRate->ReadOnly = true;
-			this->Act_ChartUpdateRate->Size = System::Drawing::Size(44, 20);
+			this->Act_ChartUpdateRate->Size = System::Drawing::Size(57, 22);
 			this->Act_ChartUpdateRate->TabIndex = 52;
 			// 
 			// manual_groupbox_V1
@@ -1971,9 +2076,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V1->Controls->Add(this->label11);
 			this->manual_groupbox_V1->Controls->Add(this->label5);
 			this->manual_groupbox_V1->ForeColor = System::Drawing::Color::Red;
-			this->manual_groupbox_V1->Location = System::Drawing::Point(13, 427);
+			this->manual_groupbox_V1->Location = System::Drawing::Point(17, 526);
+			this->manual_groupbox_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_groupbox_V1->Name = L"manual_groupbox_V1";
-			this->manual_groupbox_V1->Size = System::Drawing::Size(139, 92);
+			this->manual_groupbox_V1->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V1->Size = System::Drawing::Size(185, 113);
 			this->manual_groupbox_V1->TabIndex = 0;
 			this->manual_groupbox_V1->TabStop = false;
 			this->manual_groupbox_V1->Text = L"Voltage 1 (Creep comp.)";
@@ -1981,9 +2088,10 @@ private: System::Windows::Forms::Label^ label133;
 			// enable_set_V1
 			// 
 			this->enable_set_V1->AutoSize = true;
-			this->enable_set_V1->Location = System::Drawing::Point(60, 27);
+			this->enable_set_V1->Location = System::Drawing::Point(80, 33);
+			this->enable_set_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->enable_set_V1->Name = L"enable_set_V1";
-			this->enable_set_V1->Size = System::Drawing::Size(58, 17);
+			this->enable_set_V1->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V1->TabIndex = 0;
 			this->enable_set_V1->Text = L"enable";
 			this->enable_set_V1->UseVisualStyleBackColor = true;
@@ -1993,27 +2101,30 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V1->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V1->Enabled = false;
 			this->manual_val_V1->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->manual_val_V1->Location = System::Drawing::Point(60, 50);
+			this->manual_val_V1->Location = System::Drawing::Point(80, 62);
+			this->manual_val_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_val_V1->Name = L"manual_val_V1";
-			this->manual_val_V1->Size = System::Drawing::Size(58, 20);
+			this->manual_val_V1->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V1->TabIndex = 1;
 			this->manual_val_V1->Text = L"0";
 			// 
 			// label11
 			// 
 			this->label11->AutoSize = true;
-			this->label11->Location = System::Drawing::Point(5, 53);
+			this->label11->Location = System::Drawing::Point(7, 65);
+			this->label11->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(46, 13);
+			this->label11->Size = System::Drawing::Size(60, 17);
 			this->label11->TabIndex = 32;
 			this->label11->Text = L"Setpoint";
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(120, 53);
+			this->label5->Location = System::Drawing::Point(160, 65);
+			this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(14, 13);
+			this->label5->Size = System::Drawing::Size(17, 17);
 			this->label5->TabIndex = 26;
 			this->label5->Text = L"V";
 			// 
@@ -2029,10 +2140,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_Sweep->Controls->Add(this->sweep_groupbox_V2);
 			this->tabPage_Sweep->Controls->Add(this->sweep_groupbox_V1);
 			this->tabPage_Sweep->Controls->Add(this->groupBox1);
-			this->tabPage_Sweep->Location = System::Drawing::Point(4, 22);
+			this->tabPage_Sweep->Location = System::Drawing::Point(4, 25);
+			this->tabPage_Sweep->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tabPage_Sweep->Name = L"tabPage_Sweep";
-			this->tabPage_Sweep->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage_Sweep->Size = System::Drawing::Size(636, 637);
+			this->tabPage_Sweep->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Sweep->Size = System::Drawing::Size(851, 787);
 			this->tabPage_Sweep->TabIndex = 1;
 			this->tabPage_Sweep->Text = L"Sweep Mode";
 			// 
@@ -2048,9 +2160,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V8->Controls->Add(this->label106);
 			this->sweep_groupbox_V8->Controls->Add(this->label107);
 			this->sweep_groupbox_V8->Controls->Add(this->label108);
-			this->sweep_groupbox_V8->Location = System::Drawing::Point(478, 478);
+			this->sweep_groupbox_V8->Location = System::Drawing::Point(637, 588);
+			this->sweep_groupbox_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V8->Name = L"sweep_groupbox_V8";
-			this->sweep_groupbox_V8->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V8->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V8->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V8->TabIndex = 77;
 			this->sweep_groupbox_V8->TabStop = false;
 			this->sweep_groupbox_V8->Text = L"Voltage 8";
@@ -2059,9 +2173,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label103
 			// 
 			this->label103->AutoSize = true;
-			this->label103->Location = System::Drawing::Point(118, 105);
+			this->label103->Location = System::Drawing::Point(157, 129);
+			this->label103->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label103->Name = L"label103";
-			this->label103->Size = System::Drawing::Size(14, 13);
+			this->label103->Size = System::Drawing::Size(17, 17);
 			this->label103->TabIndex = 73;
 			this->label103->Text = L"V";
 			// 
@@ -2069,18 +2184,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V8->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V8->Enabled = false;
-			this->Sweep_Final_V8->Location = System::Drawing::Point(58, 102);
+			this->Sweep_Final_V8->Location = System::Drawing::Point(77, 126);
+			this->Sweep_Final_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V8->Name = L"Sweep_Final_V8";
-			this->Sweep_Final_V8->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V8->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V8->TabIndex = 72;
 			this->Sweep_Final_V8->Text = L"0";
 			// 
 			// label104
 			// 
 			this->label104->AutoSize = true;
-			this->label104->Location = System::Drawing::Point(118, 78);
+			this->label104->Location = System::Drawing::Point(157, 96);
+			this->label104->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label104->Name = L"label104";
-			this->label104->Size = System::Drawing::Size(14, 13);
+			this->label104->Size = System::Drawing::Size(17, 17);
 			this->label104->TabIndex = 71;
 			this->label104->Text = L"V";
 			// 
@@ -2088,9 +2205,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V8->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V8->Enabled = false;
-			this->Sweep_Step_V8->Location = System::Drawing::Point(58, 75);
+			this->Sweep_Step_V8->Location = System::Drawing::Point(77, 92);
+			this->Sweep_Step_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V8->Name = L"Sweep_Step_V8";
-			this->Sweep_Step_V8->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V8->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V8->TabIndex = 70;
 			this->Sweep_Step_V8->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V8, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2099,9 +2217,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V8
 			// 
 			this->Sweep_Enable_V8->AutoSize = true;
-			this->Sweep_Enable_V8->Location = System::Drawing::Point(58, 27);
+			this->Sweep_Enable_V8->Location = System::Drawing::Point(77, 33);
+			this->Sweep_Enable_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V8->Name = L"Sweep_Enable_V8";
-			this->Sweep_Enable_V8->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V8->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V8->TabIndex = 14;
 			this->Sweep_Enable_V8->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V8, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2112,45 +2231,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V8->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V8->Enabled = false;
-			this->Sweep_Initial_V8->Location = System::Drawing::Point(58, 50);
+			this->Sweep_Initial_V8->Location = System::Drawing::Point(77, 62);
+			this->Sweep_Initial_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V8->Name = L"Sweep_Initial_V8";
-			this->Sweep_Initial_V8->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V8->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V8->TabIndex = 11;
 			this->Sweep_Initial_V8->Text = L"0";
 			// 
 			// label105
 			// 
 			this->label105->AutoSize = true;
-			this->label105->Location = System::Drawing::Point(118, 53);
+			this->label105->Location = System::Drawing::Point(157, 65);
+			this->label105->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label105->Name = L"label105";
-			this->label105->Size = System::Drawing::Size(14, 13);
+			this->label105->Size = System::Drawing::Size(17, 17);
 			this->label105->TabIndex = 26;
 			this->label105->Text = L"V";
 			// 
 			// label106
 			// 
 			this->label106->AutoSize = true;
-			this->label106->Location = System::Drawing::Point(11, 53);
+			this->label106->Location = System::Drawing::Point(15, 65);
+			this->label106->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label106->Name = L"label106";
-			this->label106->Size = System::Drawing::Size(31, 13);
+			this->label106->Size = System::Drawing::Size(40, 17);
 			this->label106->TabIndex = 46;
 			this->label106->Text = L"Initial";
 			// 
 			// label107
 			// 
 			this->label107->AutoSize = true;
-			this->label107->Location = System::Drawing::Point(11, 78);
+			this->label107->Location = System::Drawing::Point(15, 96);
+			this->label107->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label107->Name = L"label107";
-			this->label107->Size = System::Drawing::Size(29, 13);
+			this->label107->Size = System::Drawing::Size(37, 17);
 			this->label107->TabIndex = 58;
 			this->label107->Text = L"Step";
 			// 
 			// label108
 			// 
 			this->label108->AutoSize = true;
-			this->label108->Location = System::Drawing::Point(11, 105);
+			this->label108->Location = System::Drawing::Point(15, 129);
+			this->label108->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label108->Name = L"label108";
-			this->label108->Size = System::Drawing::Size(29, 13);
+			this->label108->Size = System::Drawing::Size(38, 17);
 			this->label108->TabIndex = 69;
 			this->label108->Text = L"Final";
 			// 
@@ -2166,9 +2290,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V7->Controls->Add(this->label100);
 			this->sweep_groupbox_V7->Controls->Add(this->label101);
 			this->sweep_groupbox_V7->Controls->Add(this->label102);
-			this->sweep_groupbox_V7->Location = System::Drawing::Point(325, 478);
+			this->sweep_groupbox_V7->Location = System::Drawing::Point(433, 588);
+			this->sweep_groupbox_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V7->Name = L"sweep_groupbox_V7";
-			this->sweep_groupbox_V7->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V7->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V7->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V7->TabIndex = 76;
 			this->sweep_groupbox_V7->TabStop = false;
 			this->sweep_groupbox_V7->Text = L"Voltage 7";
@@ -2177,9 +2303,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label97
 			// 
 			this->label97->AutoSize = true;
-			this->label97->Location = System::Drawing::Point(118, 105);
+			this->label97->Location = System::Drawing::Point(157, 129);
+			this->label97->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label97->Name = L"label97";
-			this->label97->Size = System::Drawing::Size(14, 13);
+			this->label97->Size = System::Drawing::Size(17, 17);
 			this->label97->TabIndex = 73;
 			this->label97->Text = L"V";
 			// 
@@ -2187,18 +2314,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V7->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V7->Enabled = false;
-			this->Sweep_Final_V7->Location = System::Drawing::Point(58, 102);
+			this->Sweep_Final_V7->Location = System::Drawing::Point(77, 126);
+			this->Sweep_Final_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V7->Name = L"Sweep_Final_V7";
-			this->Sweep_Final_V7->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V7->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V7->TabIndex = 72;
 			this->Sweep_Final_V7->Text = L"0";
 			// 
 			// label98
 			// 
 			this->label98->AutoSize = true;
-			this->label98->Location = System::Drawing::Point(118, 78);
+			this->label98->Location = System::Drawing::Point(157, 96);
+			this->label98->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label98->Name = L"label98";
-			this->label98->Size = System::Drawing::Size(14, 13);
+			this->label98->Size = System::Drawing::Size(17, 17);
 			this->label98->TabIndex = 71;
 			this->label98->Text = L"V";
 			// 
@@ -2206,9 +2335,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V7->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V7->Enabled = false;
-			this->Sweep_Step_V7->Location = System::Drawing::Point(58, 75);
+			this->Sweep_Step_V7->Location = System::Drawing::Point(77, 92);
+			this->Sweep_Step_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V7->Name = L"Sweep_Step_V7";
-			this->Sweep_Step_V7->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V7->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V7->TabIndex = 70;
 			this->Sweep_Step_V7->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V7, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2217,9 +2347,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V7
 			// 
 			this->Sweep_Enable_V7->AutoSize = true;
-			this->Sweep_Enable_V7->Location = System::Drawing::Point(58, 27);
+			this->Sweep_Enable_V7->Location = System::Drawing::Point(77, 33);
+			this->Sweep_Enable_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V7->Name = L"Sweep_Enable_V7";
-			this->Sweep_Enable_V7->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V7->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V7->TabIndex = 14;
 			this->Sweep_Enable_V7->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V7, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2230,45 +2361,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V7->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V7->Enabled = false;
-			this->Sweep_Initial_V7->Location = System::Drawing::Point(58, 50);
+			this->Sweep_Initial_V7->Location = System::Drawing::Point(77, 62);
+			this->Sweep_Initial_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V7->Name = L"Sweep_Initial_V7";
-			this->Sweep_Initial_V7->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V7->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V7->TabIndex = 11;
 			this->Sweep_Initial_V7->Text = L"0";
 			// 
 			// label99
 			// 
 			this->label99->AutoSize = true;
-			this->label99->Location = System::Drawing::Point(118, 53);
+			this->label99->Location = System::Drawing::Point(157, 65);
+			this->label99->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label99->Name = L"label99";
-			this->label99->Size = System::Drawing::Size(14, 13);
+			this->label99->Size = System::Drawing::Size(17, 17);
 			this->label99->TabIndex = 26;
 			this->label99->Text = L"V";
 			// 
 			// label100
 			// 
 			this->label100->AutoSize = true;
-			this->label100->Location = System::Drawing::Point(11, 53);
+			this->label100->Location = System::Drawing::Point(15, 65);
+			this->label100->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label100->Name = L"label100";
-			this->label100->Size = System::Drawing::Size(31, 13);
+			this->label100->Size = System::Drawing::Size(40, 17);
 			this->label100->TabIndex = 46;
 			this->label100->Text = L"Initial";
 			// 
 			// label101
 			// 
 			this->label101->AutoSize = true;
-			this->label101->Location = System::Drawing::Point(11, 78);
+			this->label101->Location = System::Drawing::Point(15, 96);
+			this->label101->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label101->Name = L"label101";
-			this->label101->Size = System::Drawing::Size(29, 13);
+			this->label101->Size = System::Drawing::Size(37, 17);
 			this->label101->TabIndex = 58;
 			this->label101->Text = L"Step";
 			// 
 			// label102
 			// 
 			this->label102->AutoSize = true;
-			this->label102->Location = System::Drawing::Point(11, 105);
+			this->label102->Location = System::Drawing::Point(15, 129);
+			this->label102->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label102->Name = L"label102";
-			this->label102->Size = System::Drawing::Size(29, 13);
+			this->label102->Size = System::Drawing::Size(38, 17);
 			this->label102->TabIndex = 69;
 			this->label102->Text = L"Final";
 			// 
@@ -2284,9 +2420,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V6->Controls->Add(this->label90);
 			this->sweep_groupbox_V6->Controls->Add(this->label91);
 			this->sweep_groupbox_V6->Controls->Add(this->label92);
-			this->sweep_groupbox_V6->Location = System::Drawing::Point(174, 478);
+			this->sweep_groupbox_V6->Location = System::Drawing::Point(232, 588);
+			this->sweep_groupbox_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V6->Name = L"sweep_groupbox_V6";
-			this->sweep_groupbox_V6->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V6->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V6->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V6->TabIndex = 76;
 			this->sweep_groupbox_V6->TabStop = false;
 			this->sweep_groupbox_V6->Text = L"Voltage 6";
@@ -2295,9 +2433,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label87
 			// 
 			this->label87->AutoSize = true;
-			this->label87->Location = System::Drawing::Point(118, 105);
+			this->label87->Location = System::Drawing::Point(157, 129);
+			this->label87->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label87->Name = L"label87";
-			this->label87->Size = System::Drawing::Size(14, 13);
+			this->label87->Size = System::Drawing::Size(17, 17);
 			this->label87->TabIndex = 73;
 			this->label87->Text = L"V";
 			// 
@@ -2305,18 +2444,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V6->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V6->Enabled = false;
-			this->Sweep_Final_V6->Location = System::Drawing::Point(58, 102);
+			this->Sweep_Final_V6->Location = System::Drawing::Point(77, 126);
+			this->Sweep_Final_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V6->Name = L"Sweep_Final_V6";
-			this->Sweep_Final_V6->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V6->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V6->TabIndex = 72;
 			this->Sweep_Final_V6->Text = L"0";
 			// 
 			// label88
 			// 
 			this->label88->AutoSize = true;
-			this->label88->Location = System::Drawing::Point(118, 78);
+			this->label88->Location = System::Drawing::Point(157, 96);
+			this->label88->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label88->Name = L"label88";
-			this->label88->Size = System::Drawing::Size(14, 13);
+			this->label88->Size = System::Drawing::Size(17, 17);
 			this->label88->TabIndex = 71;
 			this->label88->Text = L"V";
 			// 
@@ -2324,9 +2465,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V6->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V6->Enabled = false;
-			this->Sweep_Step_V6->Location = System::Drawing::Point(58, 75);
+			this->Sweep_Step_V6->Location = System::Drawing::Point(77, 92);
+			this->Sweep_Step_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V6->Name = L"Sweep_Step_V6";
-			this->Sweep_Step_V6->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V6->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V6->TabIndex = 70;
 			this->Sweep_Step_V6->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V6, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2335,9 +2477,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V6
 			// 
 			this->Sweep_Enable_V6->AutoSize = true;
-			this->Sweep_Enable_V6->Location = System::Drawing::Point(58, 27);
+			this->Sweep_Enable_V6->Location = System::Drawing::Point(77, 33);
+			this->Sweep_Enable_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V6->Name = L"Sweep_Enable_V6";
-			this->Sweep_Enable_V6->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V6->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V6->TabIndex = 14;
 			this->Sweep_Enable_V6->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V6, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2348,45 +2491,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V6->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V6->Enabled = false;
-			this->Sweep_Initial_V6->Location = System::Drawing::Point(58, 50);
+			this->Sweep_Initial_V6->Location = System::Drawing::Point(77, 62);
+			this->Sweep_Initial_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V6->Name = L"Sweep_Initial_V6";
-			this->Sweep_Initial_V6->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V6->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V6->TabIndex = 11;
 			this->Sweep_Initial_V6->Text = L"0";
 			// 
 			// label89
 			// 
 			this->label89->AutoSize = true;
-			this->label89->Location = System::Drawing::Point(118, 53);
+			this->label89->Location = System::Drawing::Point(157, 65);
+			this->label89->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label89->Name = L"label89";
-			this->label89->Size = System::Drawing::Size(14, 13);
+			this->label89->Size = System::Drawing::Size(17, 17);
 			this->label89->TabIndex = 26;
 			this->label89->Text = L"V";
 			// 
 			// label90
 			// 
 			this->label90->AutoSize = true;
-			this->label90->Location = System::Drawing::Point(11, 53);
+			this->label90->Location = System::Drawing::Point(15, 65);
+			this->label90->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label90->Name = L"label90";
-			this->label90->Size = System::Drawing::Size(31, 13);
+			this->label90->Size = System::Drawing::Size(40, 17);
 			this->label90->TabIndex = 46;
 			this->label90->Text = L"Initial";
 			// 
 			// label91
 			// 
 			this->label91->AutoSize = true;
-			this->label91->Location = System::Drawing::Point(11, 78);
+			this->label91->Location = System::Drawing::Point(15, 96);
+			this->label91->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label91->Name = L"label91";
-			this->label91->Size = System::Drawing::Size(29, 13);
+			this->label91->Size = System::Drawing::Size(37, 17);
 			this->label91->TabIndex = 58;
 			this->label91->Text = L"Step";
 			// 
 			// label92
 			// 
 			this->label92->AutoSize = true;
-			this->label92->Location = System::Drawing::Point(11, 105);
+			this->label92->Location = System::Drawing::Point(15, 129);
+			this->label92->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label92->Name = L"label92";
-			this->label92->Size = System::Drawing::Size(29, 13);
+			this->label92->Size = System::Drawing::Size(38, 17);
 			this->label92->TabIndex = 69;
 			this->label92->Text = L"Final";
 			// 
@@ -2402,9 +2550,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V5->Controls->Add(this->label84);
 			this->sweep_groupbox_V5->Controls->Add(this->label85);
 			this->sweep_groupbox_V5->Controls->Add(this->label86);
-			this->sweep_groupbox_V5->Location = System::Drawing::Point(20, 478);
+			this->sweep_groupbox_V5->Location = System::Drawing::Point(27, 588);
+			this->sweep_groupbox_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V5->Name = L"sweep_groupbox_V5";
-			this->sweep_groupbox_V5->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V5->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V5->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V5->TabIndex = 76;
 			this->sweep_groupbox_V5->TabStop = false;
 			this->sweep_groupbox_V5->Text = L"Voltage 5";
@@ -2413,9 +2563,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label81
 			// 
 			this->label81->AutoSize = true;
-			this->label81->Location = System::Drawing::Point(118, 105);
+			this->label81->Location = System::Drawing::Point(157, 129);
+			this->label81->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label81->Name = L"label81";
-			this->label81->Size = System::Drawing::Size(14, 13);
+			this->label81->Size = System::Drawing::Size(17, 17);
 			this->label81->TabIndex = 73;
 			this->label81->Text = L"V";
 			// 
@@ -2423,18 +2574,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V5->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V5->Enabled = false;
-			this->Sweep_Final_V5->Location = System::Drawing::Point(58, 102);
+			this->Sweep_Final_V5->Location = System::Drawing::Point(77, 126);
+			this->Sweep_Final_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V5->Name = L"Sweep_Final_V5";
-			this->Sweep_Final_V5->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V5->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V5->TabIndex = 72;
 			this->Sweep_Final_V5->Text = L"0";
 			// 
 			// label82
 			// 
 			this->label82->AutoSize = true;
-			this->label82->Location = System::Drawing::Point(118, 78);
+			this->label82->Location = System::Drawing::Point(157, 96);
+			this->label82->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label82->Name = L"label82";
-			this->label82->Size = System::Drawing::Size(14, 13);
+			this->label82->Size = System::Drawing::Size(17, 17);
 			this->label82->TabIndex = 71;
 			this->label82->Text = L"V";
 			// 
@@ -2442,9 +2595,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V5->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V5->Enabled = false;
-			this->Sweep_Step_V5->Location = System::Drawing::Point(58, 75);
+			this->Sweep_Step_V5->Location = System::Drawing::Point(77, 92);
+			this->Sweep_Step_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V5->Name = L"Sweep_Step_V5";
-			this->Sweep_Step_V5->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V5->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V5->TabIndex = 70;
 			this->Sweep_Step_V5->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V5, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2453,9 +2607,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V5
 			// 
 			this->Sweep_Enable_V5->AutoSize = true;
-			this->Sweep_Enable_V5->Location = System::Drawing::Point(58, 27);
+			this->Sweep_Enable_V5->Location = System::Drawing::Point(77, 33);
+			this->Sweep_Enable_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V5->Name = L"Sweep_Enable_V5";
-			this->Sweep_Enable_V5->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V5->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V5->TabIndex = 14;
 			this->Sweep_Enable_V5->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V5, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2466,45 +2621,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V5->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V5->Enabled = false;
-			this->Sweep_Initial_V5->Location = System::Drawing::Point(58, 50);
+			this->Sweep_Initial_V5->Location = System::Drawing::Point(77, 62);
+			this->Sweep_Initial_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V5->Name = L"Sweep_Initial_V5";
-			this->Sweep_Initial_V5->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V5->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V5->TabIndex = 11;
 			this->Sweep_Initial_V5->Text = L"0";
 			// 
 			// label83
 			// 
 			this->label83->AutoSize = true;
-			this->label83->Location = System::Drawing::Point(118, 53);
+			this->label83->Location = System::Drawing::Point(157, 65);
+			this->label83->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label83->Name = L"label83";
-			this->label83->Size = System::Drawing::Size(14, 13);
+			this->label83->Size = System::Drawing::Size(17, 17);
 			this->label83->TabIndex = 26;
 			this->label83->Text = L"V";
 			// 
 			// label84
 			// 
 			this->label84->AutoSize = true;
-			this->label84->Location = System::Drawing::Point(11, 53);
+			this->label84->Location = System::Drawing::Point(15, 65);
+			this->label84->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label84->Name = L"label84";
-			this->label84->Size = System::Drawing::Size(31, 13);
+			this->label84->Size = System::Drawing::Size(40, 17);
 			this->label84->TabIndex = 46;
 			this->label84->Text = L"Initial";
 			// 
 			// label85
 			// 
 			this->label85->AutoSize = true;
-			this->label85->Location = System::Drawing::Point(11, 78);
+			this->label85->Location = System::Drawing::Point(15, 96);
+			this->label85->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label85->Name = L"label85";
-			this->label85->Size = System::Drawing::Size(29, 13);
+			this->label85->Size = System::Drawing::Size(37, 17);
 			this->label85->TabIndex = 58;
 			this->label85->Text = L"Step";
 			// 
 			// label86
 			// 
 			this->label86->AutoSize = true;
-			this->label86->Location = System::Drawing::Point(11, 105);
+			this->label86->Location = System::Drawing::Point(15, 129);
+			this->label86->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label86->Name = L"label86";
-			this->label86->Size = System::Drawing::Size(29, 13);
+			this->label86->Size = System::Drawing::Size(38, 17);
 			this->label86->TabIndex = 69;
 			this->label86->Text = L"Final";
 			// 
@@ -2520,9 +2680,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V4->Controls->Add(this->label78);
 			this->sweep_groupbox_V4->Controls->Add(this->label79);
 			this->sweep_groupbox_V4->Controls->Add(this->label80);
-			this->sweep_groupbox_V4->Location = System::Drawing::Point(478, 315);
+			this->sweep_groupbox_V4->Location = System::Drawing::Point(637, 388);
+			this->sweep_groupbox_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V4->Name = L"sweep_groupbox_V4";
-			this->sweep_groupbox_V4->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V4->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V4->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V4->TabIndex = 75;
 			this->sweep_groupbox_V4->TabStop = false;
 			this->sweep_groupbox_V4->Text = L"Voltage 4";
@@ -2531,9 +2693,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label75
 			// 
 			this->label75->AutoSize = true;
-			this->label75->Location = System::Drawing::Point(118, 105);
+			this->label75->Location = System::Drawing::Point(157, 129);
+			this->label75->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label75->Name = L"label75";
-			this->label75->Size = System::Drawing::Size(14, 13);
+			this->label75->Size = System::Drawing::Size(17, 17);
 			this->label75->TabIndex = 73;
 			this->label75->Text = L"V";
 			// 
@@ -2541,18 +2704,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V4->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V4->Enabled = false;
-			this->Sweep_Final_V4->Location = System::Drawing::Point(58, 102);
+			this->Sweep_Final_V4->Location = System::Drawing::Point(77, 126);
+			this->Sweep_Final_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V4->Name = L"Sweep_Final_V4";
-			this->Sweep_Final_V4->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V4->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V4->TabIndex = 72;
 			this->Sweep_Final_V4->Text = L"0";
 			// 
 			// label76
 			// 
 			this->label76->AutoSize = true;
-			this->label76->Location = System::Drawing::Point(118, 78);
+			this->label76->Location = System::Drawing::Point(157, 96);
+			this->label76->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label76->Name = L"label76";
-			this->label76->Size = System::Drawing::Size(14, 13);
+			this->label76->Size = System::Drawing::Size(17, 17);
 			this->label76->TabIndex = 71;
 			this->label76->Text = L"V";
 			// 
@@ -2560,9 +2725,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V4->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V4->Enabled = false;
-			this->Sweep_Step_V4->Location = System::Drawing::Point(58, 75);
+			this->Sweep_Step_V4->Location = System::Drawing::Point(77, 92);
+			this->Sweep_Step_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V4->Name = L"Sweep_Step_V4";
-			this->Sweep_Step_V4->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V4->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V4->TabIndex = 70;
 			this->Sweep_Step_V4->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V4, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2571,9 +2737,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V4
 			// 
 			this->Sweep_Enable_V4->AutoSize = true;
-			this->Sweep_Enable_V4->Location = System::Drawing::Point(58, 27);
+			this->Sweep_Enable_V4->Location = System::Drawing::Point(77, 33);
+			this->Sweep_Enable_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V4->Name = L"Sweep_Enable_V4";
-			this->Sweep_Enable_V4->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V4->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V4->TabIndex = 14;
 			this->Sweep_Enable_V4->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V4, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2584,45 +2751,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V4->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V4->Enabled = false;
-			this->Sweep_Initial_V4->Location = System::Drawing::Point(58, 50);
+			this->Sweep_Initial_V4->Location = System::Drawing::Point(77, 62);
+			this->Sweep_Initial_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V4->Name = L"Sweep_Initial_V4";
-			this->Sweep_Initial_V4->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V4->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V4->TabIndex = 11;
 			this->Sweep_Initial_V4->Text = L"0";
 			// 
 			// label77
 			// 
 			this->label77->AutoSize = true;
-			this->label77->Location = System::Drawing::Point(118, 53);
+			this->label77->Location = System::Drawing::Point(157, 65);
+			this->label77->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label77->Name = L"label77";
-			this->label77->Size = System::Drawing::Size(14, 13);
+			this->label77->Size = System::Drawing::Size(17, 17);
 			this->label77->TabIndex = 26;
 			this->label77->Text = L"V";
 			// 
 			// label78
 			// 
 			this->label78->AutoSize = true;
-			this->label78->Location = System::Drawing::Point(11, 53);
+			this->label78->Location = System::Drawing::Point(15, 65);
+			this->label78->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label78->Name = L"label78";
-			this->label78->Size = System::Drawing::Size(31, 13);
+			this->label78->Size = System::Drawing::Size(40, 17);
 			this->label78->TabIndex = 46;
 			this->label78->Text = L"Initial";
 			// 
 			// label79
 			// 
 			this->label79->AutoSize = true;
-			this->label79->Location = System::Drawing::Point(11, 78);
+			this->label79->Location = System::Drawing::Point(15, 96);
+			this->label79->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label79->Name = L"label79";
-			this->label79->Size = System::Drawing::Size(29, 13);
+			this->label79->Size = System::Drawing::Size(37, 17);
 			this->label79->TabIndex = 58;
 			this->label79->Text = L"Step";
 			// 
 			// label80
 			// 
 			this->label80->AutoSize = true;
-			this->label80->Location = System::Drawing::Point(11, 105);
+			this->label80->Location = System::Drawing::Point(15, 129);
+			this->label80->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label80->Name = L"label80";
-			this->label80->Size = System::Drawing::Size(29, 13);
+			this->label80->Size = System::Drawing::Size(38, 17);
 			this->label80->TabIndex = 69;
 			this->label80->Text = L"Final";
 			// 
@@ -2638,9 +2810,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V3->Controls->Add(this->label52);
 			this->sweep_groupbox_V3->Controls->Add(this->label53);
 			this->sweep_groupbox_V3->Controls->Add(this->label54);
-			this->sweep_groupbox_V3->Location = System::Drawing::Point(325, 315);
+			this->sweep_groupbox_V3->Location = System::Drawing::Point(433, 388);
+			this->sweep_groupbox_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V3->Name = L"sweep_groupbox_V3";
-			this->sweep_groupbox_V3->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V3->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V3->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V3->TabIndex = 74;
 			this->sweep_groupbox_V3->TabStop = false;
 			this->sweep_groupbox_V3->Text = L"Voltage 3";
@@ -2648,9 +2822,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label48
 			// 
 			this->label48->AutoSize = true;
-			this->label48->Location = System::Drawing::Point(118, 105);
+			this->label48->Location = System::Drawing::Point(157, 129);
+			this->label48->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label48->Name = L"label48";
-			this->label48->Size = System::Drawing::Size(14, 13);
+			this->label48->Size = System::Drawing::Size(17, 17);
 			this->label48->TabIndex = 73;
 			this->label48->Text = L"V";
 			// 
@@ -2658,18 +2833,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V3->Enabled = false;
-			this->Sweep_Final_V3->Location = System::Drawing::Point(58, 102);
+			this->Sweep_Final_V3->Location = System::Drawing::Point(77, 126);
+			this->Sweep_Final_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V3->Name = L"Sweep_Final_V3";
-			this->Sweep_Final_V3->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V3->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V3->TabIndex = 72;
 			this->Sweep_Final_V3->Text = L"0";
 			// 
 			// label49
 			// 
 			this->label49->AutoSize = true;
-			this->label49->Location = System::Drawing::Point(118, 78);
+			this->label49->Location = System::Drawing::Point(157, 96);
+			this->label49->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label49->Name = L"label49";
-			this->label49->Size = System::Drawing::Size(14, 13);
+			this->label49->Size = System::Drawing::Size(17, 17);
 			this->label49->TabIndex = 71;
 			this->label49->Text = L"V";
 			// 
@@ -2677,9 +2854,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V3->Enabled = false;
-			this->Sweep_Step_V3->Location = System::Drawing::Point(58, 75);
+			this->Sweep_Step_V3->Location = System::Drawing::Point(77, 92);
+			this->Sweep_Step_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V3->Name = L"Sweep_Step_V3";
-			this->Sweep_Step_V3->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V3->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V3->TabIndex = 70;
 			this->Sweep_Step_V3->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V3, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2688,9 +2866,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V3
 			// 
 			this->Sweep_Enable_V3->AutoSize = true;
-			this->Sweep_Enable_V3->Location = System::Drawing::Point(58, 27);
+			this->Sweep_Enable_V3->Location = System::Drawing::Point(77, 33);
+			this->Sweep_Enable_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V3->Name = L"Sweep_Enable_V3";
-			this->Sweep_Enable_V3->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V3->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V3->TabIndex = 14;
 			this->Sweep_Enable_V3->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V3, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2701,45 +2880,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V3->Enabled = false;
-			this->Sweep_Initial_V3->Location = System::Drawing::Point(58, 50);
+			this->Sweep_Initial_V3->Location = System::Drawing::Point(77, 62);
+			this->Sweep_Initial_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V3->Name = L"Sweep_Initial_V3";
-			this->Sweep_Initial_V3->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V3->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V3->TabIndex = 11;
 			this->Sweep_Initial_V3->Text = L"0";
 			// 
 			// label51
 			// 
 			this->label51->AutoSize = true;
-			this->label51->Location = System::Drawing::Point(118, 53);
+			this->label51->Location = System::Drawing::Point(157, 65);
+			this->label51->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label51->Name = L"label51";
-			this->label51->Size = System::Drawing::Size(14, 13);
+			this->label51->Size = System::Drawing::Size(17, 17);
 			this->label51->TabIndex = 26;
 			this->label51->Text = L"V";
 			// 
 			// label52
 			// 
 			this->label52->AutoSize = true;
-			this->label52->Location = System::Drawing::Point(11, 53);
+			this->label52->Location = System::Drawing::Point(15, 65);
+			this->label52->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label52->Name = L"label52";
-			this->label52->Size = System::Drawing::Size(31, 13);
+			this->label52->Size = System::Drawing::Size(40, 17);
 			this->label52->TabIndex = 46;
 			this->label52->Text = L"Initial";
 			// 
 			// label53
 			// 
 			this->label53->AutoSize = true;
-			this->label53->Location = System::Drawing::Point(11, 78);
+			this->label53->Location = System::Drawing::Point(15, 96);
+			this->label53->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label53->Name = L"label53";
-			this->label53->Size = System::Drawing::Size(29, 13);
+			this->label53->Size = System::Drawing::Size(37, 17);
 			this->label53->TabIndex = 58;
 			this->label53->Text = L"Step";
 			// 
 			// label54
 			// 
 			this->label54->AutoSize = true;
-			this->label54->Location = System::Drawing::Point(11, 105);
+			this->label54->Location = System::Drawing::Point(15, 129);
+			this->label54->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label54->Name = L"label54";
-			this->label54->Size = System::Drawing::Size(29, 13);
+			this->label54->Size = System::Drawing::Size(38, 17);
 			this->label54->TabIndex = 69;
 			this->label54->Text = L"Final";
 			// 
@@ -2755,9 +2939,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V2->Controls->Add(this->label44);
 			this->sweep_groupbox_V2->Controls->Add(this->label45);
 			this->sweep_groupbox_V2->Controls->Add(this->label47);
-			this->sweep_groupbox_V2->Location = System::Drawing::Point(174, 315);
+			this->sweep_groupbox_V2->Location = System::Drawing::Point(232, 388);
+			this->sweep_groupbox_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V2->Name = L"sweep_groupbox_V2";
-			this->sweep_groupbox_V2->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V2->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V2->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V2->TabIndex = 74;
 			this->sweep_groupbox_V2->TabStop = false;
 			this->sweep_groupbox_V2->Text = L"Voltage 2";
@@ -2765,9 +2951,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label35
 			// 
 			this->label35->AutoSize = true;
-			this->label35->Location = System::Drawing::Point(120, 107);
+			this->label35->Location = System::Drawing::Point(160, 132);
+			this->label35->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label35->Name = L"label35";
-			this->label35->Size = System::Drawing::Size(14, 13);
+			this->label35->Size = System::Drawing::Size(17, 17);
 			this->label35->TabIndex = 73;
 			this->label35->Text = L"V";
 			// 
@@ -2775,18 +2962,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V2->Enabled = false;
-			this->Sweep_Final_V2->Location = System::Drawing::Point(60, 104);
+			this->Sweep_Final_V2->Location = System::Drawing::Point(80, 128);
+			this->Sweep_Final_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V2->Name = L"Sweep_Final_V2";
-			this->Sweep_Final_V2->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V2->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V2->TabIndex = 72;
 			this->Sweep_Final_V2->Text = L"0";
 			// 
 			// label40
 			// 
 			this->label40->AutoSize = true;
-			this->label40->Location = System::Drawing::Point(120, 80);
+			this->label40->Location = System::Drawing::Point(160, 98);
+			this->label40->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label40->Name = L"label40";
-			this->label40->Size = System::Drawing::Size(14, 13);
+			this->label40->Size = System::Drawing::Size(17, 17);
 			this->label40->TabIndex = 71;
 			this->label40->Text = L"V";
 			// 
@@ -2794,9 +2983,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V2->Enabled = false;
-			this->Sweep_Step_V2->Location = System::Drawing::Point(60, 77);
+			this->Sweep_Step_V2->Location = System::Drawing::Point(80, 95);
+			this->Sweep_Step_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V2->Name = L"Sweep_Step_V2";
-			this->Sweep_Step_V2->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V2->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V2->TabIndex = 70;
 			this->Sweep_Step_V2->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V2, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2805,9 +2995,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V2
 			// 
 			this->Sweep_Enable_V2->AutoSize = true;
-			this->Sweep_Enable_V2->Location = System::Drawing::Point(60, 29);
+			this->Sweep_Enable_V2->Location = System::Drawing::Point(80, 36);
+			this->Sweep_Enable_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V2->Name = L"Sweep_Enable_V2";
-			this->Sweep_Enable_V2->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V2->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V2->TabIndex = 14;
 			this->Sweep_Enable_V2->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V2, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2818,45 +3009,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V2->Enabled = false;
-			this->Sweep_Initial_V2->Location = System::Drawing::Point(60, 52);
+			this->Sweep_Initial_V2->Location = System::Drawing::Point(80, 64);
+			this->Sweep_Initial_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V2->Name = L"Sweep_Initial_V2";
-			this->Sweep_Initial_V2->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V2->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V2->TabIndex = 11;
 			this->Sweep_Initial_V2->Text = L"0";
 			// 
 			// label43
 			// 
 			this->label43->AutoSize = true;
-			this->label43->Location = System::Drawing::Point(120, 55);
+			this->label43->Location = System::Drawing::Point(160, 68);
+			this->label43->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label43->Name = L"label43";
-			this->label43->Size = System::Drawing::Size(14, 13);
+			this->label43->Size = System::Drawing::Size(17, 17);
 			this->label43->TabIndex = 26;
 			this->label43->Text = L"V";
 			// 
 			// label44
 			// 
 			this->label44->AutoSize = true;
-			this->label44->Location = System::Drawing::Point(11, 53);
+			this->label44->Location = System::Drawing::Point(15, 65);
+			this->label44->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label44->Name = L"label44";
-			this->label44->Size = System::Drawing::Size(31, 13);
+			this->label44->Size = System::Drawing::Size(40, 17);
 			this->label44->TabIndex = 46;
 			this->label44->Text = L"Initial";
 			// 
 			// label45
 			// 
 			this->label45->AutoSize = true;
-			this->label45->Location = System::Drawing::Point(11, 78);
+			this->label45->Location = System::Drawing::Point(15, 96);
+			this->label45->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label45->Name = L"label45";
-			this->label45->Size = System::Drawing::Size(29, 13);
+			this->label45->Size = System::Drawing::Size(37, 17);
 			this->label45->TabIndex = 58;
 			this->label45->Text = L"Step";
 			// 
 			// label47
 			// 
 			this->label47->AutoSize = true;
-			this->label47->Location = System::Drawing::Point(11, 105);
+			this->label47->Location = System::Drawing::Point(15, 129);
+			this->label47->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label47->Name = L"label47";
-			this->label47->Size = System::Drawing::Size(29, 13);
+			this->label47->Size = System::Drawing::Size(38, 17);
 			this->label47->TabIndex = 69;
 			this->label47->Text = L"Final";
 			// 
@@ -2872,9 +3068,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V1->Controls->Add(this->label46);
 			this->sweep_groupbox_V1->Controls->Add(this->label50);
 			this->sweep_groupbox_V1->Controls->Add(this->label55);
-			this->sweep_groupbox_V1->Location = System::Drawing::Point(20, 315);
+			this->sweep_groupbox_V1->Location = System::Drawing::Point(27, 388);
+			this->sweep_groupbox_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_groupbox_V1->Name = L"sweep_groupbox_V1";
-			this->sweep_groupbox_V1->Size = System::Drawing::Size(139, 143);
+			this->sweep_groupbox_V1->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V1->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V1->TabIndex = 51;
 			this->sweep_groupbox_V1->TabStop = false;
 			this->sweep_groupbox_V1->Text = L"Voltage 1";
@@ -2882,9 +3080,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label57
 			// 
 			this->label57->AutoSize = true;
-			this->label57->Location = System::Drawing::Point(120, 105);
+			this->label57->Location = System::Drawing::Point(160, 129);
+			this->label57->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label57->Name = L"label57";
-			this->label57->Size = System::Drawing::Size(14, 13);
+			this->label57->Size = System::Drawing::Size(17, 17);
 			this->label57->TabIndex = 73;
 			this->label57->Text = L"V";
 			// 
@@ -2892,18 +3091,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Final_V1->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V1->Enabled = false;
-			this->Sweep_Final_V1->Location = System::Drawing::Point(60, 102);
+			this->Sweep_Final_V1->Location = System::Drawing::Point(80, 126);
+			this->Sweep_Final_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Final_V1->Name = L"Sweep_Final_V1";
-			this->Sweep_Final_V1->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Final_V1->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V1->TabIndex = 72;
 			this->Sweep_Final_V1->Text = L"0";
 			// 
 			// label42
 			// 
 			this->label42->AutoSize = true;
-			this->label42->Location = System::Drawing::Point(120, 78);
+			this->label42->Location = System::Drawing::Point(160, 96);
+			this->label42->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label42->Name = L"label42";
-			this->label42->Size = System::Drawing::Size(14, 13);
+			this->label42->Size = System::Drawing::Size(17, 17);
 			this->label42->TabIndex = 71;
 			this->label42->Text = L"V";
 			// 
@@ -2911,9 +3112,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Step_V1->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V1->Enabled = false;
-			this->Sweep_Step_V1->Location = System::Drawing::Point(60, 75);
+			this->Sweep_Step_V1->Location = System::Drawing::Point(80, 92);
+			this->Sweep_Step_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Step_V1->Name = L"Sweep_Step_V1";
-			this->Sweep_Step_V1->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Step_V1->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V1->TabIndex = 70;
 			this->Sweep_Step_V1->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_Step_V1, L"Must not be larger than the whole range (|Final - Initial|)\r\nand must fit in dire"
@@ -2922,9 +3124,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Enable_V1
 			// 
 			this->Sweep_Enable_V1->AutoSize = true;
-			this->Sweep_Enable_V1->Location = System::Drawing::Point(60, 27);
+			this->Sweep_Enable_V1->Location = System::Drawing::Point(80, 33);
+			this->Sweep_Enable_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Enable_V1->Name = L"Sweep_Enable_V1";
-			this->Sweep_Enable_V1->Size = System::Drawing::Size(58, 17);
+			this->Sweep_Enable_V1->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V1->TabIndex = 14;
 			this->Sweep_Enable_V1->Text = L"enable";
 			this->toolTip->SetToolTip(this->Sweep_Enable_V1, L"Enables the Voltage for Sweep Mode. If not enabled,\r\nall parameters are ignored a"
@@ -2935,45 +3138,50 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Initial_V1->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V1->Enabled = false;
-			this->Sweep_Initial_V1->Location = System::Drawing::Point(60, 50);
+			this->Sweep_Initial_V1->Location = System::Drawing::Point(80, 62);
+			this->Sweep_Initial_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Initial_V1->Name = L"Sweep_Initial_V1";
-			this->Sweep_Initial_V1->Size = System::Drawing::Size(58, 20);
+			this->Sweep_Initial_V1->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V1->TabIndex = 11;
 			this->Sweep_Initial_V1->Text = L"0";
 			// 
 			// label56
 			// 
 			this->label56->AutoSize = true;
-			this->label56->Location = System::Drawing::Point(120, 53);
+			this->label56->Location = System::Drawing::Point(160, 65);
+			this->label56->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label56->Name = L"label56";
-			this->label56->Size = System::Drawing::Size(14, 13);
+			this->label56->Size = System::Drawing::Size(17, 17);
 			this->label56->TabIndex = 26;
 			this->label56->Text = L"V";
 			// 
 			// label46
 			// 
 			this->label46->AutoSize = true;
-			this->label46->Location = System::Drawing::Point(11, 53);
+			this->label46->Location = System::Drawing::Point(15, 65);
+			this->label46->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label46->Name = L"label46";
-			this->label46->Size = System::Drawing::Size(31, 13);
+			this->label46->Size = System::Drawing::Size(40, 17);
 			this->label46->TabIndex = 46;
 			this->label46->Text = L"Initial";
 			// 
 			// label50
 			// 
 			this->label50->AutoSize = true;
-			this->label50->Location = System::Drawing::Point(11, 78);
+			this->label50->Location = System::Drawing::Point(15, 96);
+			this->label50->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label50->Name = L"label50";
-			this->label50->Size = System::Drawing::Size(29, 13);
+			this->label50->Size = System::Drawing::Size(37, 17);
 			this->label50->TabIndex = 58;
 			this->label50->Text = L"Step";
 			// 
 			// label55
 			// 
 			this->label55->AutoSize = true;
-			this->label55->Location = System::Drawing::Point(11, 105);
+			this->label55->Location = System::Drawing::Point(15, 129);
+			this->label55->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label55->Name = L"label55";
-			this->label55->Size = System::Drawing::Size(29, 13);
+			this->label55->Size = System::Drawing::Size(38, 17);
 			this->label55->TabIndex = 69;
 			this->label55->Text = L"Final";
 			// 
@@ -3002,9 +3210,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox1->Controls->Add(this->Sweep_Loop);
 			this->groupBox1->Controls->Add(this->Sweep_Cycle);
 			this->groupBox1->Controls->Add(this->Sweep_Calculate);
-			this->groupBox1->Location = System::Drawing::Point(20, 24);
+			this->groupBox1->Location = System::Drawing::Point(27, 30);
+			this->groupBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(585, 280);
+			this->groupBox1->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox1->Size = System::Drawing::Size(780, 345);
 			this->groupBox1->TabIndex = 50;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"General";
@@ -3012,45 +3222,50 @@ private: System::Windows::Forms::Label^ label133;
 			// label110
 			// 
 			this->label110->AutoSize = true;
-			this->label110->Location = System::Drawing::Point(141, 99);
+			this->label110->Location = System::Drawing::Point(188, 122);
+			this->label110->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label110->Name = L"label110";
-			this->label110->Size = System::Drawing::Size(20, 13);
+			this->label110->Size = System::Drawing::Size(26, 17);
 			this->label110->TabIndex = 99;
 			this->label110->Text = L"ms";
 			// 
 			// label109
 			// 
 			this->label109->AutoSize = true;
-			this->label109->Location = System::Drawing::Point(11, 99);
+			this->label109->Location = System::Drawing::Point(15, 122);
+			this->label109->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label109->Name = L"label109";
-			this->label109->Size = System::Drawing::Size(56, 13);
+			this->label109->Size = System::Drawing::Size(74, 17);
 			this->label109->TabIndex = 98;
 			this->label109->Text = L"Delay time";
 			// 
 			// Sweep_DelayTime
 			// 
 			this->Sweep_DelayTime->BackColor = System::Drawing::SystemColors::Window;
-			this->Sweep_DelayTime->Location = System::Drawing::Point(80, 96);
+			this->Sweep_DelayTime->Location = System::Drawing::Point(107, 118);
+			this->Sweep_DelayTime->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_DelayTime->Name = L"Sweep_DelayTime";
-			this->Sweep_DelayTime->Size = System::Drawing::Size(53, 20);
+			this->Sweep_DelayTime->Size = System::Drawing::Size(69, 22);
 			this->Sweep_DelayTime->TabIndex = 97;
 			this->Sweep_DelayTime->Text = L"0";
 			this->toolTip->SetToolTip(this->Sweep_DelayTime, L"Delay time after all voltage setpoints are reached");
 			// 
 			// Sweep_FileName
 			// 
-			this->Sweep_FileName->Location = System::Drawing::Point(43, 235);
+			this->Sweep_FileName->Location = System::Drawing::Point(57, 289);
+			this->Sweep_FileName->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_FileName->Name = L"Sweep_FileName";
 			this->Sweep_FileName->ReadOnly = true;
-			this->Sweep_FileName->Size = System::Drawing::Size(201, 20);
+			this->Sweep_FileName->Size = System::Drawing::Size(267, 22);
 			this->Sweep_FileName->TabIndex = 96;
 			// 
 			// Sweep_FileOpen
 			// 
 			this->Sweep_FileOpen->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Sweep_FileOpen.Image")));
-			this->Sweep_FileOpen->Location = System::Drawing::Point(8, 231);
+			this->Sweep_FileOpen->Location = System::Drawing::Point(11, 284);
+			this->Sweep_FileOpen->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_FileOpen->Name = L"Sweep_FileOpen";
-			this->Sweep_FileOpen->Size = System::Drawing::Size(27, 27);
+			this->Sweep_FileOpen->Size = System::Drawing::Size(36, 33);
 			this->Sweep_FileOpen->TabIndex = 95;
 			this->Sweep_FileOpen->UseVisualStyleBackColor = true;
 			this->Sweep_FileOpen->Click += gcnew System::EventHandler(this, &Form1::Sweep_FileOpen_Click);
@@ -3058,9 +3273,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_ValsFromFile
 			// 
 			this->Sweep_ValsFromFile->AutoSize = true;
-			this->Sweep_ValsFromFile->Location = System::Drawing::Point(8, 208);
+			this->Sweep_ValsFromFile->Location = System::Drawing::Point(11, 256);
+			this->Sweep_ValsFromFile->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_ValsFromFile->Name = L"Sweep_ValsFromFile";
-			this->Sweep_ValsFromFile->Size = System::Drawing::Size(99, 17);
+			this->Sweep_ValsFromFile->Size = System::Drawing::Size(130, 21);
 			this->Sweep_ValsFromFile->TabIndex = 94;
 			this->Sweep_ValsFromFile->Text = L"Values from File";
 			this->Sweep_ValsFromFile->UseVisualStyleBackColor = true;
@@ -3069,9 +3285,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_ValsFromMask->AutoSize = true;
 			this->Sweep_ValsFromMask->Checked = true;
-			this->Sweep_ValsFromMask->Location = System::Drawing::Point(8, 129);
+			this->Sweep_ValsFromMask->Location = System::Drawing::Point(11, 159);
+			this->Sweep_ValsFromMask->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_ValsFromMask->Name = L"Sweep_ValsFromMask";
-			this->Sweep_ValsFromMask->Size = System::Drawing::Size(153, 17);
+			this->Sweep_ValsFromMask->Size = System::Drawing::Size(200, 21);
 			this->Sweep_ValsFromMask->TabIndex = 93;
 			this->Sweep_ValsFromMask->TabStop = true;
 			this->Sweep_ValsFromMask->Text = L"Values from Voltage Masks";
@@ -3081,9 +3298,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->sweep_estimated_time->AutoSize = true;
 			this->sweep_estimated_time->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->sweep_estimated_time->Location = System::Drawing::Point(302, 114);
+			this->sweep_estimated_time->Location = System::Drawing::Point(403, 140);
+			this->sweep_estimated_time->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->sweep_estimated_time->Name = L"sweep_estimated_time";
-			this->sweep_estimated_time->Size = System::Drawing::Size(75, 13);
+			this->sweep_estimated_time->Size = System::Drawing::Size(100, 17);
 			this->sweep_estimated_time->TabIndex = 92;
 			this->sweep_estimated_time->Text = L"Estimated time";
 			this->sweep_estimated_time->Visible = false;
@@ -3093,9 +3311,10 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Sync->AutoSize = true;
 			this->Sweep_Sync->Checked = true;
 			this->Sweep_Sync->CheckState = System::Windows::Forms::CheckState::Checked;
-			this->Sweep_Sync->Location = System::Drawing::Point(14, 76);
+			this->Sweep_Sync->Location = System::Drawing::Point(19, 94);
+			this->Sweep_Sync->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Sync->Name = L"Sweep_Sync";
-			this->Sweep_Sync->Size = System::Drawing::Size(153, 17);
+			this->Sweep_Sync->Size = System::Drawing::Size(196, 21);
 			this->Sweep_Sync->TabIndex = 91;
 			this->Sweep_Sync->Text = L"Synchronize with WinSpec";
 			this->toolTip->SetToolTip(this->Sweep_Sync, L"If checked: Programm sets TTL-Output and waits \r\nfor TTL-Input vom WinSpec. (PI C"
@@ -3105,19 +3324,21 @@ private: System::Windows::Forms::Label^ label133;
 			// label58
 			// 
 			this->label58->AutoSize = true;
-			this->label58->Location = System::Drawing::Point(301, 22);
+			this->label58->Location = System::Drawing::Point(401, 27);
+			this->label58->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label58->Name = L"label58";
-			this->label58->Size = System::Drawing::Size(89, 13);
+			this->label58->Size = System::Drawing::Size(118, 17);
 			this->label58->TabIndex = 90;
 			this->label58->Text = L"Resulting spectra";
 			// 
 			// Sweep_ResultSpectra
 			// 
 			this->Sweep_ResultSpectra->BackColor = System::Drawing::Color::LightSkyBlue;
-			this->Sweep_ResultSpectra->Location = System::Drawing::Point(462, 19);
+			this->Sweep_ResultSpectra->Location = System::Drawing::Point(616, 23);
+			this->Sweep_ResultSpectra->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_ResultSpectra->Name = L"Sweep_ResultSpectra";
 			this->Sweep_ResultSpectra->ReadOnly = true;
-			this->Sweep_ResultSpectra->Size = System::Drawing::Size(53, 20);
+			this->Sweep_ResultSpectra->Size = System::Drawing::Size(69, 22);
 			this->Sweep_ResultSpectra->TabIndex = 89;
 			this->Sweep_ResultSpectra->Text = L"0";
 			// 
@@ -3125,9 +3346,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_StatusProgress->AutoSize = true;
 			this->Sweep_StatusProgress->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->Sweep_StatusProgress->Location = System::Drawing::Point(302, 64);
+			this->Sweep_StatusProgress->Location = System::Drawing::Point(403, 79);
+			this->Sweep_StatusProgress->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->Sweep_StatusProgress->Name = L"Sweep_StatusProgress";
-			this->Sweep_StatusProgress->Size = System::Drawing::Size(38, 13);
+			this->Sweep_StatusProgress->Size = System::Drawing::Size(49, 17);
 			this->Sweep_StatusProgress->TabIndex = 88;
 			this->Sweep_StatusProgress->Text = L"Ready";
 			// 
@@ -3135,25 +3357,28 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_StatusStep->AutoSize = true;
 			this->Sweep_StatusStep->ImageAlign = System::Drawing::ContentAlignment::MiddleRight;
-			this->Sweep_StatusStep->Location = System::Drawing::Point(499, 67);
+			this->Sweep_StatusStep->Location = System::Drawing::Point(665, 82);
+			this->Sweep_StatusStep->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->Sweep_StatusStep->Name = L"Sweep_StatusStep";
-			this->Sweep_StatusStep->Size = System::Drawing::Size(24, 13);
+			this->Sweep_StatusStep->Size = System::Drawing::Size(28, 17);
 			this->Sweep_StatusStep->TabIndex = 87;
 			this->Sweep_StatusStep->Text = L"0/0";
 			// 
 			// Sweep_Progress
 			// 
-			this->Sweep_Progress->Location = System::Drawing::Point(305, 84);
+			this->Sweep_Progress->Location = System::Drawing::Point(407, 103);
+			this->Sweep_Progress->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Progress->Name = L"Sweep_Progress";
-			this->Sweep_Progress->Size = System::Drawing::Size(222, 23);
+			this->Sweep_Progress->Size = System::Drawing::Size(296, 28);
 			this->Sweep_Progress->Step = 1;
 			this->Sweep_Progress->TabIndex = 86;
 			// 
 			// Sweep_StartPause
 			// 
-			this->Sweep_StartPause->Location = System::Drawing::Point(305, 134);
+			this->Sweep_StartPause->Location = System::Drawing::Point(407, 165);
+			this->Sweep_StartPause->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_StartPause->Name = L"Sweep_StartPause";
-			this->Sweep_StartPause->Size = System::Drawing::Size(108, 23);
+			this->Sweep_StartPause->Size = System::Drawing::Size(144, 28);
 			this->Sweep_StartPause->TabIndex = 85;
 			this->Sweep_StartPause->Text = L"Start";
 			this->Sweep_StartPause->UseVisualStyleBackColor = true;
@@ -3161,9 +3386,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			// Sweep_Cancel
 			// 
-			this->Sweep_Cancel->Location = System::Drawing::Point(419, 134);
+			this->Sweep_Cancel->Location = System::Drawing::Point(559, 165);
+			this->Sweep_Cancel->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Cancel->Name = L"Sweep_Cancel";
-			this->Sweep_Cancel->Size = System::Drawing::Size(108, 23);
+			this->Sweep_Cancel->Size = System::Drawing::Size(144, 28);
 			this->Sweep_Cancel->TabIndex = 84;
 			this->Sweep_Cancel->Text = L"Cancel";
 			this->Sweep_Cancel->UseVisualStyleBackColor = true;
@@ -3172,9 +3398,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(5, 159);
+			this->label1->Location = System::Drawing::Point(7, 196);
+			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(104, 13);
+			this->label1->Size = System::Drawing::Size(138, 17);
 			this->label1->TabIndex = 83;
 			this->label1->Text = L"Calculate Steps from";
 			// 
@@ -3182,9 +3409,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_CalcFrom->FormattingEnabled = true;
 			this->Sweep_CalcFrom->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Voltage 1", L"Voltage 2", L"Voltage 3" });
-			this->Sweep_CalcFrom->Location = System::Drawing::Point(123, 155);
+			this->Sweep_CalcFrom->Location = System::Drawing::Point(164, 191);
+			this->Sweep_CalcFrom->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_CalcFrom->Name = L"Sweep_CalcFrom";
-			this->Sweep_CalcFrom->Size = System::Drawing::Size(122, 21);
+			this->Sweep_CalcFrom->Size = System::Drawing::Size(161, 24);
 			this->Sweep_CalcFrom->TabIndex = 82;
 			this->toolTip->SetToolTip(this->Sweep_CalcFrom, L"Redefines Steps of the other voltages by adjusting\r\nthem to reach the same number"
 				L" of spectra as\r\nthe defined source voltage.");
@@ -3192,9 +3420,10 @@ private: System::Windows::Forms::Label^ label133;
 			// label28
 			// 
 			this->label28->AutoSize = true;
-			this->label28->Location = System::Drawing::Point(141, 48);
+			this->label28->Location = System::Drawing::Point(188, 59);
+			this->label28->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(36, 13);
+			this->label28->Size = System::Drawing::Size(47, 17);
 			this->label28->TabIndex = 80;
 			this->label28->Text = L"Loops";
 			// 
@@ -3202,18 +3431,20 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Loops->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Loops->Enabled = false;
-			this->Sweep_Loops->Location = System::Drawing::Point(80, 45);
+			this->Sweep_Loops->Location = System::Drawing::Point(107, 55);
+			this->Sweep_Loops->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Loops->Name = L"Sweep_Loops";
-			this->Sweep_Loops->Size = System::Drawing::Size(53, 20);
+			this->Sweep_Loops->Size = System::Drawing::Size(69, 22);
 			this->Sweep_Loops->TabIndex = 81;
 			this->Sweep_Loops->Text = L"0";
 			// 
 			// Sweep_Loop
 			// 
 			this->Sweep_Loop->AutoSize = true;
-			this->Sweep_Loop->Location = System::Drawing::Point(14, 48);
+			this->Sweep_Loop->Location = System::Drawing::Point(19, 59);
+			this->Sweep_Loop->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Loop->Name = L"Sweep_Loop";
-			this->Sweep_Loop->Size = System::Drawing::Size(50, 17);
+			this->Sweep_Loop->Size = System::Drawing::Size(62, 21);
 			this->Sweep_Loop->TabIndex = 49;
 			this->Sweep_Loop->Text = L"Loop";
 			this->toolTip->SetToolTip(this->Sweep_Loop, L"Repeats cycle the defined times.");
@@ -3222,9 +3453,10 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Cycle
 			// 
 			this->Sweep_Cycle->AutoSize = true;
-			this->Sweep_Cycle->Location = System::Drawing::Point(14, 21);
+			this->Sweep_Cycle->Location = System::Drawing::Point(19, 26);
+			this->Sweep_Cycle->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Cycle->Name = L"Sweep_Cycle";
-			this->Sweep_Cycle->Size = System::Drawing::Size(52, 17);
+			this->Sweep_Cycle->Size = System::Drawing::Size(64, 21);
 			this->Sweep_Cycle->TabIndex = 48;
 			this->Sweep_Cycle->Text = L"Cycle";
 			this->toolTip->SetToolTip(this->Sweep_Cycle, L"Voltage returns to Initial Value in the defined\r\nstepsize after reaching the Fina"
@@ -3233,9 +3465,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			// Sweep_Calculate
 			// 
-			this->Sweep_Calculate->Location = System::Drawing::Point(123, 179);
+			this->Sweep_Calculate->Location = System::Drawing::Point(164, 220);
+			this->Sweep_Calculate->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Sweep_Calculate->Name = L"Sweep_Calculate";
-			this->Sweep_Calculate->Size = System::Drawing::Size(122, 23);
+			this->Sweep_Calculate->Size = System::Drawing::Size(163, 28);
 			this->Sweep_Calculate->TabIndex = 47;
 			this->Sweep_Calculate->Text = L"Calculate";
 			this->toolTip->SetToolTip(this->Sweep_Calculate, L"Redefines Steps of the other voltages by adjusting");
@@ -3258,10 +3491,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_Settings->Controls->Add(this->label2);
 			this->tabPage_Settings->Controls->Add(this->label3);
 			this->tabPage_Settings->Controls->Add(this->label4);
-			this->tabPage_Settings->Location = System::Drawing::Point(4, 22);
+			this->tabPage_Settings->Location = System::Drawing::Point(4, 25);
+			this->tabPage_Settings->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tabPage_Settings->Name = L"tabPage_Settings";
-			this->tabPage_Settings->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage_Settings->Size = System::Drawing::Size(636, 637);
+			this->tabPage_Settings->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Settings->Size = System::Drawing::Size(851, 787);
 			this->tabPage_Settings->TabIndex = 3;
 			this->tabPage_Settings->Text = L"Settings";
 			// 
@@ -3276,18 +3510,21 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox7->Controls->Add(this->current_limit_V1);
 			this->groupBox7->Controls->Add(this->label18);
 			this->groupBox7->Controls->Add(this->label17);
-			this->groupBox7->Location = System::Drawing::Point(31, 133);
+			this->groupBox7->Location = System::Drawing::Point(41, 164);
+			this->groupBox7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox7->Name = L"groupBox7";
-			this->groupBox7->Size = System::Drawing::Size(409, 124);
+			this->groupBox7->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox7->Size = System::Drawing::Size(545, 153);
 			this->groupBox7->TabIndex = 55;
 			this->groupBox7->TabStop = false;
 			this->groupBox7->Text = L"Current limits";
 			// 
 			// current_limit_V3
 			// 
-			this->current_limit_V3->Location = System::Drawing::Point(154, 82);
+			this->current_limit_V3->Location = System::Drawing::Point(205, 101);
+			this->current_limit_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->current_limit_V3->Name = L"current_limit_V3";
-			this->current_limit_V3->Size = System::Drawing::Size(67, 20);
+			this->current_limit_V3->Size = System::Drawing::Size(88, 22);
 			this->current_limit_V3->TabIndex = 48;
 			this->current_limit_V3->Text = L"0";
 			this->toolTip->SetToolTip(this->current_limit_V3, L"If a channel exceeds this limit, all channels ramp down\r\nto 0V. A new voltage can"
@@ -3296,26 +3533,29 @@ private: System::Windows::Forms::Label^ label133;
 			// label113
 			// 
 			this->label113->AutoSize = true;
-			this->label113->Location = System::Drawing::Point(223, 85);
+			this->label113->Location = System::Drawing::Point(297, 105);
+			this->label113->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label113->Name = L"label113";
-			this->label113->Size = System::Drawing::Size(20, 13);
+			this->label113->Size = System::Drawing::Size(25, 17);
 			this->label113->TabIndex = 49;
 			this->label113->Text = L"µA";
 			// 
 			// label114
 			// 
 			this->label114->AutoSize = true;
-			this->label114->Location = System::Drawing::Point(18, 85);
+			this->label114->Location = System::Drawing::Point(24, 105);
+			this->label114->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label114->Name = L"label114";
-			this->label114->Size = System::Drawing::Size(20, 13);
+			this->label114->Size = System::Drawing::Size(25, 17);
 			this->label114->TabIndex = 47;
 			this->label114->Text = L"V3";
 			// 
 			// current_limit_V2
 			// 
-			this->current_limit_V2->Location = System::Drawing::Point(154, 56);
+			this->current_limit_V2->Location = System::Drawing::Point(205, 69);
+			this->current_limit_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->current_limit_V2->Name = L"current_limit_V2";
-			this->current_limit_V2->Size = System::Drawing::Size(67, 20);
+			this->current_limit_V2->Size = System::Drawing::Size(88, 22);
 			this->current_limit_V2->TabIndex = 45;
 			this->current_limit_V2->Text = L"0";
 			this->toolTip->SetToolTip(this->current_limit_V2, L"If a channel exceeds this limit, all channels ramp down\r\nto 0V. A new voltage can"
@@ -3324,26 +3564,29 @@ private: System::Windows::Forms::Label^ label133;
 			// label111
 			// 
 			this->label111->AutoSize = true;
-			this->label111->Location = System::Drawing::Point(223, 59);
+			this->label111->Location = System::Drawing::Point(297, 73);
+			this->label111->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label111->Name = L"label111";
-			this->label111->Size = System::Drawing::Size(20, 13);
+			this->label111->Size = System::Drawing::Size(25, 17);
 			this->label111->TabIndex = 46;
 			this->label111->Text = L"µA";
 			// 
 			// label112
 			// 
 			this->label112->AutoSize = true;
-			this->label112->Location = System::Drawing::Point(18, 59);
+			this->label112->Location = System::Drawing::Point(24, 73);
+			this->label112->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label112->Name = L"label112";
-			this->label112->Size = System::Drawing::Size(20, 13);
+			this->label112->Size = System::Drawing::Size(25, 17);
 			this->label112->TabIndex = 44;
 			this->label112->Text = L"V2";
 			// 
 			// sweep_ramp_cycle
 			// 
-			this->sweep_ramp_cycle->Location = System::Drawing::Point(184, 86);
+			this->sweep_ramp_cycle->Location = System::Drawing::Point(245, 106);
+			this->sweep_ramp_cycle->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_ramp_cycle->Name = L"sweep_ramp_cycle";
-			this->sweep_ramp_cycle->Size = System::Drawing::Size(67, 20);
+			this->sweep_ramp_cycle->Size = System::Drawing::Size(88, 22);
 			this->sweep_ramp_cycle->TabIndex = 53;
 			this->sweep_ramp_cycle->Text = L"0,01";
 			this->toolTip->SetToolTip(this->sweep_ramp_cycle, L"Ramp used during each step of the Sweep Mode");
@@ -3351,26 +3594,29 @@ private: System::Windows::Forms::Label^ label133;
 			// label61
 			// 
 			this->label61->AutoSize = true;
-			this->label61->Location = System::Drawing::Point(257, 89);
+			this->label61->Location = System::Drawing::Point(343, 110);
+			this->label61->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label61->Name = L"label61";
-			this->label61->Size = System::Drawing::Size(24, 13);
+			this->label61->Size = System::Drawing::Size(28, 17);
 			this->label61->TabIndex = 54;
 			this->label61->Text = L"V/s";
 			// 
 			// label62
 			// 
 			this->label62->AutoSize = true;
-			this->label62->Location = System::Drawing::Point(28, 88);
+			this->label62->Location = System::Drawing::Point(37, 108);
+			this->label62->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label62->Name = L"label62";
-			this->label62->Size = System::Drawing::Size(126, 13);
+			this->label62->Size = System::Drawing::Size(163, 17);
 			this->label62->TabIndex = 52;
 			this->label62->Text = L"Ramp Sweep Mode Step";
 			// 
 			// sweep_ramp_init
 			// 
-			this->sweep_ramp_init->Location = System::Drawing::Point(184, 59);
+			this->sweep_ramp_init->Location = System::Drawing::Point(245, 73);
+			this->sweep_ramp_init->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->sweep_ramp_init->Name = L"sweep_ramp_init";
-			this->sweep_ramp_init->Size = System::Drawing::Size(67, 20);
+			this->sweep_ramp_init->Size = System::Drawing::Size(88, 22);
 			this->sweep_ramp_init->TabIndex = 50;
 			this->sweep_ramp_init->Text = L"0,01";
 			this->toolTip->SetToolTip(this->sweep_ramp_init, L"Ramp used for reaching the Initial Value\r\nin Sweep mode.");
@@ -3378,27 +3624,30 @@ private: System::Windows::Forms::Label^ label133;
 			// label60
 			// 
 			this->label60->AutoSize = true;
-			this->label60->Location = System::Drawing::Point(257, 62);
+			this->label60->Location = System::Drawing::Point(343, 76);
+			this->label60->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label60->Name = L"label60";
-			this->label60->Size = System::Drawing::Size(24, 13);
+			this->label60->Size = System::Drawing::Size(28, 17);
 			this->label60->TabIndex = 51;
 			this->label60->Text = L"V/s";
 			// 
 			// label59
 			// 
 			this->label59->AutoSize = true;
-			this->label59->Location = System::Drawing::Point(27, 62);
+			this->label59->Location = System::Drawing::Point(36, 76);
+			this->label59->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label59->Name = L"label59";
-			this->label59->Size = System::Drawing::Size(128, 13);
+			this->label59->Size = System::Drawing::Size(166, 17);
 			this->label59->TabIndex = 49;
 			this->label59->Text = L"Ramp Sweep Mode Initial";
 			// 
 			// label31
 			// 
 			this->label31->AutoSize = true;
-			this->label31->Location = System::Drawing::Point(292, 35);
+			this->label31->Location = System::Drawing::Point(389, 43);
+			this->label31->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(63, 13);
+			this->label31->Size = System::Drawing::Size(83, 17);
 			this->label31->TabIndex = 48;
 			this->label31->Text = L"Actual ramp";
 			// 
@@ -3423,28 +3672,31 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_test->Controls->Add(this->testGetIO);
 			this->tabPage_test->Controls->Add(this->testSetIO);
 			this->tabPage_test->Controls->Add(this->testConnect);
-			this->tabPage_test->Location = System::Drawing::Point(4, 22);
+			this->tabPage_test->Location = System::Drawing::Point(4, 25);
+			this->tabPage_test->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tabPage_test->Name = L"tabPage_test";
-			this->tabPage_test->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage_test->Size = System::Drawing::Size(636, 637);
+			this->tabPage_test->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_test->Size = System::Drawing::Size(851, 787);
 			this->tabPage_test->TabIndex = 2;
 			this->tabPage_test->Text = L"Testing";
 			// 
 			// testI0
 			// 
 			this->testI0->AutoSize = true;
-			this->testI0->Location = System::Drawing::Point(237, 253);
+			this->testI0->Location = System::Drawing::Point(316, 311);
+			this->testI0->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testI0->Name = L"testI0";
-			this->testI0->Size = System::Drawing::Size(35, 17);
+			this->testI0->Size = System::Drawing::Size(41, 21);
 			this->testI0->TabIndex = 45;
 			this->testI0->Text = L"I0";
 			this->testI0->UseVisualStyleBackColor = true;
 			// 
 			// testDisconnect
 			// 
-			this->testDisconnect->Location = System::Drawing::Point(142, 164);
+			this->testDisconnect->Location = System::Drawing::Point(189, 202);
+			this->testDisconnect->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testDisconnect->Name = L"testDisconnect";
-			this->testDisconnect->Size = System::Drawing::Size(75, 23);
+			this->testDisconnect->Size = System::Drawing::Size(100, 28);
 			this->testDisconnect->TabIndex = 44;
 			this->testDisconnect->Text = L"Disconnect";
 			this->testDisconnect->UseVisualStyleBackColor = true;
@@ -3453,48 +3705,54 @@ private: System::Windows::Forms::Label^ label133;
 			// label38
 			// 
 			this->label38->AutoSize = true;
-			this->label38->Location = System::Drawing::Point(388, 225);
+			this->label38->Location = System::Drawing::Point(517, 277);
+			this->label38->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(0, 13);
+			this->label38->Size = System::Drawing::Size(0, 17);
 			this->label38->TabIndex = 43;
 			// 
 			// testError
 			// 
-			this->testError->Location = System::Drawing::Point(450, 222);
+			this->testError->Location = System::Drawing::Point(600, 273);
+			this->testError->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testError->Name = L"testError";
 			this->testError->ReadOnly = true;
-			this->testError->Size = System::Drawing::Size(84, 20);
+			this->testError->Size = System::Drawing::Size(111, 22);
 			this->testError->TabIndex = 42;
 			// 
 			// label37
 			// 
 			this->label37->AutoSize = true;
-			this->label37->Location = System::Drawing::Point(346, 177);
+			this->label37->Location = System::Drawing::Point(461, 218);
+			this->label37->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(0, 13);
+			this->label37->Size = System::Drawing::Size(0, 17);
 			this->label37->TabIndex = 41;
 			// 
 			// testOutputLines
 			// 
-			this->testOutputLines->Location = System::Drawing::Point(412, 174);
+			this->testOutputLines->Location = System::Drawing::Point(549, 214);
+			this->testOutputLines->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testOutputLines->Name = L"testOutputLines";
 			this->testOutputLines->ReadOnly = true;
-			this->testOutputLines->Size = System::Drawing::Size(122, 20);
+			this->testOutputLines->Size = System::Drawing::Size(161, 22);
 			this->testOutputLines->TabIndex = 40;
 			// 
 			// label36
 			// 
 			this->label36->AutoSize = true;
-			this->label36->Location = System::Drawing::Point(346, 151);
+			this->label36->Location = System::Drawing::Point(461, 186);
+			this->label36->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label36->Name = L"label36";
-			this->label36->Size = System::Drawing::Size(0, 13);
+			this->label36->Size = System::Drawing::Size(0, 17);
 			this->label36->TabIndex = 39;
 			// 
 			// testGetPCI
 			// 
-			this->testGetPCI->Location = System::Drawing::Point(142, 51);
+			this->testGetPCI->Location = System::Drawing::Point(189, 63);
+			this->testGetPCI->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testGetPCI->Name = L"testGetPCI";
-			this->testGetPCI->Size = System::Drawing::Size(75, 23);
+			this->testGetPCI->Size = System::Drawing::Size(100, 28);
 			this->testGetPCI->TabIndex = 38;
 			this->testGetPCI->Text = L"GetPCI";
 			this->testGetPCI->UseVisualStyleBackColor = true;
@@ -3502,27 +3760,30 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			// testPCIList
 			// 
-			this->testPCIList->Location = System::Drawing::Point(237, 51);
+			this->testPCIList->Location = System::Drawing::Point(316, 63);
+			this->testPCIList->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testPCIList->Multiline = true;
 			this->testPCIList->Name = L"testPCIList";
 			this->testPCIList->ReadOnly = true;
-			this->testPCIList->Size = System::Drawing::Size(67, 67);
+			this->testPCIList->Size = System::Drawing::Size(88, 82);
 			this->testPCIList->TabIndex = 37;
 			// 
 			// testInputChannels
 			// 
-			this->testInputChannels->Location = System::Drawing::Point(412, 148);
+			this->testInputChannels->Location = System::Drawing::Point(549, 182);
+			this->testInputChannels->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testInputChannels->Name = L"testInputChannels";
 			this->testInputChannels->ReadOnly = true;
-			this->testInputChannels->Size = System::Drawing::Size(122, 20);
+			this->testInputChannels->Size = System::Drawing::Size(161, 22);
 			this->testInputChannels->TabIndex = 36;
 			// 
 			// testSuccess
 			// 
 			this->testSuccess->AutoSize = true;
-			this->testSuccess->Location = System::Drawing::Point(43, 245);
+			this->testSuccess->Location = System::Drawing::Point(57, 302);
+			this->testSuccess->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testSuccess->Name = L"testSuccess";
-			this->testSuccess->Size = System::Drawing::Size(65, 17);
+			this->testSuccess->Size = System::Drawing::Size(81, 21);
 			this->testSuccess->TabIndex = 35;
 			this->testSuccess->Text = L"success";
 			this->testSuccess->UseVisualStyleBackColor = true;
@@ -3530,9 +3791,10 @@ private: System::Windows::Forms::Label^ label133;
 			// testConnected
 			// 
 			this->testConnected->AutoSize = true;
-			this->testConnected->Location = System::Drawing::Point(237, 151);
+			this->testConnected->Location = System::Drawing::Point(316, 186);
+			this->testConnected->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testConnected->Name = L"testConnected";
-			this->testConnected->Size = System::Drawing::Size(77, 17);
+			this->testConnected->Size = System::Drawing::Size(96, 21);
 			this->testConnected->TabIndex = 34;
 			this->testConnected->Text = L"connected";
 			this->testConnected->UseVisualStyleBackColor = true;
@@ -3540,33 +3802,37 @@ private: System::Windows::Forms::Label^ label133;
 			// testOutput
 			// 
 			this->testOutput->AutoSize = true;
-			this->testOutput->Location = System::Drawing::Point(237, 222);
+			this->testOutput->Location = System::Drawing::Point(316, 273);
+			this->testOutput->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testOutput->Name = L"testOutput";
-			this->testOutput->Size = System::Drawing::Size(58, 17);
+			this->testOutput->Size = System::Drawing::Size(73, 21);
 			this->testOutput->TabIndex = 33;
 			this->testOutput->Text = L"Output";
 			this->testOutput->UseVisualStyleBackColor = true;
 			// 
 			// testID
 			// 
-			this->testID->Location = System::Drawing::Point(62, 167);
+			this->testID->Location = System::Drawing::Point(83, 206);
+			this->testID->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testID->Name = L"testID";
 			this->testID->ReadOnly = true;
-			this->testID->Size = System::Drawing::Size(58, 20);
+			this->testID->Size = System::Drawing::Size(76, 22);
 			this->testID->TabIndex = 32;
 			// 
 			// testCardNumber
 			// 
-			this->testCardNumber->Location = System::Drawing::Point(62, 141);
+			this->testCardNumber->Location = System::Drawing::Point(83, 174);
+			this->testCardNumber->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testCardNumber->Name = L"testCardNumber";
-			this->testCardNumber->Size = System::Drawing::Size(58, 20);
+			this->testCardNumber->Size = System::Drawing::Size(76, 22);
 			this->testCardNumber->TabIndex = 31;
 			// 
 			// testGetIO
 			// 
-			this->testGetIO->Location = System::Drawing::Point(142, 247);
+			this->testGetIO->Location = System::Drawing::Point(189, 304);
+			this->testGetIO->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testGetIO->Name = L"testGetIO";
-			this->testGetIO->Size = System::Drawing::Size(75, 23);
+			this->testGetIO->Size = System::Drawing::Size(100, 28);
 			this->testGetIO->TabIndex = 30;
 			this->testGetIO->Text = L"GetIO";
 			this->testGetIO->UseVisualStyleBackColor = true;
@@ -3574,9 +3840,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			// testSetIO
 			// 
-			this->testSetIO->Location = System::Drawing::Point(142, 218);
+			this->testSetIO->Location = System::Drawing::Point(189, 268);
+			this->testSetIO->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testSetIO->Name = L"testSetIO";
-			this->testSetIO->Size = System::Drawing::Size(75, 23);
+			this->testSetIO->Size = System::Drawing::Size(100, 28);
 			this->testSetIO->TabIndex = 29;
 			this->testSetIO->Text = L"SetIO";
 			this->testSetIO->UseVisualStyleBackColor = true;
@@ -3584,9 +3851,10 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			// testConnect
 			// 
-			this->testConnect->Location = System::Drawing::Point(142, 139);
+			this->testConnect->Location = System::Drawing::Point(189, 171);
+			this->testConnect->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->testConnect->Name = L"testConnect";
-			this->testConnect->Size = System::Drawing::Size(75, 23);
+			this->testConnect->Size = System::Drawing::Size(100, 28);
 			this->testConnect->TabIndex = 28;
 			this->testConnect->Text = L"Connect";
 			this->testConnect->UseVisualStyleBackColor = true;
@@ -3596,97 +3864,102 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->channel_V1->BackColor = System::Drawing::SystemColors::Control;
 			this->channel_V1->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->channel_V1->Location = System::Drawing::Point(1066, 134);
+			this->channel_V1->Location = System::Drawing::Point(1421, 165);
+			this->channel_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->channel_V1->Name = L"channel_V1";
 			this->channel_V1->ReadOnly = true;
-			this->channel_V1->Size = System::Drawing::Size(158, 20);
+			this->channel_V1->Size = System::Drawing::Size(209, 22);
 			this->channel_V1->TabIndex = 46;
 			// 
 			// channel_V2
 			// 
-			this->channel_V2->Location = System::Drawing::Point(1066, 318);
+			this->channel_V2->Location = System::Drawing::Point(1421, 391);
+			this->channel_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->channel_V2->Name = L"channel_V2";
 			this->channel_V2->ReadOnly = true;
-			this->channel_V2->Size = System::Drawing::Size(158, 20);
+			this->channel_V2->Size = System::Drawing::Size(209, 22);
 			this->channel_V2->TabIndex = 47;
 			// 
 			// channel_V3
 			// 
-			this->channel_V3->Location = System::Drawing::Point(385, -3);
+			this->channel_V3->Location = System::Drawing::Point(513, -4);
+			this->channel_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->channel_V3->Name = L"channel_V3";
 			this->channel_V3->ReadOnly = true;
-			this->channel_V3->Size = System::Drawing::Size(158, 20);
+			this->channel_V3->Size = System::Drawing::Size(209, 22);
 			this->channel_V3->TabIndex = 52;
 			// 
 			// context_Chart
 			// 
+			this->context_Chart->ImageScalingSize = System::Drawing::Size(20, 20);
 			this->context_Chart->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(8) {
 				this->toolStrip_Chart_SavaData,
 					this->toolStripSeparator2, this->toolStrip_Chart_Start, this->toolStrip_Chart_Stop, this->toolStrip_Chart_Clear, this->toolStripSeparator1,
 					this->toolStrip_Chart_StartAll, this->toolStrip_Chart_StopAll
 			});
 			this->context_Chart->Name = L"context_Chart";
-			this->context_Chart->Size = System::Drawing::Size(194, 148);
+			this->context_Chart->Size = System::Drawing::Size(236, 172);
 			this->context_Chart->Opening += gcnew System::ComponentModel::CancelEventHandler(this, &Form1::context_Chart_Opening);
 			// 
 			// toolStrip_Chart_SavaData
 			// 
 			this->toolStrip_Chart_SavaData->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStrip_Chart_SavaData.Image")));
 			this->toolStrip_Chart_SavaData->Name = L"toolStrip_Chart_SavaData";
-			this->toolStrip_Chart_SavaData->Size = System::Drawing::Size(193, 22);
+			this->toolStrip_Chart_SavaData->Size = System::Drawing::Size(235, 26);
 			this->toolStrip_Chart_SavaData->Text = L"Save data points to file";
 			this->toolStrip_Chart_SavaData->Click += gcnew System::EventHandler(this, &Form1::toolStrip_Chart_SavaData_Click);
 			// 
 			// toolStripSeparator2
 			// 
 			this->toolStripSeparator2->Name = L"toolStripSeparator2";
-			this->toolStripSeparator2->Size = System::Drawing::Size(190, 6);
+			this->toolStripSeparator2->Size = System::Drawing::Size(232, 6);
 			// 
 			// toolStrip_Chart_Start
 			// 
 			this->toolStrip_Chart_Start->Name = L"toolStrip_Chart_Start";
-			this->toolStrip_Chart_Start->Size = System::Drawing::Size(193, 22);
+			this->toolStrip_Chart_Start->Size = System::Drawing::Size(235, 26);
 			this->toolStrip_Chart_Start->Text = L"Start";
 			this->toolStrip_Chart_Start->Click += gcnew System::EventHandler(this, &Form1::toolStrip_Chart_Start_Click);
 			// 
 			// toolStrip_Chart_Stop
 			// 
 			this->toolStrip_Chart_Stop->Name = L"toolStrip_Chart_Stop";
-			this->toolStrip_Chart_Stop->Size = System::Drawing::Size(193, 22);
+			this->toolStrip_Chart_Stop->Size = System::Drawing::Size(235, 26);
 			this->toolStrip_Chart_Stop->Text = L"Stop";
 			this->toolStrip_Chart_Stop->Click += gcnew System::EventHandler(this, &Form1::toolStrip_Chart_Stop_Click);
 			// 
 			// toolStrip_Chart_Clear
 			// 
 			this->toolStrip_Chart_Clear->Name = L"toolStrip_Chart_Clear";
-			this->toolStrip_Chart_Clear->Size = System::Drawing::Size(193, 22);
+			this->toolStrip_Chart_Clear->Size = System::Drawing::Size(235, 26);
 			this->toolStrip_Chart_Clear->Text = L"Clear";
 			this->toolStrip_Chart_Clear->Click += gcnew System::EventHandler(this, &Form1::toolStrip_Chart_Clear_Click);
 			// 
 			// toolStripSeparator1
 			// 
 			this->toolStripSeparator1->Name = L"toolStripSeparator1";
-			this->toolStripSeparator1->Size = System::Drawing::Size(190, 6);
+			this->toolStripSeparator1->Size = System::Drawing::Size(232, 6);
 			// 
 			// toolStrip_Chart_StartAll
 			// 
 			this->toolStrip_Chart_StartAll->Name = L"toolStrip_Chart_StartAll";
-			this->toolStrip_Chart_StartAll->Size = System::Drawing::Size(193, 22);
+			this->toolStrip_Chart_StartAll->Size = System::Drawing::Size(235, 26);
 			this->toolStrip_Chart_StartAll->Text = L"Start all";
 			this->toolStrip_Chart_StartAll->Click += gcnew System::EventHandler(this, &Form1::toolStrip_Chart_StartAll_Click);
 			// 
 			// toolStrip_Chart_StopAll
 			// 
 			this->toolStrip_Chart_StopAll->Name = L"toolStrip_Chart_StopAll";
-			this->toolStrip_Chart_StopAll->Size = System::Drawing::Size(193, 22);
+			this->toolStrip_Chart_StopAll->Size = System::Drawing::Size(235, 26);
 			this->toolStrip_Chart_StopAll->Text = L"Stop all";
 			this->toolStrip_Chart_StopAll->Click += gcnew System::EventHandler(this, &Form1::toolStrip_Chart_StopAll_Click);
 			// 
 			// manual_Chart_It2
 			// 
-			this->manual_Chart_It2->Location = System::Drawing::Point(11, 72);
+			this->manual_Chart_It2->Location = System::Drawing::Point(15, 89);
+			this->manual_Chart_It2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_Chart_It2->Name = L"manual_Chart_It2";
-			this->manual_Chart_It2->Size = System::Drawing::Size(239, 87);
+			this->manual_Chart_It2->Size = System::Drawing::Size(319, 107);
 			this->manual_Chart_It2->TabIndex = 51;
 			this->manual_Chart_It2->TabStop = false;
 			this->manual_Chart_It2->ViewPortChanged += gcnew ChartDirector::WinViewPortEventHandler(this, &Form1::manual_Chart_It2_ViewPortChanged);
@@ -3694,9 +3967,10 @@ private: System::Windows::Forms::Label^ label133;
 			// button_manual_ClearErrors
 			// 
 			this->button_manual_ClearErrors->Enabled = false;
-			this->button_manual_ClearErrors->Location = System::Drawing::Point(375, 20);
+			this->button_manual_ClearErrors->Location = System::Drawing::Point(500, 25);
+			this->button_manual_ClearErrors->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button_manual_ClearErrors->Name = L"button_manual_ClearErrors";
-			this->button_manual_ClearErrors->Size = System::Drawing::Size(106, 21);
+			this->button_manual_ClearErrors->Size = System::Drawing::Size(141, 26);
 			this->button_manual_ClearErrors->TabIndex = 54;
 			this->button_manual_ClearErrors->Text = L"Clear Errors";
 			this->toolTip->SetToolTip(this->button_manual_ClearErrors, L"Clear current trip errors and ISEG module errors");
@@ -3711,9 +3985,10 @@ private: System::Windows::Forms::Label^ label133;
 			// button_Connect_IOs
 			// 
 			this->button_Connect_IOs->Enabled = false;
-			this->button_Connect_IOs->Location = System::Drawing::Point(250, 42);
+			this->button_Connect_IOs->Location = System::Drawing::Point(333, 52);
+			this->button_Connect_IOs->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button_Connect_IOs->Name = L"button_Connect_IOs";
-			this->button_Connect_IOs->Size = System::Drawing::Size(106, 22);
+			this->button_Connect_IOs->Size = System::Drawing::Size(141, 27);
 			this->button_Connect_IOs->TabIndex = 1;
 			this->button_Connect_IOs->Text = L"Connect IOs";
 			this->button_Connect_IOs->UseVisualStyleBackColor = true;
@@ -3722,27 +3997,30 @@ private: System::Windows::Forms::Label^ label133;
 			// Status_IOs
 			// 
 			this->Status_IOs->AutoSize = true;
-			this->Status_IOs->Location = System::Drawing::Point(130, 47);
+			this->Status_IOs->Location = System::Drawing::Point(173, 58);
+			this->Status_IOs->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->Status_IOs->Name = L"Status_IOs";
-			this->Status_IOs->Size = System::Drawing::Size(76, 13);
+			this->Status_IOs->Size = System::Drawing::Size(98, 17);
 			this->Status_IOs->TabIndex = 63;
 			this->Status_IOs->Text = L"not connected";
 			// 
 			// label39
 			// 
 			this->label39->AutoSize = true;
-			this->label39->Location = System::Drawing::Point(39, 47);
+			this->label39->Location = System::Drawing::Point(52, 58);
+			this->label39->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label39->Name = L"label39";
-			this->label39->Size = System::Drawing::Size(90, 13);
+			this->label39->Size = System::Drawing::Size(120, 17);
 			this->label39->TabIndex = 62;
 			this->label39->Text = L"C843 Trigger IOs:";
 			// 
 			// button_Connect_CAN
 			// 
 			this->button_Connect_CAN->Enabled = false;
-			this->button_Connect_CAN->Location = System::Drawing::Point(250, 20);
+			this->button_Connect_CAN->Location = System::Drawing::Point(333, 25);
+			this->button_Connect_CAN->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button_Connect_CAN->Name = L"button_Connect_CAN";
-			this->button_Connect_CAN->Size = System::Drawing::Size(106, 21);
+			this->button_Connect_CAN->Size = System::Drawing::Size(141, 26);
 			this->button_Connect_CAN->TabIndex = 0;
 			this->button_Connect_CAN->Text = L"Connect ISEG";
 			this->button_Connect_CAN->UseVisualStyleBackColor = true;
@@ -3751,18 +4029,20 @@ private: System::Windows::Forms::Label^ label133;
 			// Status_CAN
 			// 
 			this->Status_CAN->AutoSize = true;
-			this->Status_CAN->Location = System::Drawing::Point(130, 24);
+			this->Status_CAN->Location = System::Drawing::Point(173, 30);
+			this->Status_CAN->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->Status_CAN->Name = L"Status_CAN";
-			this->Status_CAN->Size = System::Drawing::Size(76, 13);
+			this->Status_CAN->Size = System::Drawing::Size(98, 17);
 			this->Status_CAN->TabIndex = 60;
 			this->Status_CAN->Text = L"not connected";
 			// 
 			// label34
 			// 
 			this->label34->AutoSize = true;
-			this->label34->Location = System::Drawing::Point(13, 24);
+			this->label34->Location = System::Drawing::Point(17, 30);
+			this->label34->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label34->Name = L"label34";
-			this->label34->Size = System::Drawing::Size(116, 13);
+			this->label34->Size = System::Drawing::Size(149, 17);
 			this->label34->TabIndex = 59;
 			this->label34->Text = L"ISEG CAN connection:";
 			// 
@@ -3780,18 +4060,21 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox3->Controls->Add(this->button_Connect_CAN);
 			this->groupBox3->Controls->Add(this->Status_CAN);
 			this->groupBox3->Controls->Add(this->label34);
-			this->groupBox3->Location = System::Drawing::Point(681, 27);
+			this->groupBox3->Location = System::Drawing::Point(908, 33);
+			this->groupBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox3->Name = L"groupBox3";
-			this->groupBox3->Size = System::Drawing::Size(543, 96);
+			this->groupBox3->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox3->Size = System::Drawing::Size(724, 118);
 			this->groupBox3->TabIndex = 59;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"Connections";
 			// 
 			// button_Connect_Freq
 			// 
-			this->button_Connect_Freq->Location = System::Drawing::Point(250, 65);
+			this->button_Connect_Freq->Location = System::Drawing::Point(333, 80);
+			this->button_Connect_Freq->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button_Connect_Freq->Name = L"button_Connect_Freq";
-			this->button_Connect_Freq->Size = System::Drawing::Size(106, 22);
+			this->button_Connect_Freq->Size = System::Drawing::Size(141, 27);
 			this->button_Connect_Freq->TabIndex = 68;
 			this->button_Connect_Freq->Text = L"Connect Freq";
 			this->button_Connect_Freq->UseVisualStyleBackColor = true;
@@ -3800,18 +4083,20 @@ private: System::Windows::Forms::Label^ label133;
 			// Status_FreqCounter
 			// 
 			this->Status_FreqCounter->AutoSize = true;
-			this->Status_FreqCounter->Location = System::Drawing::Point(130, 70);
+			this->Status_FreqCounter->Location = System::Drawing::Point(173, 86);
+			this->Status_FreqCounter->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->Status_FreqCounter->Name = L"Status_FreqCounter";
-			this->Status_FreqCounter->Size = System::Drawing::Size(76, 13);
+			this->Status_FreqCounter->Size = System::Drawing::Size(98, 17);
 			this->Status_FreqCounter->TabIndex = 67;
 			this->Status_FreqCounter->Text = L"not connected";
 			// 
 			// label121
 			// 
 			this->label121->AutoSize = true;
-			this->label121->Location = System::Drawing::Point(11, 70);
+			this->label121->Location = System::Drawing::Point(15, 86);
+			this->label121->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label121->Name = L"label121";
-			this->label121->Size = System::Drawing::Size(118, 13);
+			this->label121->Size = System::Drawing::Size(156, 17);
 			this->label121->TabIndex = 66;
 			this->label121->Text = L"HP Frequency Counter:";
 			// 
@@ -3819,19 +4104,21 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tbFrequency->BackColor = System::Drawing::SystemColors::Control;
 			this->tbFrequency->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->tbFrequency->Location = System::Drawing::Point(375, 66);
+			this->tbFrequency->Location = System::Drawing::Point(500, 81);
+			this->tbFrequency->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tbFrequency->Name = L"tbFrequency";
 			this->tbFrequency->ReadOnly = true;
-			this->tbFrequency->Size = System::Drawing::Size(106, 20);
+			this->tbFrequency->Size = System::Drawing::Size(140, 22);
 			this->tbFrequency->TabIndex = 62;
 			// 
 			// Module_error
 			// 
 			this->Module_error->AutoSize = true;
 			this->Module_error->ForeColor = System::Drawing::Color::Red;
-			this->Module_error->Location = System::Drawing::Point(382, 47);
+			this->Module_error->Location = System::Drawing::Point(509, 58);
+			this->Module_error->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->Module_error->Name = L"Module_error";
-			this->Module_error->Size = System::Drawing::Size(95, 13);
+			this->Module_error->Size = System::Drawing::Size(126, 17);
 			this->Module_error->TabIndex = 65;
 			this->Module_error->Text = L"ISEG Module Error";
 			this->Module_error->Visible = false;
@@ -3852,9 +4139,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox4->Controls->Add(this->label6);
 			this->groupBox4->Controls->Add(this->out_val_I1);
 			this->groupBox4->Controls->Add(this->label16);
-			this->groupBox4->Location = System::Drawing::Point(681, 138);
+			this->groupBox4->Location = System::Drawing::Point(908, 170);
+			this->groupBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox4->Name = L"groupBox4";
-			this->groupBox4->Size = System::Drawing::Size(543, 172);
+			this->groupBox4->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox4->Size = System::Drawing::Size(724, 212);
 			this->groupBox4->TabIndex = 60;
 			this->groupBox4->TabStop = false;
 			this->groupBox4->Text = L"State V1";
@@ -3862,89 +4151,99 @@ private: System::Windows::Forms::Label^ label133;
 			// out_setpoint_V1
 			// 
 			this->out_setpoint_V1->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_setpoint_V1->Location = System::Drawing::Point(73, 26);
+			this->out_setpoint_V1->Location = System::Drawing::Point(97, 32);
+			this->out_setpoint_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_setpoint_V1->Name = L"out_setpoint_V1";
 			this->out_setpoint_V1->ReadOnly = true;
-			this->out_setpoint_V1->Size = System::Drawing::Size(64, 20);
+			this->out_setpoint_V1->Size = System::Drawing::Size(84, 22);
 			this->out_setpoint_V1->TabIndex = 66;
 			// 
 			// label27
 			// 
 			this->label27->AutoSize = true;
-			this->label27->Location = System::Drawing::Point(137, 29);
+			this->label27->Location = System::Drawing::Point(183, 36);
+			this->label27->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(14, 13);
+			this->label27->Size = System::Drawing::Size(17, 17);
 			this->label27->TabIndex = 67;
 			this->label27->Text = L"V";
 			// 
 			// label22
 			// 
 			this->label22->AutoSize = true;
-			this->label22->Location = System::Drawing::Point(83, 10);
+			this->label22->Location = System::Drawing::Point(111, 12);
+			this->label22->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(44, 13);
+			this->label22->Size = System::Drawing::Size(58, 17);
 			this->label22->TabIndex = 65;
 			this->label22->Text = L"setpoint";
 			// 
 			// label19
 			// 
 			this->label19->AutoSize = true;
-			this->label19->Location = System::Drawing::Point(173, 10);
+			this->label19->Location = System::Drawing::Point(231, 12);
+			this->label19->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(36, 13);
+			this->label19->Size = System::Drawing::Size(46, 17);
 			this->label19->TabIndex = 64;
 			this->label19->Text = L"actual";
 			// 
 			// label21
 			// 
 			this->label21->AutoSize = true;
-			this->label21->Location = System::Drawing::Point(521, 127);
+			this->label21->Location = System::Drawing::Point(695, 156);
+			this->label21->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(20, 13);
+			this->label21->Size = System::Drawing::Size(25, 17);
 			this->label21->TabIndex = 63;
 			this->label21->Text = L"[V]";
 			// 
 			// label20
 			// 
 			this->label20->AutoSize = true;
-			this->label20->Location = System::Drawing::Point(279, 12);
+			this->label20->Location = System::Drawing::Point(372, 15);
+			this->label20->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(26, 13);
+			this->label20->Size = System::Drawing::Size(33, 17);
 			this->label20->TabIndex = 62;
 			this->label20->Text = L"[µA]";
 			// 
 			// label13
 			// 
 			this->label13->AutoSize = true;
-			this->label13->Location = System::Drawing::Point(13, 59);
+			this->label13->Location = System::Drawing::Point(17, 73);
+			this->label13->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(26, 13);
+			this->label13->Size = System::Drawing::Size(33, 17);
 			this->label13->TabIndex = 61;
 			this->label13->Text = L"[µA]";
 			// 
 			// pictureBox3
 			// 
-			this->pictureBox3->Location = System::Drawing::Point(11, 149);
+			this->pictureBox3->Location = System::Drawing::Point(15, 183);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(510, 17);
+			this->pictureBox3->Size = System::Drawing::Size(680, 21);
 			this->pictureBox3->TabIndex = 60;
 			this->pictureBox3->TabStop = false;
 			// 
 			// manual_Chart_IV1
 			// 
 			this->manual_Chart_IV1->ContextMenuStrip = this->context_Chart;
-			this->manual_Chart_IV1->Location = System::Drawing::Point(261, 26);
+			this->manual_Chart_IV1->Location = System::Drawing::Point(348, 32);
+			this->manual_Chart_IV1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_Chart_IV1->Name = L"manual_Chart_IV1";
-			this->manual_Chart_IV1->Size = System::Drawing::Size(260, 136);
+			this->manual_Chart_IV1->Size = System::Drawing::Size(347, 167);
 			this->manual_Chart_IV1->TabIndex = 58;
 			this->manual_Chart_IV1->TabStop = false;
 			this->manual_Chart_IV1->ViewPortChanged += gcnew ChartDirector::WinViewPortEventHandler(this, &Form1::manual_Chart_IV1_ViewPortChanged);
 			// 
 			// manual_Chart_It1
 			// 
-			this->manual_Chart_It1->Location = System::Drawing::Point(11, 75);
+			this->manual_Chart_It1->Location = System::Drawing::Point(15, 92);
+			this->manual_Chart_It1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_Chart_It1->Name = L"manual_Chart_It1";
-			this->manual_Chart_It1->Size = System::Drawing::Size(239, 87);
+			this->manual_Chart_It1->Size = System::Drawing::Size(319, 107);
 			this->manual_Chart_It1->TabIndex = 59;
 			this->manual_Chart_It1->TabStop = false;
 			this->manual_Chart_It1->ViewPortChanged += gcnew ChartDirector::WinViewPortEventHandler(this, &Form1::manual_Chart_It1_ViewPortChanged);
@@ -3952,36 +4251,40 @@ private: System::Windows::Forms::Label^ label133;
 			// out_val_V1
 			// 
 			this->out_val_V1->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_val_V1->Location = System::Drawing::Point(160, 26);
+			this->out_val_V1->Location = System::Drawing::Point(213, 32);
+			this->out_val_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_val_V1->Name = L"out_val_V1";
 			this->out_val_V1->ReadOnly = true;
-			this->out_val_V1->Size = System::Drawing::Size(64, 20);
+			this->out_val_V1->Size = System::Drawing::Size(84, 22);
 			this->out_val_V1->TabIndex = 51;
 			// 
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(230, 29);
+			this->label6->Location = System::Drawing::Point(307, 36);
+			this->label6->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(14, 13);
+			this->label6->Size = System::Drawing::Size(17, 17);
 			this->label6->TabIndex = 52;
 			this->label6->Text = L"V";
 			// 
 			// out_val_I1
 			// 
 			this->out_val_I1->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_val_I1->Location = System::Drawing::Point(160, 49);
+			this->out_val_I1->Location = System::Drawing::Point(213, 60);
+			this->out_val_I1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_val_I1->Name = L"out_val_I1";
 			this->out_val_I1->ReadOnly = true;
-			this->out_val_I1->Size = System::Drawing::Size(64, 20);
+			this->out_val_I1->Size = System::Drawing::Size(84, 22);
 			this->out_val_I1->TabIndex = 53;
 			// 
 			// label16
 			// 
 			this->label16->AutoSize = true;
-			this->label16->Location = System::Drawing::Point(230, 52);
+			this->label16->Location = System::Drawing::Point(307, 64);
+			this->label16->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(20, 13);
+			this->label16->Size = System::Drawing::Size(25, 17);
 			this->label16->TabIndex = 54;
 			this->label16->Text = L"µA";
 			// 
@@ -4001,9 +4304,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox5->Controls->Add(this->label7);
 			this->groupBox5->Controls->Add(this->out_val_I2);
 			this->groupBox5->Controls->Add(this->label15);
-			this->groupBox5->Location = System::Drawing::Point(681, 320);
+			this->groupBox5->Location = System::Drawing::Point(908, 394);
+			this->groupBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox5->Name = L"groupBox5";
-			this->groupBox5->Size = System::Drawing::Size(543, 172);
+			this->groupBox5->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox5->Size = System::Drawing::Size(724, 212);
 			this->groupBox5->TabIndex = 61;
 			this->groupBox5->TabStop = false;
 			this->groupBox5->Text = L"State V2";
@@ -4011,80 +4316,89 @@ private: System::Windows::Forms::Label^ label133;
 			// out_setpoint_V2
 			// 
 			this->out_setpoint_V2->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_setpoint_V2->Location = System::Drawing::Point(75, 25);
+			this->out_setpoint_V2->Location = System::Drawing::Point(100, 31);
+			this->out_setpoint_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_setpoint_V2->Name = L"out_setpoint_V2";
 			this->out_setpoint_V2->ReadOnly = true;
-			this->out_setpoint_V2->Size = System::Drawing::Size(64, 20);
+			this->out_setpoint_V2->Size = System::Drawing::Size(84, 22);
 			this->out_setpoint_V2->TabIndex = 69;
 			// 
 			// label64
 			// 
 			this->label64->AutoSize = true;
-			this->label64->Location = System::Drawing::Point(139, 29);
+			this->label64->Location = System::Drawing::Point(185, 36);
+			this->label64->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label64->Name = L"label64";
-			this->label64->Size = System::Drawing::Size(14, 13);
+			this->label64->Size = System::Drawing::Size(17, 17);
 			this->label64->TabIndex = 70;
 			this->label64->Text = L"V";
 			// 
 			// label65
 			// 
 			this->label65->AutoSize = true;
-			this->label65->Location = System::Drawing::Point(85, 10);
+			this->label65->Location = System::Drawing::Point(113, 12);
+			this->label65->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label65->Name = L"label65";
-			this->label65->Size = System::Drawing::Size(44, 13);
+			this->label65->Size = System::Drawing::Size(58, 17);
 			this->label65->TabIndex = 68;
 			this->label65->Text = L"setpoint";
 			// 
 			// label63
 			// 
 			this->label63->AutoSize = true;
-			this->label63->Location = System::Drawing::Point(173, 9);
+			this->label63->Location = System::Drawing::Point(231, 11);
+			this->label63->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label63->Name = L"label63";
-			this->label63->Size = System::Drawing::Size(36, 13);
+			this->label63->Size = System::Drawing::Size(46, 17);
 			this->label63->TabIndex = 65;
 			this->label63->Text = L"actual";
 			// 
 			// label29
 			// 
 			this->label29->AutoSize = true;
-			this->label29->Location = System::Drawing::Point(521, 116);
+			this->label29->Location = System::Drawing::Point(695, 143);
+			this->label29->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(20, 13);
+			this->label29->Size = System::Drawing::Size(25, 17);
 			this->label29->TabIndex = 64;
 			this->label29->Text = L"[V]";
 			// 
 			// label25
 			// 
 			this->label25->AutoSize = true;
-			this->label25->Location = System::Drawing::Point(279, 10);
+			this->label25->Location = System::Drawing::Point(372, 12);
+			this->label25->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(26, 13);
+			this->label25->Size = System::Drawing::Size(33, 17);
 			this->label25->TabIndex = 63;
 			this->label25->Text = L"[µA]";
 			// 
 			// label23
 			// 
 			this->label23->AutoSize = true;
-			this->label23->Location = System::Drawing::Point(13, 56);
+			this->label23->Location = System::Drawing::Point(17, 69);
+			this->label23->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(26, 13);
+			this->label23->Size = System::Drawing::Size(33, 17);
 			this->label23->TabIndex = 62;
 			this->label23->Text = L"[µA]";
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(11, 149);
+			this->pictureBox1->Location = System::Drawing::Point(15, 183);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(510, 17);
+			this->pictureBox1->Size = System::Drawing::Size(680, 21);
 			this->pictureBox1->TabIndex = 61;
 			this->pictureBox1->TabStop = false;
 			// 
 			// manual_Chart_IV2
 			// 
 			this->manual_Chart_IV2->ContextMenuStrip = this->context_Chart;
-			this->manual_Chart_IV2->Location = System::Drawing::Point(261, 23);
+			this->manual_Chart_IV2->Location = System::Drawing::Point(348, 28);
+			this->manual_Chart_IV2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_Chart_IV2->Name = L"manual_Chart_IV2";
-			this->manual_Chart_IV2->Size = System::Drawing::Size(260, 136);
+			this->manual_Chart_IV2->Size = System::Drawing::Size(347, 167);
 			this->manual_Chart_IV2->TabIndex = 50;
 			this->manual_Chart_IV2->TabStop = false;
 			this->manual_Chart_IV2->ViewPortChanged += gcnew ChartDirector::WinViewPortEventHandler(this, &Form1::manual_Chart_IV2_ViewPortChanged);
@@ -4106,9 +4420,11 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox6->Controls->Add(this->manual_Chart_It3);
 			this->groupBox6->Controls->Add(this->out_val_V3);
 			this->groupBox6->Controls->Add(this->label9);
-			this->groupBox6->Location = System::Drawing::Point(681, 499);
+			this->groupBox6->Location = System::Drawing::Point(908, 614);
+			this->groupBox6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox6->Name = L"groupBox6";
-			this->groupBox6->Size = System::Drawing::Size(543, 172);
+			this->groupBox6->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox6->Size = System::Drawing::Size(724, 212);
 			this->groupBox6->TabIndex = 48;
 			this->groupBox6->TabStop = false;
 			this->groupBox6->Text = L"State V3";
@@ -4116,80 +4432,89 @@ private: System::Windows::Forms::Label^ label133;
 			// out_setpoint_V3
 			// 
 			this->out_setpoint_V3->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_setpoint_V3->Location = System::Drawing::Point(75, 23);
+			this->out_setpoint_V3->Location = System::Drawing::Point(100, 28);
+			this->out_setpoint_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_setpoint_V3->Name = L"out_setpoint_V3";
 			this->out_setpoint_V3->ReadOnly = true;
-			this->out_setpoint_V3->Size = System::Drawing::Size(64, 20);
+			this->out_setpoint_V3->Size = System::Drawing::Size(84, 22);
 			this->out_setpoint_V3->TabIndex = 72;
 			// 
 			// label67
 			// 
 			this->label67->AutoSize = true;
-			this->label67->Location = System::Drawing::Point(139, 26);
+			this->label67->Location = System::Drawing::Point(185, 32);
+			this->label67->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label67->Name = L"label67";
-			this->label67->Size = System::Drawing::Size(14, 13);
+			this->label67->Size = System::Drawing::Size(17, 17);
 			this->label67->TabIndex = 73;
 			this->label67->Text = L"V";
 			// 
 			// label68
 			// 
 			this->label68->AutoSize = true;
-			this->label68->Location = System::Drawing::Point(85, 8);
+			this->label68->Location = System::Drawing::Point(113, 10);
+			this->label68->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label68->Name = L"label68";
-			this->label68->Size = System::Drawing::Size(44, 13);
+			this->label68->Size = System::Drawing::Size(58, 17);
 			this->label68->TabIndex = 71;
 			this->label68->Text = L"setpoint";
 			// 
 			// label66
 			// 
 			this->label66->AutoSize = true;
-			this->label66->Location = System::Drawing::Point(173, 9);
+			this->label66->Location = System::Drawing::Point(231, 11);
+			this->label66->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label66->Name = L"label66";
-			this->label66->Size = System::Drawing::Size(36, 13);
+			this->label66->Size = System::Drawing::Size(46, 17);
 			this->label66->TabIndex = 70;
 			this->label66->Text = L"actual";
 			// 
 			// label30
 			// 
 			this->label30->AutoSize = true;
-			this->label30->Location = System::Drawing::Point(521, 116);
+			this->label30->Location = System::Drawing::Point(695, 143);
+			this->label30->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(20, 13);
+			this->label30->Size = System::Drawing::Size(25, 17);
 			this->label30->TabIndex = 69;
 			this->label30->Text = L"[V]";
 			// 
 			// label26
 			// 
 			this->label26->AutoSize = true;
-			this->label26->Location = System::Drawing::Point(279, 9);
+			this->label26->Location = System::Drawing::Point(372, 11);
+			this->label26->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(26, 13);
+			this->label26->Size = System::Drawing::Size(33, 17);
 			this->label26->TabIndex = 68;
 			this->label26->Text = L"[µA]";
 			// 
 			// label24
 			// 
 			this->label24->AutoSize = true;
-			this->label24->Location = System::Drawing::Point(13, 55);
+			this->label24->Location = System::Drawing::Point(17, 68);
+			this->label24->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(26, 13);
+			this->label24->Size = System::Drawing::Size(33, 17);
 			this->label24->TabIndex = 67;
 			this->label24->Text = L"[µA]";
 			// 
 			// pictureBox2
 			// 
-			this->pictureBox2->Location = System::Drawing::Point(11, 148);
+			this->pictureBox2->Location = System::Drawing::Point(15, 182);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(510, 17);
+			this->pictureBox2->Size = System::Drawing::Size(680, 21);
 			this->pictureBox2->TabIndex = 66;
 			this->pictureBox2->TabStop = false;
 			// 
 			// manual_Chart_IV3
 			// 
 			this->manual_Chart_IV3->ContextMenuStrip = this->context_Chart;
-			this->manual_Chart_IV3->Location = System::Drawing::Point(261, 22);
+			this->manual_Chart_IV3->Location = System::Drawing::Point(348, 27);
+			this->manual_Chart_IV3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_Chart_IV3->Name = L"manual_Chart_IV3";
-			this->manual_Chart_IV3->Size = System::Drawing::Size(260, 136);
+			this->manual_Chart_IV3->Size = System::Drawing::Size(347, 167);
 			this->manual_Chart_IV3->TabIndex = 61;
 			this->manual_Chart_IV3->TabStop = false;
 			this->manual_Chart_IV3->ViewPortChanged += gcnew ChartDirector::WinViewPortEventHandler(this, &Form1::manual_Chart_IV3_ViewPortChanged);
@@ -4197,26 +4522,29 @@ private: System::Windows::Forms::Label^ label133;
 			// label14
 			// 
 			this->label14->AutoSize = true;
-			this->label14->Location = System::Drawing::Point(230, 48);
+			this->label14->Location = System::Drawing::Point(307, 59);
+			this->label14->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(20, 13);
+			this->label14->Size = System::Drawing::Size(25, 17);
 			this->label14->TabIndex = 59;
 			this->label14->Text = L"µA";
 			// 
 			// out_val_I3
 			// 
 			this->out_val_I3->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_val_I3->Location = System::Drawing::Point(160, 45);
+			this->out_val_I3->Location = System::Drawing::Point(213, 55);
+			this->out_val_I3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_val_I3->Name = L"out_val_I3";
 			this->out_val_I3->ReadOnly = true;
-			this->out_val_I3->Size = System::Drawing::Size(64, 20);
+			this->out_val_I3->Size = System::Drawing::Size(84, 22);
 			this->out_val_I3->TabIndex = 58;
 			// 
 			// manual_Chart_It3
 			// 
-			this->manual_Chart_It3->Location = System::Drawing::Point(11, 71);
+			this->manual_Chart_It3->Location = System::Drawing::Point(15, 87);
+			this->manual_Chart_It3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->manual_Chart_It3->Name = L"manual_Chart_It3";
-			this->manual_Chart_It3->Size = System::Drawing::Size(239, 87);
+			this->manual_Chart_It3->Size = System::Drawing::Size(319, 107);
 			this->manual_Chart_It3->TabIndex = 64;
 			this->manual_Chart_It3->TabStop = false;
 			this->manual_Chart_It3->ViewPortChanged += gcnew ChartDirector::WinViewPortEventHandler(this, &Form1::manual_Chart_It3_ViewPortChanged);
@@ -4224,18 +4552,20 @@ private: System::Windows::Forms::Label^ label133;
 			// out_val_V3
 			// 
 			this->out_val_V3->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->out_val_V3->Location = System::Drawing::Point(160, 22);
+			this->out_val_V3->Location = System::Drawing::Point(213, 27);
+			this->out_val_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->out_val_V3->Name = L"out_val_V3";
 			this->out_val_V3->ReadOnly = true;
-			this->out_val_V3->Size = System::Drawing::Size(64, 20);
+			this->out_val_V3->Size = System::Drawing::Size(84, 22);
 			this->out_val_V3->TabIndex = 56;
 			// 
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(230, 25);
+			this->label9->Location = System::Drawing::Point(307, 31);
+			this->label9->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(14, 13);
+			this->label9->Size = System::Drawing::Size(17, 17);
 			this->label9->TabIndex = 57;
 			this->label9->Text = L"V";
 			// 
@@ -4262,19 +4592,20 @@ private: System::Windows::Forms::Label^ label133;
 			// label122
 			// 
 			this->label122->AutoSize = true;
-			this->label122->Location = System::Drawing::Point(1164, 97);
+			this->label122->Location = System::Drawing::Point(1552, 119);
+			this->label122->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label122->Name = L"label122";
-			this->label122->Size = System::Drawing::Size(20, 13);
+			this->label122->Size = System::Drawing::Size(25, 17);
 			this->label122->TabIndex = 69;
 			this->label122->Text = L"Hz";
 			// 
 			// Form1
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
 			this->BackColor = System::Drawing::SystemColors::Control;
-			this->ClientSize = System::Drawing::Size(1237, 682);
+			this->ClientSize = System::Drawing::Size(1649, 839);
 			this->Controls->Add(this->label122);
 			this->Controls->Add(this->channel_V1);
 			this->Controls->Add(this->channel_V2);
@@ -4284,6 +4615,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Controls->Add(this->groupBox5);
 			this->Controls->Add(this->groupBox3);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"Form1";
 			this->Text = L"ISEG_Control";
 			this->FormClosing += gcnew System::Windows::Forms::FormClosingEventHandler(this, &Form1::Form1_FormClosing);
