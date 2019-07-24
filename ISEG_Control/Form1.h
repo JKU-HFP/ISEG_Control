@@ -10,7 +10,6 @@
 
 #include "stdafx.h"
 
-
 namespace ISEG_Control {
 
 	using namespace System;
@@ -562,6 +561,15 @@ private: System::Windows::Forms::TextBox^ tBPIDSetpoint;
 private: System::Windows::Forms::Label^ label135;
 private: System::Windows::Forms::Label^ label134;
 private: System::Windows::Forms::Label^ label133;
+private: System::Windows::Forms::Label^ label138;
+private: System::Windows::Forms::Label^ label137;
+private: System::Windows::Forms::Label^ label136;
+private: System::Windows::Forms::TextBox^ tBPID_ITerm;
+private: System::Windows::Forms::TextBox^ tBPID_DTerm;
+
+
+private: System::Windows::Forms::TextBox^ tBPID_PTerm;
+
 
 
 
@@ -906,6 +914,12 @@ private: System::Windows::Forms::Label^ label133;
 			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->timer_creep_update = (gcnew System::Windows::Forms::Timer(this->components));
 			this->label122 = (gcnew System::Windows::Forms::Label());
+			this->tBPID_PTerm = (gcnew System::Windows::Forms::TextBox());
+			this->tBPID_DTerm = (gcnew System::Windows::Forms::TextBox());
+			this->tBPID_ITerm = (gcnew System::Windows::Forms::TextBox());
+			this->label136 = (gcnew System::Windows::Forms::Label());
+			this->label137 = (gcnew System::Windows::Forms::Label());
+			this->label138 = (gcnew System::Windows::Forms::Label());
 			this->TabControl1->SuspendLayout();
 			this->tabPage_Manual->SuspendLayout();
 			this->tabControl_Creep->SuspendLayout();
@@ -957,7 +971,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_val_V2->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_val_V2->Location = System::Drawing::Point(213, 28);
-			this->out_val_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_val_V2->Margin = System::Windows::Forms::Padding(4);
 			this->out_val_V2->Name = L"out_val_V2";
 			this->out_val_V2->ReadOnly = true;
 			this->out_val_V2->Size = System::Drawing::Size(84, 22);
@@ -966,7 +980,7 @@ private: System::Windows::Forms::Label^ label133;
 			// manual_val_ramp
 			// 
 			this->manual_val_ramp->Location = System::Drawing::Point(245, 39);
-			this->manual_val_ramp->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_val_ramp->Margin = System::Windows::Forms::Padding(4);
 			this->manual_val_ramp->Name = L"manual_val_ramp";
 			this->manual_val_ramp->Size = System::Drawing::Size(88, 22);
 			this->manual_val_ramp->TabIndex = 20;
@@ -995,7 +1009,7 @@ private: System::Windows::Forms::Label^ label133;
 			// out_val_ramp
 			// 
 			this->out_val_ramp->Location = System::Drawing::Point(497, 39);
-			this->out_val_ramp->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_val_ramp->Margin = System::Windows::Forms::Padding(4);
 			this->out_val_ramp->Name = L"out_val_ramp";
 			this->out_val_ramp->ReadOnly = true;
 			this->out_val_ramp->Size = System::Drawing::Size(88, 22);
@@ -1005,7 +1019,7 @@ private: System::Windows::Forms::Label^ label133;
 			// button_AllOff
 			// 
 			this->button_AllOff->Location = System::Drawing::Point(275, 69);
-			this->button_AllOff->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button_AllOff->Margin = System::Windows::Forms::Padding(4);
 			this->button_AllOff->Name = L"button_AllOff";
 			this->button_AllOff->Size = System::Drawing::Size(231, 27);
 			this->button_AllOff->TabIndex = 2;
@@ -1047,7 +1061,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_val_I2->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_val_I2->Location = System::Drawing::Point(213, 59);
-			this->out_val_I2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_val_I2->Margin = System::Windows::Forms::Padding(4);
 			this->out_val_I2->Name = L"out_val_I2";
 			this->out_val_I2->ReadOnly = true;
 			this->out_val_I2->Size = System::Drawing::Size(84, 22);
@@ -1066,7 +1080,7 @@ private: System::Windows::Forms::Label^ label133;
 			// current_limit_V1
 			// 
 			this->current_limit_V1->Location = System::Drawing::Point(205, 37);
-			this->current_limit_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->current_limit_V1->Margin = System::Windows::Forms::Padding(4);
 			this->current_limit_V1->Name = L"current_limit_V1";
 			this->current_limit_V1->Size = System::Drawing::Size(88, 22);
 			this->current_limit_V1->TabIndex = 42;
@@ -1106,7 +1120,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->TabControl1->Controls->Add(this->tabPage_Settings);
 			this->TabControl1->Controls->Add(this->tabPage_test);
 			this->TabControl1->Location = System::Drawing::Point(16, 15);
-			this->TabControl1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->TabControl1->Margin = System::Windows::Forms::Padding(4);
 			this->TabControl1->Name = L"TabControl1";
 			this->TabControl1->SelectedIndex = 0;
 			this->TabControl1->Size = System::Drawing::Size(859, 816);
@@ -1128,9 +1142,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_Manual->Controls->Add(this->groupBox2);
 			this->tabPage_Manual->Controls->Add(this->manual_groupbox_V1);
 			this->tabPage_Manual->Location = System::Drawing::Point(4, 25);
-			this->tabPage_Manual->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Manual->Margin = System::Windows::Forms::Padding(4);
 			this->tabPage_Manual->Name = L"tabPage_Manual";
-			this->tabPage_Manual->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Manual->Padding = System::Windows::Forms::Padding(4);
 			this->tabPage_Manual->Size = System::Drawing::Size(851, 787);
 			this->tabPage_Manual->TabIndex = 0;
 			this->tabPage_Manual->Text = L"Manual Mode";
@@ -1140,7 +1154,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabControl_Creep->Controls->Add(this->tabPage_CreepPID);
 			this->tabControl_Creep->Controls->Add(this->tabPage_CreepPassive);
 			this->tabControl_Creep->Location = System::Drawing::Point(28, 192);
-			this->tabControl_Creep->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabControl_Creep->Margin = System::Windows::Forms::Padding(4);
 			this->tabControl_Creep->Name = L"tabControl_Creep";
 			this->tabControl_Creep->SelectedIndex = 0;
 			this->tabControl_Creep->Size = System::Drawing::Size(792, 303);
@@ -1148,6 +1162,12 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			// tabPage_CreepPID
 			// 
+			this->tabPage_CreepPID->Controls->Add(this->label138);
+			this->tabPage_CreepPID->Controls->Add(this->label137);
+			this->tabPage_CreepPID->Controls->Add(this->label136);
+			this->tabPage_CreepPID->Controls->Add(this->tBPID_ITerm);
+			this->tabPage_CreepPID->Controls->Add(this->tBPID_DTerm);
+			this->tabPage_CreepPID->Controls->Add(this->tBPID_PTerm);
 			this->tabPage_CreepPID->Controls->Add(this->label126);
 			this->tabPage_CreepPID->Controls->Add(this->label125);
 			this->tabPage_CreepPID->Controls->Add(this->tbPID_L);
@@ -1174,9 +1194,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_CreepPID->Controls->Add(this->tbPID_I);
 			this->tabPage_CreepPID->Controls->Add(this->pictureBox5);
 			this->tabPage_CreepPID->Location = System::Drawing::Point(4, 25);
-			this->tabPage_CreepPID->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_CreepPID->Margin = System::Windows::Forms::Padding(4);
 			this->tabPage_CreepPID->Name = L"tabPage_CreepPID";
-			this->tabPage_CreepPID->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_CreepPID->Padding = System::Windows::Forms::Padding(4);
 			this->tabPage_CreepPID->Size = System::Drawing::Size(784, 274);
 			this->tabPage_CreepPID->TabIndex = 1;
 			this->tabPage_CreepPID->Text = L"PID";
@@ -1206,7 +1226,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tbPID_L->BackColor = System::Drawing::SystemColors::Window;
 			this->tbPID_L->Location = System::Drawing::Point(588, 62);
-			this->tbPID_L->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tbPID_L->Margin = System::Windows::Forms::Padding(4);
 			this->tbPID_L->Name = L"tbPID_L";
 			this->tbPID_L->Size = System::Drawing::Size(69, 22);
 			this->tbPID_L->TabIndex = 71;
@@ -1266,7 +1286,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tBPID_C->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->tBPID_C->Location = System::Drawing::Point(676, 26);
-			this->tBPID_C->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBPID_C->Margin = System::Windows::Forms::Padding(4);
 			this->tBPID_C->Name = L"tBPID_C";
 			this->tBPID_C->ReadOnly = true;
 			this->tBPID_C->Size = System::Drawing::Size(61, 22);
@@ -1287,7 +1307,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tBPIDError->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->tBPIDError->Location = System::Drawing::Point(221, 154);
-			this->tBPIDError->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBPIDError->Margin = System::Windows::Forms::Padding(4);
 			this->tBPIDError->Name = L"tBPIDError";
 			this->tBPIDError->ReadOnly = true;
 			this->tBPIDError->Size = System::Drawing::Size(69, 22);
@@ -1318,7 +1338,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tBPIDSetpoint->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->tBPIDSetpoint->Location = System::Drawing::Point(75, 140);
-			this->tBPIDSetpoint->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBPIDSetpoint->Margin = System::Windows::Forms::Padding(4);
 			this->tBPIDSetpoint->Name = L"tBPIDSetpoint";
 			this->tBPIDSetpoint->ReadOnly = true;
 			this->tBPIDSetpoint->Size = System::Drawing::Size(69, 22);
@@ -1328,7 +1348,7 @@ private: System::Windows::Forms::Label^ label133;
 			// btnPIDDisable
 			// 
 			this->btnPIDDisable->Location = System::Drawing::Point(25, 57);
-			this->btnPIDDisable->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->btnPIDDisable->Margin = System::Windows::Forms::Padding(4);
 			this->btnPIDDisable->Name = L"btnPIDDisable";
 			this->btnPIDDisable->Size = System::Drawing::Size(116, 26);
 			this->btnPIDDisable->TabIndex = 78;
@@ -1350,7 +1370,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->pictureBox6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.Image")));
 			this->pictureBox6->Location = System::Drawing::Point(512, 7);
-			this->pictureBox6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox6->Margin = System::Windows::Forms::Padding(4);
 			this->pictureBox6->Name = L"pictureBox6";
 			this->pictureBox6->Size = System::Drawing::Size(147, 58);
 			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
@@ -1380,7 +1400,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tBPID_Output->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->tBPID_Output->Location = System::Drawing::Point(692, 142);
-			this->tBPID_Output->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBPID_Output->Margin = System::Windows::Forms::Padding(4);
 			this->tBPID_Output->Name = L"tBPID_Output";
 			this->tBPID_Output->ReadOnly = true;
 			this->tBPID_Output->Size = System::Drawing::Size(56, 22);
@@ -1390,7 +1410,7 @@ private: System::Windows::Forms::Label^ label133;
 			// btnPIDStart
 			// 
 			this->btnPIDStart->Location = System::Drawing::Point(25, 26);
-			this->btnPIDStart->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->btnPIDStart->Margin = System::Windows::Forms::Padding(4);
 			this->btnPIDStart->Name = L"btnPIDStart";
 			this->btnPIDStart->Size = System::Drawing::Size(116, 27);
 			this->btnPIDStart->TabIndex = 69;
@@ -1403,7 +1423,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tbPID_D->BackColor = System::Drawing::SystemColors::Window;
 			this->tbPID_D->Location = System::Drawing::Point(327, 226);
-			this->tbPID_D->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tbPID_D->Margin = System::Windows::Forms::Padding(4);
 			this->tbPID_D->Name = L"tbPID_D";
 			this->tbPID_D->Size = System::Drawing::Size(69, 22);
 			this->tbPID_D->TabIndex = 57;
@@ -1413,7 +1433,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tbPID_P->BackColor = System::Drawing::SystemColors::Window;
 			this->tbPID_P->Location = System::Drawing::Point(327, 53);
-			this->tbPID_P->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tbPID_P->Margin = System::Windows::Forms::Padding(4);
 			this->tbPID_P->Name = L"tbPID_P";
 			this->tbPID_P->Size = System::Drawing::Size(69, 22);
 			this->tbPID_P->TabIndex = 56;
@@ -1423,7 +1443,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->tbPID_I->BackColor = System::Drawing::SystemColors::Window;
 			this->tbPID_I->Location = System::Drawing::Point(327, 145);
-			this->tbPID_I->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tbPID_I->Margin = System::Windows::Forms::Padding(4);
 			this->tbPID_I->Name = L"tbPID_I";
 			this->tbPID_I->Size = System::Drawing::Size(69, 22);
 			this->tbPID_I->TabIndex = 55;
@@ -1433,7 +1453,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
 			this->pictureBox5->Location = System::Drawing::Point(16, 7);
-			this->pictureBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox5->Margin = System::Windows::Forms::Padding(4);
 			this->pictureBox5->Name = L"pictureBox5";
 			this->pictureBox5->Size = System::Drawing::Size(757, 256);
 			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
@@ -1455,9 +1475,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_CreepPassive->Controls->Add(this->enable_CreepCompensation);
 			this->tabPage_CreepPassive->Controls->Add(this->label117);
 			this->tabPage_CreepPassive->Location = System::Drawing::Point(4, 25);
-			this->tabPage_CreepPassive->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_CreepPassive->Margin = System::Windows::Forms::Padding(4);
 			this->tabPage_CreepPassive->Name = L"tabPage_CreepPassive";
-			this->tabPage_CreepPassive->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_CreepPassive->Padding = System::Windows::Forms::Padding(4);
 			this->tabPage_CreepPassive->Size = System::Drawing::Size(784, 274);
 			this->tabPage_CreepPassive->TabIndex = 0;
 			this->tabPage_CreepPassive->Text = L"Passive";
@@ -1467,7 +1487,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
 			this->pictureBox4->Location = System::Drawing::Point(44, 33);
-			this->pictureBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox4->Margin = System::Windows::Forms::Padding(4);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(272, 198);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -1477,7 +1497,7 @@ private: System::Windows::Forms::Label^ label133;
 			// creep_apply
 			// 
 			this->creep_apply->Location = System::Drawing::Point(380, 130);
-			this->creep_apply->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->creep_apply->Margin = System::Windows::Forms::Padding(4);
 			this->creep_apply->Name = L"creep_apply";
 			this->creep_apply->Size = System::Drawing::Size(85, 28);
 			this->creep_apply->TabIndex = 54;
@@ -1490,7 +1510,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->creep_A->BackColor = System::Drawing::SystemColors::Window;
 			this->creep_A->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->creep_A->Location = System::Drawing::Point(380, 64);
-			this->creep_A->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->creep_A->Margin = System::Windows::Forms::Padding(4);
 			this->creep_A->Name = L"creep_A";
 			this->creep_A->Size = System::Drawing::Size(84, 22);
 			this->creep_A->TabIndex = 71;
@@ -1551,7 +1571,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->creep_lambda->BackColor = System::Drawing::SystemColors::Window;
 			this->creep_lambda->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->creep_lambda->Location = System::Drawing::Point(380, 96);
-			this->creep_lambda->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->creep_lambda->Margin = System::Windows::Forms::Padding(4);
 			this->creep_lambda->Name = L"creep_lambda";
 			this->creep_lambda->Size = System::Drawing::Size(84, 22);
 			this->creep_lambda->TabIndex = 33;
@@ -1561,7 +1581,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->creep_time->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->creep_time->Location = System::Drawing::Point(380, 202);
-			this->creep_time->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->creep_time->Margin = System::Windows::Forms::Padding(4);
 			this->creep_time->Name = L"creep_time";
 			this->creep_time->ReadOnly = true;
 			this->creep_time->Size = System::Drawing::Size(84, 22);
@@ -1571,7 +1591,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->enable_CreepCompensation->AutoSize = true;
 			this->enable_CreepCompensation->Location = System::Drawing::Point(384, 32);
-			this->enable_CreepCompensation->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->enable_CreepCompensation->Margin = System::Windows::Forms::Padding(4);
 			this->enable_CreepCompensation->Name = L"enable_CreepCompensation";
 			this->enable_CreepCompensation->Size = System::Drawing::Size(73, 21);
 			this->enable_CreepCompensation->TabIndex = 33;
@@ -1595,9 +1615,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V8->Controls->Add(this->label95);
 			this->manual_groupbox_V8->Controls->Add(this->label96);
 			this->manual_groupbox_V8->Location = System::Drawing::Point(633, 651);
-			this->manual_groupbox_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V8->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V8->Name = L"manual_groupbox_V8";
-			this->manual_groupbox_V8->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V8->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V8->Size = System::Drawing::Size(187, 116);
 			this->manual_groupbox_V8->TabIndex = 52;
 			this->manual_groupbox_V8->TabStop = false;
@@ -1608,7 +1628,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->checkBox5->AutoSize = true;
 			this->checkBox5->Location = System::Drawing::Point(76, 33);
-			this->checkBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->checkBox5->Margin = System::Windows::Forms::Padding(4);
 			this->checkBox5->Name = L"checkBox5";
 			this->checkBox5->Size = System::Drawing::Size(73, 21);
 			this->checkBox5->TabIndex = 0;
@@ -1621,7 +1641,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->textBox11->Enabled = false;
 			this->textBox11->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->textBox11->Location = System::Drawing::Point(76, 62);
-			this->textBox11->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->textBox11->Margin = System::Windows::Forms::Padding(4);
 			this->textBox11->Name = L"textBox11";
 			this->textBox11->Size = System::Drawing::Size(76, 22);
 			this->textBox11->TabIndex = 1;
@@ -1654,9 +1674,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V7->Controls->Add(this->label93);
 			this->manual_groupbox_V7->Controls->Add(this->label94);
 			this->manual_groupbox_V7->Location = System::Drawing::Point(432, 651);
-			this->manual_groupbox_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V7->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V7->Name = L"manual_groupbox_V7";
-			this->manual_groupbox_V7->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V7->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V7->Size = System::Drawing::Size(180, 116);
 			this->manual_groupbox_V7->TabIndex = 52;
 			this->manual_groupbox_V7->TabStop = false;
@@ -1667,7 +1687,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->checkBox4->AutoSize = true;
 			this->checkBox4->Location = System::Drawing::Point(76, 33);
-			this->checkBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->checkBox4->Margin = System::Windows::Forms::Padding(4);
 			this->checkBox4->Name = L"checkBox4";
 			this->checkBox4->Size = System::Drawing::Size(73, 21);
 			this->checkBox4->TabIndex = 0;
@@ -1680,7 +1700,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->textBox10->Enabled = false;
 			this->textBox10->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->textBox10->Location = System::Drawing::Point(76, 62);
-			this->textBox10->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->textBox10->Margin = System::Windows::Forms::Padding(4);
 			this->textBox10->Name = L"textBox10";
 			this->textBox10->Size = System::Drawing::Size(76, 22);
 			this->textBox10->TabIndex = 1;
@@ -1713,9 +1733,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V6->Controls->Add(this->label73);
 			this->manual_groupbox_V6->Controls->Add(this->label74);
 			this->manual_groupbox_V6->Location = System::Drawing::Point(224, 651);
-			this->manual_groupbox_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V6->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V6->Name = L"manual_groupbox_V6";
-			this->manual_groupbox_V6->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V6->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V6->Size = System::Drawing::Size(180, 116);
 			this->manual_groupbox_V6->TabIndex = 51;
 			this->manual_groupbox_V6->TabStop = false;
@@ -1726,7 +1746,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->enable_set_V6->AutoSize = true;
 			this->enable_set_V6->Location = System::Drawing::Point(76, 33);
-			this->enable_set_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->enable_set_V6->Margin = System::Windows::Forms::Padding(4);
 			this->enable_set_V6->Name = L"enable_set_V6";
 			this->enable_set_V6->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V6->TabIndex = 0;
@@ -1739,7 +1759,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V6->Enabled = false;
 			this->manual_val_V6->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->manual_val_V6->Location = System::Drawing::Point(76, 62);
-			this->manual_val_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_val_V6->Margin = System::Windows::Forms::Padding(4);
 			this->manual_val_V6->Name = L"manual_val_V6";
 			this->manual_val_V6->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V6->TabIndex = 1;
@@ -1772,9 +1792,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V5->Controls->Add(this->label71);
 			this->manual_groupbox_V5->Controls->Add(this->label72);
 			this->manual_groupbox_V5->Location = System::Drawing::Point(17, 651);
-			this->manual_groupbox_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V5->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V5->Name = L"manual_groupbox_V5";
-			this->manual_groupbox_V5->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V5->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V5->Size = System::Drawing::Size(185, 116);
 			this->manual_groupbox_V5->TabIndex = 50;
 			this->manual_groupbox_V5->TabStop = false;
@@ -1785,7 +1805,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->enable_set_V5->AutoSize = true;
 			this->enable_set_V5->Location = System::Drawing::Point(80, 33);
-			this->enable_set_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->enable_set_V5->Margin = System::Windows::Forms::Padding(4);
 			this->enable_set_V5->Name = L"enable_set_V5";
 			this->enable_set_V5->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V5->TabIndex = 0;
@@ -1798,7 +1818,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V5->Enabled = false;
 			this->manual_val_V5->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->manual_val_V5->Location = System::Drawing::Point(80, 62);
-			this->manual_val_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_val_V5->Margin = System::Windows::Forms::Padding(4);
 			this->manual_val_V5->Name = L"manual_val_V5";
 			this->manual_val_V5->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V5->TabIndex = 1;
@@ -1831,9 +1851,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V4->Controls->Add(this->label69);
 			this->manual_groupbox_V4->Controls->Add(this->label70);
 			this->manual_groupbox_V4->Location = System::Drawing::Point(635, 526);
-			this->manual_groupbox_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V4->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V4->Name = L"manual_groupbox_V4";
-			this->manual_groupbox_V4->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V4->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V4->Size = System::Drawing::Size(185, 113);
 			this->manual_groupbox_V4->TabIndex = 49;
 			this->manual_groupbox_V4->TabStop = false;
@@ -1844,7 +1864,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->enable_set_V4->AutoSize = true;
 			this->enable_set_V4->Location = System::Drawing::Point(80, 33);
-			this->enable_set_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->enable_set_V4->Margin = System::Windows::Forms::Padding(4);
 			this->enable_set_V4->Name = L"enable_set_V4";
 			this->enable_set_V4->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V4->TabIndex = 0;
@@ -1857,7 +1877,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V4->Enabled = false;
 			this->manual_val_V4->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->manual_val_V4->Location = System::Drawing::Point(80, 62);
-			this->manual_val_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_val_V4->Margin = System::Windows::Forms::Padding(4);
 			this->manual_val_V4->Name = L"manual_val_V4";
 			this->manual_val_V4->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V4->TabIndex = 1;
@@ -1890,9 +1910,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V3->Controls->Add(this->manual_val_V3);
 			this->manual_groupbox_V3->Controls->Add(this->label10);
 			this->manual_groupbox_V3->Location = System::Drawing::Point(427, 528);
-			this->manual_groupbox_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V3->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V3->Name = L"manual_groupbox_V3";
-			this->manual_groupbox_V3->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V3->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V3->Size = System::Drawing::Size(185, 111);
 			this->manual_groupbox_V3->TabIndex = 0;
 			this->manual_groupbox_V3->TabStop = false;
@@ -1912,7 +1932,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->enable_set_V3->AutoSize = true;
 			this->enable_set_V3->Location = System::Drawing::Point(81, 31);
-			this->enable_set_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->enable_set_V3->Margin = System::Windows::Forms::Padding(4);
 			this->enable_set_V3->Name = L"enable_set_V3";
 			this->enable_set_V3->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V3->TabIndex = 0;
@@ -1924,7 +1944,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V3->Enabled = false;
 			this->manual_val_V3->Location = System::Drawing::Point(81, 63);
-			this->manual_val_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_val_V3->Margin = System::Windows::Forms::Padding(4);
 			this->manual_val_V3->Name = L"manual_val_V3";
 			this->manual_val_V3->Size = System::Drawing::Size(69, 22);
 			this->manual_val_V3->TabIndex = 1;
@@ -1947,9 +1967,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V2->Controls->Add(this->label8);
 			this->manual_groupbox_V2->Controls->Add(this->manual_val_V2);
 			this->manual_groupbox_V2->Location = System::Drawing::Point(224, 528);
-			this->manual_groupbox_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V2->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V2->Name = L"manual_groupbox_V2";
-			this->manual_groupbox_V2->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V2->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V2->Size = System::Drawing::Size(180, 111);
 			this->manual_groupbox_V2->TabIndex = 1;
 			this->manual_groupbox_V2->TabStop = false;
@@ -1969,7 +1989,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->enable_set_V2->AutoSize = true;
 			this->enable_set_V2->Location = System::Drawing::Point(76, 31);
-			this->enable_set_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->enable_set_V2->Margin = System::Windows::Forms::Padding(4);
 			this->enable_set_V2->Name = L"enable_set_V2";
 			this->enable_set_V2->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V2->TabIndex = 0;
@@ -1991,7 +2011,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->manual_val_V2->Enabled = false;
 			this->manual_val_V2->Location = System::Drawing::Point(76, 59);
-			this->manual_val_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_val_V2->Margin = System::Windows::Forms::Padding(4);
 			this->manual_val_V2->Name = L"manual_val_V2";
 			this->manual_val_V2->Size = System::Drawing::Size(69, 22);
 			this->manual_val_V2->TabIndex = 1;
@@ -2006,9 +2026,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox2->Controls->Add(this->label33);
 			this->groupBox2->Controls->Add(this->Act_ChartUpdateRate);
 			this->groupBox2->Location = System::Drawing::Point(27, 30);
-			this->groupBox2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox2->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox2->Padding = System::Windows::Forms::Padding(4);
 			this->groupBox2->Size = System::Drawing::Size(793, 150);
 			this->groupBox2->TabIndex = 48;
 			this->groupBox2->TabStop = false;
@@ -2017,7 +2037,7 @@ private: System::Windows::Forms::Label^ label133;
 			// trackBar_ChartUpdateRate
 			// 
 			this->trackBar_ChartUpdateRate->Location = System::Drawing::Point(23, 81);
-			this->trackBar_ChartUpdateRate->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->trackBar_ChartUpdateRate->Margin = System::Windows::Forms::Padding(4);
 			this->trackBar_ChartUpdateRate->Maximum = 2000;
 			this->trackBar_ChartUpdateRate->Minimum = 100;
 			this->trackBar_ChartUpdateRate->Name = L"trackBar_ChartUpdateRate";
@@ -2031,7 +2051,7 @@ private: System::Windows::Forms::Label^ label133;
 			// button_SetVoltage
 			// 
 			this->button_SetVoltage->Location = System::Drawing::Point(275, 37);
-			this->button_SetVoltage->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button_SetVoltage->Margin = System::Windows::Forms::Padding(4);
 			this->button_SetVoltage->Name = L"button_SetVoltage";
 			this->button_SetVoltage->Size = System::Drawing::Size(231, 28);
 			this->button_SetVoltage->TabIndex = 1;
@@ -2063,7 +2083,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Act_ChartUpdateRate->BackColor = System::Drawing::SystemColors::Control;
 			this->Act_ChartUpdateRate->Location = System::Drawing::Point(172, 34);
-			this->Act_ChartUpdateRate->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Act_ChartUpdateRate->Margin = System::Windows::Forms::Padding(4);
 			this->Act_ChartUpdateRate->Name = L"Act_ChartUpdateRate";
 			this->Act_ChartUpdateRate->ReadOnly = true;
 			this->Act_ChartUpdateRate->Size = System::Drawing::Size(57, 22);
@@ -2077,9 +2097,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_groupbox_V1->Controls->Add(this->label5);
 			this->manual_groupbox_V1->ForeColor = System::Drawing::Color::Red;
 			this->manual_groupbox_V1->Location = System::Drawing::Point(17, 526);
-			this->manual_groupbox_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V1->Margin = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V1->Name = L"manual_groupbox_V1";
-			this->manual_groupbox_V1->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_groupbox_V1->Padding = System::Windows::Forms::Padding(4);
 			this->manual_groupbox_V1->Size = System::Drawing::Size(185, 113);
 			this->manual_groupbox_V1->TabIndex = 0;
 			this->manual_groupbox_V1->TabStop = false;
@@ -2089,7 +2109,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->enable_set_V1->AutoSize = true;
 			this->enable_set_V1->Location = System::Drawing::Point(80, 33);
-			this->enable_set_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->enable_set_V1->Margin = System::Windows::Forms::Padding(4);
 			this->enable_set_V1->Name = L"enable_set_V1";
 			this->enable_set_V1->Size = System::Drawing::Size(73, 21);
 			this->enable_set_V1->TabIndex = 0;
@@ -2102,7 +2122,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->manual_val_V1->Enabled = false;
 			this->manual_val_V1->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->manual_val_V1->Location = System::Drawing::Point(80, 62);
-			this->manual_val_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_val_V1->Margin = System::Windows::Forms::Padding(4);
 			this->manual_val_V1->Name = L"manual_val_V1";
 			this->manual_val_V1->Size = System::Drawing::Size(76, 22);
 			this->manual_val_V1->TabIndex = 1;
@@ -2141,9 +2161,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_Sweep->Controls->Add(this->sweep_groupbox_V1);
 			this->tabPage_Sweep->Controls->Add(this->groupBox1);
 			this->tabPage_Sweep->Location = System::Drawing::Point(4, 25);
-			this->tabPage_Sweep->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Sweep->Margin = System::Windows::Forms::Padding(4);
 			this->tabPage_Sweep->Name = L"tabPage_Sweep";
-			this->tabPage_Sweep->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Sweep->Padding = System::Windows::Forms::Padding(4);
 			this->tabPage_Sweep->Size = System::Drawing::Size(851, 787);
 			this->tabPage_Sweep->TabIndex = 1;
 			this->tabPage_Sweep->Text = L"Sweep Mode";
@@ -2161,9 +2181,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V8->Controls->Add(this->label107);
 			this->sweep_groupbox_V8->Controls->Add(this->label108);
 			this->sweep_groupbox_V8->Location = System::Drawing::Point(637, 588);
-			this->sweep_groupbox_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V8->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V8->Name = L"sweep_groupbox_V8";
-			this->sweep_groupbox_V8->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V8->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V8->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V8->TabIndex = 77;
 			this->sweep_groupbox_V8->TabStop = false;
@@ -2185,7 +2205,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V8->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V8->Enabled = false;
 			this->Sweep_Final_V8->Location = System::Drawing::Point(77, 126);
-			this->Sweep_Final_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V8->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V8->Name = L"Sweep_Final_V8";
 			this->Sweep_Final_V8->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V8->TabIndex = 72;
@@ -2206,7 +2226,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V8->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V8->Enabled = false;
 			this->Sweep_Step_V8->Location = System::Drawing::Point(77, 92);
-			this->Sweep_Step_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V8->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V8->Name = L"Sweep_Step_V8";
 			this->Sweep_Step_V8->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V8->TabIndex = 70;
@@ -2218,7 +2238,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V8->AutoSize = true;
 			this->Sweep_Enable_V8->Location = System::Drawing::Point(77, 33);
-			this->Sweep_Enable_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V8->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V8->Name = L"Sweep_Enable_V8";
 			this->Sweep_Enable_V8->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V8->TabIndex = 14;
@@ -2232,7 +2252,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V8->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V8->Enabled = false;
 			this->Sweep_Initial_V8->Location = System::Drawing::Point(77, 62);
-			this->Sweep_Initial_V8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V8->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V8->Name = L"Sweep_Initial_V8";
 			this->Sweep_Initial_V8->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V8->TabIndex = 11;
@@ -2291,9 +2311,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V7->Controls->Add(this->label101);
 			this->sweep_groupbox_V7->Controls->Add(this->label102);
 			this->sweep_groupbox_V7->Location = System::Drawing::Point(433, 588);
-			this->sweep_groupbox_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V7->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V7->Name = L"sweep_groupbox_V7";
-			this->sweep_groupbox_V7->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V7->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V7->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V7->TabIndex = 76;
 			this->sweep_groupbox_V7->TabStop = false;
@@ -2315,7 +2335,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V7->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V7->Enabled = false;
 			this->Sweep_Final_V7->Location = System::Drawing::Point(77, 126);
-			this->Sweep_Final_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V7->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V7->Name = L"Sweep_Final_V7";
 			this->Sweep_Final_V7->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V7->TabIndex = 72;
@@ -2336,7 +2356,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V7->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V7->Enabled = false;
 			this->Sweep_Step_V7->Location = System::Drawing::Point(77, 92);
-			this->Sweep_Step_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V7->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V7->Name = L"Sweep_Step_V7";
 			this->Sweep_Step_V7->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V7->TabIndex = 70;
@@ -2348,7 +2368,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V7->AutoSize = true;
 			this->Sweep_Enable_V7->Location = System::Drawing::Point(77, 33);
-			this->Sweep_Enable_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V7->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V7->Name = L"Sweep_Enable_V7";
 			this->Sweep_Enable_V7->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V7->TabIndex = 14;
@@ -2362,7 +2382,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V7->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V7->Enabled = false;
 			this->Sweep_Initial_V7->Location = System::Drawing::Point(77, 62);
-			this->Sweep_Initial_V7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V7->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V7->Name = L"Sweep_Initial_V7";
 			this->Sweep_Initial_V7->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V7->TabIndex = 11;
@@ -2421,9 +2441,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V6->Controls->Add(this->label91);
 			this->sweep_groupbox_V6->Controls->Add(this->label92);
 			this->sweep_groupbox_V6->Location = System::Drawing::Point(232, 588);
-			this->sweep_groupbox_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V6->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V6->Name = L"sweep_groupbox_V6";
-			this->sweep_groupbox_V6->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V6->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V6->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V6->TabIndex = 76;
 			this->sweep_groupbox_V6->TabStop = false;
@@ -2445,7 +2465,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V6->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V6->Enabled = false;
 			this->Sweep_Final_V6->Location = System::Drawing::Point(77, 126);
-			this->Sweep_Final_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V6->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V6->Name = L"Sweep_Final_V6";
 			this->Sweep_Final_V6->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V6->TabIndex = 72;
@@ -2466,7 +2486,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V6->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V6->Enabled = false;
 			this->Sweep_Step_V6->Location = System::Drawing::Point(77, 92);
-			this->Sweep_Step_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V6->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V6->Name = L"Sweep_Step_V6";
 			this->Sweep_Step_V6->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V6->TabIndex = 70;
@@ -2478,7 +2498,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V6->AutoSize = true;
 			this->Sweep_Enable_V6->Location = System::Drawing::Point(77, 33);
-			this->Sweep_Enable_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V6->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V6->Name = L"Sweep_Enable_V6";
 			this->Sweep_Enable_V6->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V6->TabIndex = 14;
@@ -2492,7 +2512,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V6->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V6->Enabled = false;
 			this->Sweep_Initial_V6->Location = System::Drawing::Point(77, 62);
-			this->Sweep_Initial_V6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V6->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V6->Name = L"Sweep_Initial_V6";
 			this->Sweep_Initial_V6->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V6->TabIndex = 11;
@@ -2551,9 +2571,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V5->Controls->Add(this->label85);
 			this->sweep_groupbox_V5->Controls->Add(this->label86);
 			this->sweep_groupbox_V5->Location = System::Drawing::Point(27, 588);
-			this->sweep_groupbox_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V5->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V5->Name = L"sweep_groupbox_V5";
-			this->sweep_groupbox_V5->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V5->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V5->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V5->TabIndex = 76;
 			this->sweep_groupbox_V5->TabStop = false;
@@ -2575,7 +2595,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V5->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V5->Enabled = false;
 			this->Sweep_Final_V5->Location = System::Drawing::Point(77, 126);
-			this->Sweep_Final_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V5->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V5->Name = L"Sweep_Final_V5";
 			this->Sweep_Final_V5->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V5->TabIndex = 72;
@@ -2596,7 +2616,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V5->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V5->Enabled = false;
 			this->Sweep_Step_V5->Location = System::Drawing::Point(77, 92);
-			this->Sweep_Step_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V5->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V5->Name = L"Sweep_Step_V5";
 			this->Sweep_Step_V5->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V5->TabIndex = 70;
@@ -2608,7 +2628,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V5->AutoSize = true;
 			this->Sweep_Enable_V5->Location = System::Drawing::Point(77, 33);
-			this->Sweep_Enable_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V5->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V5->Name = L"Sweep_Enable_V5";
 			this->Sweep_Enable_V5->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V5->TabIndex = 14;
@@ -2622,7 +2642,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V5->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V5->Enabled = false;
 			this->Sweep_Initial_V5->Location = System::Drawing::Point(77, 62);
-			this->Sweep_Initial_V5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V5->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V5->Name = L"Sweep_Initial_V5";
 			this->Sweep_Initial_V5->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V5->TabIndex = 11;
@@ -2681,9 +2701,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V4->Controls->Add(this->label79);
 			this->sweep_groupbox_V4->Controls->Add(this->label80);
 			this->sweep_groupbox_V4->Location = System::Drawing::Point(637, 388);
-			this->sweep_groupbox_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V4->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V4->Name = L"sweep_groupbox_V4";
-			this->sweep_groupbox_V4->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V4->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V4->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V4->TabIndex = 75;
 			this->sweep_groupbox_V4->TabStop = false;
@@ -2705,7 +2725,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V4->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V4->Enabled = false;
 			this->Sweep_Final_V4->Location = System::Drawing::Point(77, 126);
-			this->Sweep_Final_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V4->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V4->Name = L"Sweep_Final_V4";
 			this->Sweep_Final_V4->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V4->TabIndex = 72;
@@ -2726,7 +2746,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V4->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V4->Enabled = false;
 			this->Sweep_Step_V4->Location = System::Drawing::Point(77, 92);
-			this->Sweep_Step_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V4->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V4->Name = L"Sweep_Step_V4";
 			this->Sweep_Step_V4->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V4->TabIndex = 70;
@@ -2738,7 +2758,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V4->AutoSize = true;
 			this->Sweep_Enable_V4->Location = System::Drawing::Point(77, 33);
-			this->Sweep_Enable_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V4->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V4->Name = L"Sweep_Enable_V4";
 			this->Sweep_Enable_V4->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V4->TabIndex = 14;
@@ -2752,7 +2772,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V4->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V4->Enabled = false;
 			this->Sweep_Initial_V4->Location = System::Drawing::Point(77, 62);
-			this->Sweep_Initial_V4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V4->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V4->Name = L"Sweep_Initial_V4";
 			this->Sweep_Initial_V4->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V4->TabIndex = 11;
@@ -2811,9 +2831,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V3->Controls->Add(this->label53);
 			this->sweep_groupbox_V3->Controls->Add(this->label54);
 			this->sweep_groupbox_V3->Location = System::Drawing::Point(433, 388);
-			this->sweep_groupbox_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V3->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V3->Name = L"sweep_groupbox_V3";
-			this->sweep_groupbox_V3->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V3->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V3->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V3->TabIndex = 74;
 			this->sweep_groupbox_V3->TabStop = false;
@@ -2834,7 +2854,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V3->Enabled = false;
 			this->Sweep_Final_V3->Location = System::Drawing::Point(77, 126);
-			this->Sweep_Final_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V3->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V3->Name = L"Sweep_Final_V3";
 			this->Sweep_Final_V3->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V3->TabIndex = 72;
@@ -2855,7 +2875,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V3->Enabled = false;
 			this->Sweep_Step_V3->Location = System::Drawing::Point(77, 92);
-			this->Sweep_Step_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V3->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V3->Name = L"Sweep_Step_V3";
 			this->Sweep_Step_V3->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V3->TabIndex = 70;
@@ -2867,7 +2887,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V3->AutoSize = true;
 			this->Sweep_Enable_V3->Location = System::Drawing::Point(77, 33);
-			this->Sweep_Enable_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V3->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V3->Name = L"Sweep_Enable_V3";
 			this->Sweep_Enable_V3->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V3->TabIndex = 14;
@@ -2881,7 +2901,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V3->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V3->Enabled = false;
 			this->Sweep_Initial_V3->Location = System::Drawing::Point(77, 62);
-			this->Sweep_Initial_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V3->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V3->Name = L"Sweep_Initial_V3";
 			this->Sweep_Initial_V3->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V3->TabIndex = 11;
@@ -2940,9 +2960,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V2->Controls->Add(this->label45);
 			this->sweep_groupbox_V2->Controls->Add(this->label47);
 			this->sweep_groupbox_V2->Location = System::Drawing::Point(232, 388);
-			this->sweep_groupbox_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V2->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V2->Name = L"sweep_groupbox_V2";
-			this->sweep_groupbox_V2->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V2->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V2->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V2->TabIndex = 74;
 			this->sweep_groupbox_V2->TabStop = false;
@@ -2963,7 +2983,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V2->Enabled = false;
 			this->Sweep_Final_V2->Location = System::Drawing::Point(80, 128);
-			this->Sweep_Final_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V2->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V2->Name = L"Sweep_Final_V2";
 			this->Sweep_Final_V2->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V2->TabIndex = 72;
@@ -2984,7 +3004,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V2->Enabled = false;
 			this->Sweep_Step_V2->Location = System::Drawing::Point(80, 95);
-			this->Sweep_Step_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V2->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V2->Name = L"Sweep_Step_V2";
 			this->Sweep_Step_V2->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V2->TabIndex = 70;
@@ -2996,7 +3016,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V2->AutoSize = true;
 			this->Sweep_Enable_V2->Location = System::Drawing::Point(80, 36);
-			this->Sweep_Enable_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V2->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V2->Name = L"Sweep_Enable_V2";
 			this->Sweep_Enable_V2->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V2->TabIndex = 14;
@@ -3010,7 +3030,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V2->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V2->Enabled = false;
 			this->Sweep_Initial_V2->Location = System::Drawing::Point(80, 64);
-			this->Sweep_Initial_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V2->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V2->Name = L"Sweep_Initial_V2";
 			this->Sweep_Initial_V2->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V2->TabIndex = 11;
@@ -3069,9 +3089,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->sweep_groupbox_V1->Controls->Add(this->label50);
 			this->sweep_groupbox_V1->Controls->Add(this->label55);
 			this->sweep_groupbox_V1->Location = System::Drawing::Point(27, 388);
-			this->sweep_groupbox_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V1->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V1->Name = L"sweep_groupbox_V1";
-			this->sweep_groupbox_V1->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_groupbox_V1->Padding = System::Windows::Forms::Padding(4);
 			this->sweep_groupbox_V1->Size = System::Drawing::Size(185, 176);
 			this->sweep_groupbox_V1->TabIndex = 51;
 			this->sweep_groupbox_V1->TabStop = false;
@@ -3092,7 +3112,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Final_V1->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Final_V1->Enabled = false;
 			this->Sweep_Final_V1->Location = System::Drawing::Point(80, 126);
-			this->Sweep_Final_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Final_V1->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Final_V1->Name = L"Sweep_Final_V1";
 			this->Sweep_Final_V1->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Final_V1->TabIndex = 72;
@@ -3113,7 +3133,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Step_V1->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Step_V1->Enabled = false;
 			this->Sweep_Step_V1->Location = System::Drawing::Point(80, 92);
-			this->Sweep_Step_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Step_V1->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Step_V1->Name = L"Sweep_Step_V1";
 			this->Sweep_Step_V1->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Step_V1->TabIndex = 70;
@@ -3125,7 +3145,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Enable_V1->AutoSize = true;
 			this->Sweep_Enable_V1->Location = System::Drawing::Point(80, 33);
-			this->Sweep_Enable_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Enable_V1->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Enable_V1->Name = L"Sweep_Enable_V1";
 			this->Sweep_Enable_V1->Size = System::Drawing::Size(73, 21);
 			this->Sweep_Enable_V1->TabIndex = 14;
@@ -3139,7 +3159,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Initial_V1->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Initial_V1->Enabled = false;
 			this->Sweep_Initial_V1->Location = System::Drawing::Point(80, 62);
-			this->Sweep_Initial_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Initial_V1->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Initial_V1->Name = L"Sweep_Initial_V1";
 			this->Sweep_Initial_V1->Size = System::Drawing::Size(76, 22);
 			this->Sweep_Initial_V1->TabIndex = 11;
@@ -3211,9 +3231,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox1->Controls->Add(this->Sweep_Cycle);
 			this->groupBox1->Controls->Add(this->Sweep_Calculate);
 			this->groupBox1->Location = System::Drawing::Point(27, 30);
-			this->groupBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox1->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox1->Padding = System::Windows::Forms::Padding(4);
 			this->groupBox1->Size = System::Drawing::Size(780, 345);
 			this->groupBox1->TabIndex = 50;
 			this->groupBox1->TabStop = false;
@@ -3243,7 +3263,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_DelayTime->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_DelayTime->Location = System::Drawing::Point(107, 118);
-			this->Sweep_DelayTime->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_DelayTime->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_DelayTime->Name = L"Sweep_DelayTime";
 			this->Sweep_DelayTime->Size = System::Drawing::Size(69, 22);
 			this->Sweep_DelayTime->TabIndex = 97;
@@ -3253,7 +3273,7 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_FileName
 			// 
 			this->Sweep_FileName->Location = System::Drawing::Point(57, 289);
-			this->Sweep_FileName->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_FileName->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_FileName->Name = L"Sweep_FileName";
 			this->Sweep_FileName->ReadOnly = true;
 			this->Sweep_FileName->Size = System::Drawing::Size(267, 22);
@@ -3263,7 +3283,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_FileOpen->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Sweep_FileOpen.Image")));
 			this->Sweep_FileOpen->Location = System::Drawing::Point(11, 284);
-			this->Sweep_FileOpen->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_FileOpen->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_FileOpen->Name = L"Sweep_FileOpen";
 			this->Sweep_FileOpen->Size = System::Drawing::Size(36, 33);
 			this->Sweep_FileOpen->TabIndex = 95;
@@ -3274,7 +3294,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_ValsFromFile->AutoSize = true;
 			this->Sweep_ValsFromFile->Location = System::Drawing::Point(11, 256);
-			this->Sweep_ValsFromFile->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_ValsFromFile->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_ValsFromFile->Name = L"Sweep_ValsFromFile";
 			this->Sweep_ValsFromFile->Size = System::Drawing::Size(130, 21);
 			this->Sweep_ValsFromFile->TabIndex = 94;
@@ -3286,7 +3306,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_ValsFromMask->AutoSize = true;
 			this->Sweep_ValsFromMask->Checked = true;
 			this->Sweep_ValsFromMask->Location = System::Drawing::Point(11, 159);
-			this->Sweep_ValsFromMask->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_ValsFromMask->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_ValsFromMask->Name = L"Sweep_ValsFromMask";
 			this->Sweep_ValsFromMask->Size = System::Drawing::Size(200, 21);
 			this->Sweep_ValsFromMask->TabIndex = 93;
@@ -3312,7 +3332,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Sync->Checked = true;
 			this->Sweep_Sync->CheckState = System::Windows::Forms::CheckState::Checked;
 			this->Sweep_Sync->Location = System::Drawing::Point(19, 94);
-			this->Sweep_Sync->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Sync->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Sync->Name = L"Sweep_Sync";
 			this->Sweep_Sync->Size = System::Drawing::Size(196, 21);
 			this->Sweep_Sync->TabIndex = 91;
@@ -3335,7 +3355,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_ResultSpectra->BackColor = System::Drawing::Color::LightSkyBlue;
 			this->Sweep_ResultSpectra->Location = System::Drawing::Point(616, 23);
-			this->Sweep_ResultSpectra->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_ResultSpectra->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_ResultSpectra->Name = L"Sweep_ResultSpectra";
 			this->Sweep_ResultSpectra->ReadOnly = true;
 			this->Sweep_ResultSpectra->Size = System::Drawing::Size(69, 22);
@@ -3367,7 +3387,7 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Progress
 			// 
 			this->Sweep_Progress->Location = System::Drawing::Point(407, 103);
-			this->Sweep_Progress->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Progress->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Progress->Name = L"Sweep_Progress";
 			this->Sweep_Progress->Size = System::Drawing::Size(296, 28);
 			this->Sweep_Progress->Step = 1;
@@ -3376,7 +3396,7 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_StartPause
 			// 
 			this->Sweep_StartPause->Location = System::Drawing::Point(407, 165);
-			this->Sweep_StartPause->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_StartPause->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_StartPause->Name = L"Sweep_StartPause";
 			this->Sweep_StartPause->Size = System::Drawing::Size(144, 28);
 			this->Sweep_StartPause->TabIndex = 85;
@@ -3387,7 +3407,7 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Cancel
 			// 
 			this->Sweep_Cancel->Location = System::Drawing::Point(559, 165);
-			this->Sweep_Cancel->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Cancel->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Cancel->Name = L"Sweep_Cancel";
 			this->Sweep_Cancel->Size = System::Drawing::Size(144, 28);
 			this->Sweep_Cancel->TabIndex = 84;
@@ -3410,7 +3430,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_CalcFrom->FormattingEnabled = true;
 			this->Sweep_CalcFrom->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Voltage 1", L"Voltage 2", L"Voltage 3" });
 			this->Sweep_CalcFrom->Location = System::Drawing::Point(164, 191);
-			this->Sweep_CalcFrom->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_CalcFrom->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_CalcFrom->Name = L"Sweep_CalcFrom";
 			this->Sweep_CalcFrom->Size = System::Drawing::Size(161, 24);
 			this->Sweep_CalcFrom->TabIndex = 82;
@@ -3432,7 +3452,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Sweep_Loops->BackColor = System::Drawing::SystemColors::Window;
 			this->Sweep_Loops->Enabled = false;
 			this->Sweep_Loops->Location = System::Drawing::Point(107, 55);
-			this->Sweep_Loops->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Loops->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Loops->Name = L"Sweep_Loops";
 			this->Sweep_Loops->Size = System::Drawing::Size(69, 22);
 			this->Sweep_Loops->TabIndex = 81;
@@ -3442,7 +3462,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Loop->AutoSize = true;
 			this->Sweep_Loop->Location = System::Drawing::Point(19, 59);
-			this->Sweep_Loop->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Loop->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Loop->Name = L"Sweep_Loop";
 			this->Sweep_Loop->Size = System::Drawing::Size(62, 21);
 			this->Sweep_Loop->TabIndex = 49;
@@ -3454,7 +3474,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->Sweep_Cycle->AutoSize = true;
 			this->Sweep_Cycle->Location = System::Drawing::Point(19, 26);
-			this->Sweep_Cycle->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Cycle->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Cycle->Name = L"Sweep_Cycle";
 			this->Sweep_Cycle->Size = System::Drawing::Size(64, 21);
 			this->Sweep_Cycle->TabIndex = 48;
@@ -3466,7 +3486,7 @@ private: System::Windows::Forms::Label^ label133;
 			// Sweep_Calculate
 			// 
 			this->Sweep_Calculate->Location = System::Drawing::Point(164, 220);
-			this->Sweep_Calculate->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Sweep_Calculate->Margin = System::Windows::Forms::Padding(4);
 			this->Sweep_Calculate->Name = L"Sweep_Calculate";
 			this->Sweep_Calculate->Size = System::Drawing::Size(163, 28);
 			this->Sweep_Calculate->TabIndex = 47;
@@ -3492,9 +3512,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_Settings->Controls->Add(this->label3);
 			this->tabPage_Settings->Controls->Add(this->label4);
 			this->tabPage_Settings->Location = System::Drawing::Point(4, 25);
-			this->tabPage_Settings->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Settings->Margin = System::Windows::Forms::Padding(4);
 			this->tabPage_Settings->Name = L"tabPage_Settings";
-			this->tabPage_Settings->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_Settings->Padding = System::Windows::Forms::Padding(4);
 			this->tabPage_Settings->Size = System::Drawing::Size(851, 787);
 			this->tabPage_Settings->TabIndex = 3;
 			this->tabPage_Settings->Text = L"Settings";
@@ -3511,9 +3531,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox7->Controls->Add(this->label18);
 			this->groupBox7->Controls->Add(this->label17);
 			this->groupBox7->Location = System::Drawing::Point(41, 164);
-			this->groupBox7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox7->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox7->Name = L"groupBox7";
-			this->groupBox7->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox7->Padding = System::Windows::Forms::Padding(4);
 			this->groupBox7->Size = System::Drawing::Size(545, 153);
 			this->groupBox7->TabIndex = 55;
 			this->groupBox7->TabStop = false;
@@ -3522,7 +3542,7 @@ private: System::Windows::Forms::Label^ label133;
 			// current_limit_V3
 			// 
 			this->current_limit_V3->Location = System::Drawing::Point(205, 101);
-			this->current_limit_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->current_limit_V3->Margin = System::Windows::Forms::Padding(4);
 			this->current_limit_V3->Name = L"current_limit_V3";
 			this->current_limit_V3->Size = System::Drawing::Size(88, 22);
 			this->current_limit_V3->TabIndex = 48;
@@ -3553,7 +3573,7 @@ private: System::Windows::Forms::Label^ label133;
 			// current_limit_V2
 			// 
 			this->current_limit_V2->Location = System::Drawing::Point(205, 69);
-			this->current_limit_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->current_limit_V2->Margin = System::Windows::Forms::Padding(4);
 			this->current_limit_V2->Name = L"current_limit_V2";
 			this->current_limit_V2->Size = System::Drawing::Size(88, 22);
 			this->current_limit_V2->TabIndex = 45;
@@ -3584,7 +3604,7 @@ private: System::Windows::Forms::Label^ label133;
 			// sweep_ramp_cycle
 			// 
 			this->sweep_ramp_cycle->Location = System::Drawing::Point(245, 106);
-			this->sweep_ramp_cycle->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_ramp_cycle->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_ramp_cycle->Name = L"sweep_ramp_cycle";
 			this->sweep_ramp_cycle->Size = System::Drawing::Size(88, 22);
 			this->sweep_ramp_cycle->TabIndex = 53;
@@ -3614,7 +3634,7 @@ private: System::Windows::Forms::Label^ label133;
 			// sweep_ramp_init
 			// 
 			this->sweep_ramp_init->Location = System::Drawing::Point(245, 73);
-			this->sweep_ramp_init->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->sweep_ramp_init->Margin = System::Windows::Forms::Padding(4);
 			this->sweep_ramp_init->Name = L"sweep_ramp_init";
 			this->sweep_ramp_init->Size = System::Drawing::Size(88, 22);
 			this->sweep_ramp_init->TabIndex = 50;
@@ -3673,9 +3693,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->tabPage_test->Controls->Add(this->testSetIO);
 			this->tabPage_test->Controls->Add(this->testConnect);
 			this->tabPage_test->Location = System::Drawing::Point(4, 25);
-			this->tabPage_test->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_test->Margin = System::Windows::Forms::Padding(4);
 			this->tabPage_test->Name = L"tabPage_test";
-			this->tabPage_test->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tabPage_test->Padding = System::Windows::Forms::Padding(4);
 			this->tabPage_test->Size = System::Drawing::Size(851, 787);
 			this->tabPage_test->TabIndex = 2;
 			this->tabPage_test->Text = L"Testing";
@@ -3684,7 +3704,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->testI0->AutoSize = true;
 			this->testI0->Location = System::Drawing::Point(316, 311);
-			this->testI0->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testI0->Margin = System::Windows::Forms::Padding(4);
 			this->testI0->Name = L"testI0";
 			this->testI0->Size = System::Drawing::Size(41, 21);
 			this->testI0->TabIndex = 45;
@@ -3694,7 +3714,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testDisconnect
 			// 
 			this->testDisconnect->Location = System::Drawing::Point(189, 202);
-			this->testDisconnect->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testDisconnect->Margin = System::Windows::Forms::Padding(4);
 			this->testDisconnect->Name = L"testDisconnect";
 			this->testDisconnect->Size = System::Drawing::Size(100, 28);
 			this->testDisconnect->TabIndex = 44;
@@ -3714,7 +3734,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testError
 			// 
 			this->testError->Location = System::Drawing::Point(600, 273);
-			this->testError->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testError->Margin = System::Windows::Forms::Padding(4);
 			this->testError->Name = L"testError";
 			this->testError->ReadOnly = true;
 			this->testError->Size = System::Drawing::Size(111, 22);
@@ -3732,7 +3752,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testOutputLines
 			// 
 			this->testOutputLines->Location = System::Drawing::Point(549, 214);
-			this->testOutputLines->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testOutputLines->Margin = System::Windows::Forms::Padding(4);
 			this->testOutputLines->Name = L"testOutputLines";
 			this->testOutputLines->ReadOnly = true;
 			this->testOutputLines->Size = System::Drawing::Size(161, 22);
@@ -3750,7 +3770,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testGetPCI
 			// 
 			this->testGetPCI->Location = System::Drawing::Point(189, 63);
-			this->testGetPCI->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testGetPCI->Margin = System::Windows::Forms::Padding(4);
 			this->testGetPCI->Name = L"testGetPCI";
 			this->testGetPCI->Size = System::Drawing::Size(100, 28);
 			this->testGetPCI->TabIndex = 38;
@@ -3761,7 +3781,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testPCIList
 			// 
 			this->testPCIList->Location = System::Drawing::Point(316, 63);
-			this->testPCIList->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testPCIList->Margin = System::Windows::Forms::Padding(4);
 			this->testPCIList->Multiline = true;
 			this->testPCIList->Name = L"testPCIList";
 			this->testPCIList->ReadOnly = true;
@@ -3771,7 +3791,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testInputChannels
 			// 
 			this->testInputChannels->Location = System::Drawing::Point(549, 182);
-			this->testInputChannels->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testInputChannels->Margin = System::Windows::Forms::Padding(4);
 			this->testInputChannels->Name = L"testInputChannels";
 			this->testInputChannels->ReadOnly = true;
 			this->testInputChannels->Size = System::Drawing::Size(161, 22);
@@ -3781,7 +3801,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->testSuccess->AutoSize = true;
 			this->testSuccess->Location = System::Drawing::Point(57, 302);
-			this->testSuccess->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testSuccess->Margin = System::Windows::Forms::Padding(4);
 			this->testSuccess->Name = L"testSuccess";
 			this->testSuccess->Size = System::Drawing::Size(81, 21);
 			this->testSuccess->TabIndex = 35;
@@ -3792,7 +3812,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->testConnected->AutoSize = true;
 			this->testConnected->Location = System::Drawing::Point(316, 186);
-			this->testConnected->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testConnected->Margin = System::Windows::Forms::Padding(4);
 			this->testConnected->Name = L"testConnected";
 			this->testConnected->Size = System::Drawing::Size(96, 21);
 			this->testConnected->TabIndex = 34;
@@ -3803,7 +3823,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->testOutput->AutoSize = true;
 			this->testOutput->Location = System::Drawing::Point(316, 273);
-			this->testOutput->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testOutput->Margin = System::Windows::Forms::Padding(4);
 			this->testOutput->Name = L"testOutput";
 			this->testOutput->Size = System::Drawing::Size(73, 21);
 			this->testOutput->TabIndex = 33;
@@ -3813,7 +3833,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testID
 			// 
 			this->testID->Location = System::Drawing::Point(83, 206);
-			this->testID->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testID->Margin = System::Windows::Forms::Padding(4);
 			this->testID->Name = L"testID";
 			this->testID->ReadOnly = true;
 			this->testID->Size = System::Drawing::Size(76, 22);
@@ -3822,7 +3842,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testCardNumber
 			// 
 			this->testCardNumber->Location = System::Drawing::Point(83, 174);
-			this->testCardNumber->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testCardNumber->Margin = System::Windows::Forms::Padding(4);
 			this->testCardNumber->Name = L"testCardNumber";
 			this->testCardNumber->Size = System::Drawing::Size(76, 22);
 			this->testCardNumber->TabIndex = 31;
@@ -3830,7 +3850,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testGetIO
 			// 
 			this->testGetIO->Location = System::Drawing::Point(189, 304);
-			this->testGetIO->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testGetIO->Margin = System::Windows::Forms::Padding(4);
 			this->testGetIO->Name = L"testGetIO";
 			this->testGetIO->Size = System::Drawing::Size(100, 28);
 			this->testGetIO->TabIndex = 30;
@@ -3841,7 +3861,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testSetIO
 			// 
 			this->testSetIO->Location = System::Drawing::Point(189, 268);
-			this->testSetIO->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testSetIO->Margin = System::Windows::Forms::Padding(4);
 			this->testSetIO->Name = L"testSetIO";
 			this->testSetIO->Size = System::Drawing::Size(100, 28);
 			this->testSetIO->TabIndex = 29;
@@ -3852,7 +3872,7 @@ private: System::Windows::Forms::Label^ label133;
 			// testConnect
 			// 
 			this->testConnect->Location = System::Drawing::Point(189, 171);
-			this->testConnect->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->testConnect->Margin = System::Windows::Forms::Padding(4);
 			this->testConnect->Name = L"testConnect";
 			this->testConnect->Size = System::Drawing::Size(100, 28);
 			this->testConnect->TabIndex = 28;
@@ -3865,7 +3885,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->channel_V1->BackColor = System::Drawing::SystemColors::Control;
 			this->channel_V1->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->channel_V1->Location = System::Drawing::Point(1421, 165);
-			this->channel_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->channel_V1->Margin = System::Windows::Forms::Padding(4);
 			this->channel_V1->Name = L"channel_V1";
 			this->channel_V1->ReadOnly = true;
 			this->channel_V1->Size = System::Drawing::Size(209, 22);
@@ -3874,7 +3894,7 @@ private: System::Windows::Forms::Label^ label133;
 			// channel_V2
 			// 
 			this->channel_V2->Location = System::Drawing::Point(1421, 391);
-			this->channel_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->channel_V2->Margin = System::Windows::Forms::Padding(4);
 			this->channel_V2->Name = L"channel_V2";
 			this->channel_V2->ReadOnly = true;
 			this->channel_V2->Size = System::Drawing::Size(209, 22);
@@ -3883,7 +3903,7 @@ private: System::Windows::Forms::Label^ label133;
 			// channel_V3
 			// 
 			this->channel_V3->Location = System::Drawing::Point(513, -4);
-			this->channel_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->channel_V3->Margin = System::Windows::Forms::Padding(4);
 			this->channel_V3->Name = L"channel_V3";
 			this->channel_V3->ReadOnly = true;
 			this->channel_V3->Size = System::Drawing::Size(209, 22);
@@ -3957,7 +3977,7 @@ private: System::Windows::Forms::Label^ label133;
 			// manual_Chart_It2
 			// 
 			this->manual_Chart_It2->Location = System::Drawing::Point(15, 89);
-			this->manual_Chart_It2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_Chart_It2->Margin = System::Windows::Forms::Padding(4);
 			this->manual_Chart_It2->Name = L"manual_Chart_It2";
 			this->manual_Chart_It2->Size = System::Drawing::Size(319, 107);
 			this->manual_Chart_It2->TabIndex = 51;
@@ -3968,7 +3988,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->button_manual_ClearErrors->Enabled = false;
 			this->button_manual_ClearErrors->Location = System::Drawing::Point(500, 25);
-			this->button_manual_ClearErrors->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button_manual_ClearErrors->Margin = System::Windows::Forms::Padding(4);
 			this->button_manual_ClearErrors->Name = L"button_manual_ClearErrors";
 			this->button_manual_ClearErrors->Size = System::Drawing::Size(141, 26);
 			this->button_manual_ClearErrors->TabIndex = 54;
@@ -3986,7 +4006,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->button_Connect_IOs->Enabled = false;
 			this->button_Connect_IOs->Location = System::Drawing::Point(333, 52);
-			this->button_Connect_IOs->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button_Connect_IOs->Margin = System::Windows::Forms::Padding(4);
 			this->button_Connect_IOs->Name = L"button_Connect_IOs";
 			this->button_Connect_IOs->Size = System::Drawing::Size(141, 27);
 			this->button_Connect_IOs->TabIndex = 1;
@@ -4018,7 +4038,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->button_Connect_CAN->Enabled = false;
 			this->button_Connect_CAN->Location = System::Drawing::Point(333, 25);
-			this->button_Connect_CAN->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button_Connect_CAN->Margin = System::Windows::Forms::Padding(4);
 			this->button_Connect_CAN->Name = L"button_Connect_CAN";
 			this->button_Connect_CAN->Size = System::Drawing::Size(141, 26);
 			this->button_Connect_CAN->TabIndex = 0;
@@ -4061,9 +4081,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox3->Controls->Add(this->Status_CAN);
 			this->groupBox3->Controls->Add(this->label34);
 			this->groupBox3->Location = System::Drawing::Point(908, 33);
-			this->groupBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox3->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox3->Name = L"groupBox3";
-			this->groupBox3->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox3->Padding = System::Windows::Forms::Padding(4);
 			this->groupBox3->Size = System::Drawing::Size(724, 118);
 			this->groupBox3->TabIndex = 59;
 			this->groupBox3->TabStop = false;
@@ -4072,7 +4092,7 @@ private: System::Windows::Forms::Label^ label133;
 			// button_Connect_Freq
 			// 
 			this->button_Connect_Freq->Location = System::Drawing::Point(333, 80);
-			this->button_Connect_Freq->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button_Connect_Freq->Margin = System::Windows::Forms::Padding(4);
 			this->button_Connect_Freq->Name = L"button_Connect_Freq";
 			this->button_Connect_Freq->Size = System::Drawing::Size(141, 27);
 			this->button_Connect_Freq->TabIndex = 68;
@@ -4105,7 +4125,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->tbFrequency->BackColor = System::Drawing::SystemColors::Control;
 			this->tbFrequency->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->tbFrequency->Location = System::Drawing::Point(500, 81);
-			this->tbFrequency->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tbFrequency->Margin = System::Windows::Forms::Padding(4);
 			this->tbFrequency->Name = L"tbFrequency";
 			this->tbFrequency->ReadOnly = true;
 			this->tbFrequency->Size = System::Drawing::Size(140, 22);
@@ -4140,9 +4160,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox4->Controls->Add(this->out_val_I1);
 			this->groupBox4->Controls->Add(this->label16);
 			this->groupBox4->Location = System::Drawing::Point(908, 170);
-			this->groupBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox4->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox4->Name = L"groupBox4";
-			this->groupBox4->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox4->Padding = System::Windows::Forms::Padding(4);
 			this->groupBox4->Size = System::Drawing::Size(724, 212);
 			this->groupBox4->TabIndex = 60;
 			this->groupBox4->TabStop = false;
@@ -4152,7 +4172,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_setpoint_V1->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_setpoint_V1->Location = System::Drawing::Point(97, 32);
-			this->out_setpoint_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_setpoint_V1->Margin = System::Windows::Forms::Padding(4);
 			this->out_setpoint_V1->Name = L"out_setpoint_V1";
 			this->out_setpoint_V1->ReadOnly = true;
 			this->out_setpoint_V1->Size = System::Drawing::Size(84, 22);
@@ -4221,7 +4241,7 @@ private: System::Windows::Forms::Label^ label133;
 			// pictureBox3
 			// 
 			this->pictureBox3->Location = System::Drawing::Point(15, 183);
-			this->pictureBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(4);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(680, 21);
 			this->pictureBox3->TabIndex = 60;
@@ -4231,7 +4251,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->manual_Chart_IV1->ContextMenuStrip = this->context_Chart;
 			this->manual_Chart_IV1->Location = System::Drawing::Point(348, 32);
-			this->manual_Chart_IV1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_Chart_IV1->Margin = System::Windows::Forms::Padding(4);
 			this->manual_Chart_IV1->Name = L"manual_Chart_IV1";
 			this->manual_Chart_IV1->Size = System::Drawing::Size(347, 167);
 			this->manual_Chart_IV1->TabIndex = 58;
@@ -4241,7 +4261,7 @@ private: System::Windows::Forms::Label^ label133;
 			// manual_Chart_It1
 			// 
 			this->manual_Chart_It1->Location = System::Drawing::Point(15, 92);
-			this->manual_Chart_It1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_Chart_It1->Margin = System::Windows::Forms::Padding(4);
 			this->manual_Chart_It1->Name = L"manual_Chart_It1";
 			this->manual_Chart_It1->Size = System::Drawing::Size(319, 107);
 			this->manual_Chart_It1->TabIndex = 59;
@@ -4252,7 +4272,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_val_V1->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_val_V1->Location = System::Drawing::Point(213, 32);
-			this->out_val_V1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_val_V1->Margin = System::Windows::Forms::Padding(4);
 			this->out_val_V1->Name = L"out_val_V1";
 			this->out_val_V1->ReadOnly = true;
 			this->out_val_V1->Size = System::Drawing::Size(84, 22);
@@ -4272,7 +4292,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_val_I1->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_val_I1->Location = System::Drawing::Point(213, 60);
-			this->out_val_I1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_val_I1->Margin = System::Windows::Forms::Padding(4);
 			this->out_val_I1->Name = L"out_val_I1";
 			this->out_val_I1->ReadOnly = true;
 			this->out_val_I1->Size = System::Drawing::Size(84, 22);
@@ -4305,9 +4325,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox5->Controls->Add(this->out_val_I2);
 			this->groupBox5->Controls->Add(this->label15);
 			this->groupBox5->Location = System::Drawing::Point(908, 394);
-			this->groupBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox5->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox5->Name = L"groupBox5";
-			this->groupBox5->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox5->Padding = System::Windows::Forms::Padding(4);
 			this->groupBox5->Size = System::Drawing::Size(724, 212);
 			this->groupBox5->TabIndex = 61;
 			this->groupBox5->TabStop = false;
@@ -4317,7 +4337,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_setpoint_V2->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_setpoint_V2->Location = System::Drawing::Point(100, 31);
-			this->out_setpoint_V2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_setpoint_V2->Margin = System::Windows::Forms::Padding(4);
 			this->out_setpoint_V2->Name = L"out_setpoint_V2";
 			this->out_setpoint_V2->ReadOnly = true;
 			this->out_setpoint_V2->Size = System::Drawing::Size(84, 22);
@@ -4386,7 +4406,7 @@ private: System::Windows::Forms::Label^ label133;
 			// pictureBox1
 			// 
 			this->pictureBox1->Location = System::Drawing::Point(15, 183);
-			this->pictureBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(4);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(680, 21);
 			this->pictureBox1->TabIndex = 61;
@@ -4396,7 +4416,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->manual_Chart_IV2->ContextMenuStrip = this->context_Chart;
 			this->manual_Chart_IV2->Location = System::Drawing::Point(348, 28);
-			this->manual_Chart_IV2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_Chart_IV2->Margin = System::Windows::Forms::Padding(4);
 			this->manual_Chart_IV2->Name = L"manual_Chart_IV2";
 			this->manual_Chart_IV2->Size = System::Drawing::Size(347, 167);
 			this->manual_Chart_IV2->TabIndex = 50;
@@ -4421,9 +4441,9 @@ private: System::Windows::Forms::Label^ label133;
 			this->groupBox6->Controls->Add(this->out_val_V3);
 			this->groupBox6->Controls->Add(this->label9);
 			this->groupBox6->Location = System::Drawing::Point(908, 614);
-			this->groupBox6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox6->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox6->Name = L"groupBox6";
-			this->groupBox6->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox6->Padding = System::Windows::Forms::Padding(4);
 			this->groupBox6->Size = System::Drawing::Size(724, 212);
 			this->groupBox6->TabIndex = 48;
 			this->groupBox6->TabStop = false;
@@ -4433,7 +4453,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_setpoint_V3->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_setpoint_V3->Location = System::Drawing::Point(100, 28);
-			this->out_setpoint_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_setpoint_V3->Margin = System::Windows::Forms::Padding(4);
 			this->out_setpoint_V3->Name = L"out_setpoint_V3";
 			this->out_setpoint_V3->ReadOnly = true;
 			this->out_setpoint_V3->Size = System::Drawing::Size(84, 22);
@@ -4502,7 +4522,7 @@ private: System::Windows::Forms::Label^ label133;
 			// pictureBox2
 			// 
 			this->pictureBox2->Location = System::Drawing::Point(15, 182);
-			this->pictureBox2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(4);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(680, 21);
 			this->pictureBox2->TabIndex = 66;
@@ -4512,7 +4532,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->manual_Chart_IV3->ContextMenuStrip = this->context_Chart;
 			this->manual_Chart_IV3->Location = System::Drawing::Point(348, 27);
-			this->manual_Chart_IV3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_Chart_IV3->Margin = System::Windows::Forms::Padding(4);
 			this->manual_Chart_IV3->Name = L"manual_Chart_IV3";
 			this->manual_Chart_IV3->Size = System::Drawing::Size(347, 167);
 			this->manual_Chart_IV3->TabIndex = 61;
@@ -4533,7 +4553,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_val_I3->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_val_I3->Location = System::Drawing::Point(213, 55);
-			this->out_val_I3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_val_I3->Margin = System::Windows::Forms::Padding(4);
 			this->out_val_I3->Name = L"out_val_I3";
 			this->out_val_I3->ReadOnly = true;
 			this->out_val_I3->Size = System::Drawing::Size(84, 22);
@@ -4542,7 +4562,7 @@ private: System::Windows::Forms::Label^ label133;
 			// manual_Chart_It3
 			// 
 			this->manual_Chart_It3->Location = System::Drawing::Point(15, 87);
-			this->manual_Chart_It3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->manual_Chart_It3->Margin = System::Windows::Forms::Padding(4);
 			this->manual_Chart_It3->Name = L"manual_Chart_It3";
 			this->manual_Chart_It3->Size = System::Drawing::Size(319, 107);
 			this->manual_Chart_It3->TabIndex = 64;
@@ -4553,7 +4573,7 @@ private: System::Windows::Forms::Label^ label133;
 			// 
 			this->out_val_V3->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->out_val_V3->Location = System::Drawing::Point(213, 27);
-			this->out_val_V3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->out_val_V3->Margin = System::Windows::Forms::Padding(4);
 			this->out_val_V3->Name = L"out_val_V3";
 			this->out_val_V3->ReadOnly = true;
 			this->out_val_V3->Size = System::Drawing::Size(84, 22);
@@ -4599,6 +4619,69 @@ private: System::Windows::Forms::Label^ label133;
 			this->label122->TabIndex = 69;
 			this->label122->Text = L"Hz";
 			// 
+			// tBPID_PTerm
+			// 
+			this->tBPID_PTerm->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->tBPID_PTerm->Location = System::Drawing::Point(456, 73);
+			this->tBPID_PTerm->Margin = System::Windows::Forms::Padding(4);
+			this->tBPID_PTerm->Name = L"tBPID_PTerm";
+			this->tBPID_PTerm->ReadOnly = true;
+			this->tBPID_PTerm->Size = System::Drawing::Size(56, 22);
+			this->tBPID_PTerm->TabIndex = 90;
+			this->tBPID_PTerm->Text = L"0";
+			// 
+			// tBPID_DTerm
+			// 
+			this->tBPID_DTerm->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->tBPID_DTerm->Location = System::Drawing::Point(456, 158);
+			this->tBPID_DTerm->Margin = System::Windows::Forms::Padding(4);
+			this->tBPID_DTerm->Name = L"tBPID_DTerm";
+			this->tBPID_DTerm->ReadOnly = true;
+			this->tBPID_DTerm->Size = System::Drawing::Size(56, 22);
+			this->tBPID_DTerm->TabIndex = 91;
+			this->tBPID_DTerm->Text = L"0";
+			// 
+			// tBPID_ITerm
+			// 
+			this->tBPID_ITerm->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->tBPID_ITerm->Location = System::Drawing::Point(400, 100);
+			this->tBPID_ITerm->Margin = System::Windows::Forms::Padding(4);
+			this->tBPID_ITerm->Name = L"tBPID_ITerm";
+			this->tBPID_ITerm->ReadOnly = true;
+			this->tBPID_ITerm->Size = System::Drawing::Size(56, 22);
+			this->tBPID_ITerm->TabIndex = 92;
+			this->tBPID_ITerm->Text = L"0";
+			// 
+			// label136
+			// 
+			this->label136->AutoSize = true;
+			this->label136->Location = System::Drawing::Point(515, 75);
+			this->label136->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label136->Name = L"label136";
+			this->label136->Size = System::Drawing::Size(17, 17);
+			this->label136->TabIndex = 93;
+			this->label136->Text = L"V";
+			// 
+			// label137
+			// 
+			this->label137->AutoSize = true;
+			this->label137->Location = System::Drawing::Point(457, 103);
+			this->label137->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label137->Name = L"label137";
+			this->label137->Size = System::Drawing::Size(17, 17);
+			this->label137->TabIndex = 94;
+			this->label137->Text = L"V";
+			// 
+			// label138
+			// 
+			this->label138->AutoSize = true;
+			this->label138->Location = System::Drawing::Point(513, 161);
+			this->label138->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label138->Name = L"label138";
+			this->label138->Size = System::Drawing::Size(17, 17);
+			this->label138->TabIndex = 95;
+			this->label138->Text = L"V";
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -4615,7 +4698,7 @@ private: System::Windows::Forms::Label^ label133;
 			this->Controls->Add(this->groupBox5);
 			this->Controls->Add(this->groupBox3);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"Form1";
 			this->Text = L"ISEG_Control";
 			this->FormClosing += gcnew System::Windows::Forms::FormClosingEventHandler(this, &Form1::Form1_FormClosing);
@@ -5109,7 +5192,11 @@ private: System::Void set_form_data()
 					 tBPIDSetpoint->Text = (ManualMode::PID_Setpoint/1E-9).ToString("F4");
 					 tBPIDError->Text = (ManualMode::Error/1E-9).ToString("F4");
 					 tBPID_C->Text = (ManualMode::act_C/1E-12).ToString("F4");
-					 tBPID_Output->Text = ManualMode::Output.ToString("F2");
+					 tBPID_Output->Text = ManualMode::Output.ToString("F4");
+
+					 tBPID_PTerm->Text = creepPID->PTerm.ToString("F4");
+					 tBPID_ITerm->Text = creepPID->ITerm.ToString("F4");
+					 tBPID_DTerm->Text = creepPID->DTerm.ToString("F4");
 				 }
 			 }
 		
@@ -6302,13 +6389,15 @@ private:
 		ManualMode::act_C = ManualMode::GetC(freqCounter->GetFrequency(), ManualMode::L);
 		ManualMode::act_Q = VoltControl::Act.V1 * ManualMode::act_C;
 
-		ManualMode::Error = ManualMode::PID_Setpoint - ManualMode::act_Q;
+		//Log frequency
+		System::IO::File::AppendAllLines("Frequencies_PID.txt", gcnew array<String^>{ freqCounter->GetFrequency().ToString()+"\t"+VoltControl::Act.V1});
 
 		return ManualMode::act_Q;
 	}
 
 	private: System::Double PIDGetSp()
 	{
+		ManualMode::Error = creepPID->Error;
 		return ManualMode::PID_Setpoint;
 	}
 
@@ -6358,6 +6447,7 @@ private: System::Void BtnPIDStart_Click(System::Object^ sender, System::EventArg
 			ManualMode::L = double::Parse(tbPID_L->Text)*1E-6;
 
 			ManualMode::PID_Setpoint = PIDGetQ();
+			ManualMode::PID_Start_V = VoltControl::Act.setpoint_V1;
 			
 			creepPID->Disable();
 
