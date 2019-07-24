@@ -23,7 +23,7 @@ private:
 	double _frequency = -1.0;
 
 	void DoRead();
-	array<double>^ ShiftRight(array<double>^ inarr);
+	
 
 public:
 	HPFreqSerial();
@@ -36,6 +36,8 @@ public:
 	void StartReading();
 	void StopReading();
 	double GetFrequency();
+
+	static array<double>^ ShiftRight(array<double>^ inarr);
 };
 
 #endif

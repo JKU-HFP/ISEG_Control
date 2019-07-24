@@ -6299,7 +6299,7 @@ private:
 	private: System::Double PIDGetQ()
 	{
 		//Return Q in [C]
-		ManualMode::act_C = ManualMode::GetC(freqCounter->GetFrequency, ManualMode::L);
+		ManualMode::act_C = ManualMode::GetC(freqCounter->GetFrequency(), ManualMode::L);
 		ManualMode::act_Q = VoltControl::Act.V1 * ManualMode::act_C;
 
 		ManualMode::Error = ManualMode::PID_Setpoint - ManualMode::act_Q;

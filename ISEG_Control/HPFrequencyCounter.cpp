@@ -57,7 +57,7 @@ void HPFreqSerial::StartReading()
 array<double>^ HPFreqSerial::ShiftRight(array<double>^ inarr)
 {
 	array<double>^ tmp_arr = gcnew array<double>(inarr->Length);
-	Array::Copy(inarr, 1, tmp_arr, 0, inarr->Length - 1);
+	Array::Copy(inarr, 0, tmp_arr, 1, inarr->Length - 1);
 	
 	return tmp_arr;
 }
